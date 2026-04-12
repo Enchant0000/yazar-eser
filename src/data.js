@@ -990,6 +990,16 @@ const data = {
         ],
       },
       {
+  ad: "Yavuz Bülent Bâkiler",
+  dogum: "1936-",
+  ozellik: "Geleneksel şiir anlayışını sürdüren, Türk dünyasına duyarlılığıyla ve gezi yazılarıyla tanınan sanatçı.",
+  eserler: [
+    { ad: "Üsküp’ten Kosova’ya", tur: "Gezi", yil: "1979", osymYil: "ÖSYM Çok Sık", aciklama: "Balkanlar'daki Türk izlerini ve kültürel bağları anlatan en önemli gezi eseridir." },
+    { ad: "Yalnızlık", tur: "Şiir", yil: "1962", osymYil: "ÖSYM Orta", aciklama: "Anadolu’yu ve bireysel duyarlılıkları sade bir Türkçeyle işlediği şiir kitabıdır." },
+    { ad: "Türkistan Türkistan", tur: "Gezi", yil: "1986", osymYil: "ÖSYM Sık", aciklama: "Orta Asya Türk Cumhuriyetleri’ne yaptığı ziyaretleri ve oradaki kardeşlik bağlarını işler." }
+  ],
+}, 
+      {
         ad: "İlhan Geçer",
         dogum: "1924-2003",
         ozellik: "Hisarcılardan; hece ve geleneği savunan şair",
