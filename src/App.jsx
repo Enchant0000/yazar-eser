@@ -201,7 +201,7 @@ function KlasikQuizScreen({ kartlar, onExit }) {
       <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "32px 24px" }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "32px" }}>
           <div onClick={() => setCevrildi(!cevrildi)} style={{ perspective: "1000px", cursor: "pointer", width: "100%", maxWidth: "400px", height: "280px" }}>
-            <div style={{ position: "relative", width: "100%", height: "100%", transformStyle: "preserve-3d", transition: cevrildi ? "transform 0.5s ease" : "none", transform: cevrildi ? "rotateY(180deg)" : "rotateY(0deg)" }}>
+            <div style={{ position: "relative", width: "100%", height: "100%", transformStyle: "preserve-3d", transition: cevrildi ? "transform 0.3s ease" : "none", transform: cevrildi ? "rotateY(180deg)" : "rotateY(0deg)" }}>
               <div style={{ position: "absolute", inset: 0, backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", borderRadius: "12px", background: "linear-gradient(145deg, #1e293b, #0f172a)", border: `1px solid ${donemAccent}30`, padding: "20px", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: `0 4px 20px ${donemAccent}15` }}>
                 <div></div>
                 <div style={{ textAlign: "center" }}>
