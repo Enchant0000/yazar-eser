@@ -13,6 +13,22 @@ const data = {
         ],
       },
       {
+  ad: "Ziya Osman Saba",
+  dogum: "1910-1957",
+  ozellik: "Yedi Meşaleciler topluluğunun şiire en sadık ve en başarılı ismidir. Şiirlerinde çocukluk özlemi, ev-aile sevgisi ve kadere boyun eğme temalarını işler.",
+  eserler: [
+    { 
+      ad: "ishak ve Maceraları", 
+      tur: "Şiir", 
+      yil: "1943", 
+      osymYil: "ÖSYM Çok Sık", 
+      aciklama: "Sanatçının en tanınmış şiir kitabıdır. Gökyüzü, güvercinler ve dini motiflerle süslü huzur dolu bir dünya kurgular." 
+    }
+  ],
+   }
+
+      
+      {
         ad: "Yusuf Has Hacib",
         dogum: "1017-?",
         ozellik: "Türk-İslam geleneğinin ilk büyük didaktik eseri",
