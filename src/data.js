@@ -26,7 +26,6 @@ const data = {
         ozellik: "Ahlak ve erdem üzerine ilk Türkçe eser",
         eserler: [
           { ad: "Atabet'ül Hakayık", tur: "Manzum", yil: "12. yy", osymYil: "ÖSYM Sık", aciklama: "Gerçeklerin eşiği anlamına gelir. Ahlak, erdem ve dini öğütler içeren manzum bir eserdir." },
-          { ad: "Han Duvarları", tur: "Şiir", yil: "1925", osymYil: "ÖSYM Çok Sık", aciklama: "Anadolu gezisi sırasında gördüklerini ve bir yolcunun dramını anlatan memleket edebiyatının zirve eseridir." },
         ],
       },
       {
