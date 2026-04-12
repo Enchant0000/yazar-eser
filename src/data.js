@@ -807,62 +807,67 @@ const data = {
       {
         ad: "Cevdet Kudret Solok",
         dogum: "1907-1992",
-        ozellik: "Yedi Meşalecilerin teorisyeni; edebiyat tarihçisi",
+        ozellik: "Yedi Meşalecilerin kuramsal yönü en güçlü üyesi; edebiyat tarihçisi ve araştırmacı.",
         eserler: [
-          { ad: "Birinci Perde", tur: "Şiir Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
-          { ad: "Sınıf Arkadaşları", tur: "Hikâye Kitabı", yil: "1930", osymYil: "ÖSYM Sık" },
+          { ad: "Birinci Perde", tur: "Şiir", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Yedi Meşaleciler anlayışını yansıtan tek şiir kitabıdır." },
+          { ad: "Sınıf Arkadaşları", tur: "Roman", yil: "1943", osymYil: "ÖSYM Sık", aciklama: "Havada Bulut Yok ve Karıncayı Tanırsınız ile bir nehir roman oluşturur." },
+          { ad: "Sokak", tur: "Hikâye", yil: "1974", osymYil: "ÖSYM Orta", aciklama: "Kendi çocukluk ve gençlik anılarından izler taşıyan öyküleridir." }
         ],
       },
       {
         ad: "Vasfi Mahir Kocatürk",
         dogum: "1908-1961",
-        ozellik: "Yedi Meşalecilerden; edebiyat tarihi araştırmacısı",
+        ozellik: "Epik şiirleriyle tanınan topluluk üyesi; edebiyat tarihi araştırmacısı.",
         eserler: [
-          { ad: "Tunç Sesleri", tur: "Şiir Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
-          { ad: "Ergenekon", tur: "Şiir Kitabı", yil: "1930", osymYil: "ÖSYM Sık" },
+          { ad: "Tunç Sesleri", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Kahramanlık ve vatan sevgisini işleyen epik tarzda şiirleridir." },
+          { ad: "Ergenekon", tur: "Şiir", yil: "1941", osymYil: "ÖSYM Sık", aciklama: "Türk mitolojisinden ve tarihinden beslenen şiirlerini topladığı eser." },
+          { ad: "Bizim Türküler", tur: "Şiir", yil: "1937", osymYil: "ÖSYM Orta", aciklama: "Halk şiiri geleneğine yaklaştığı çalışmalarını içerir." }
         ],
       },
       {
         ad: "Ziya Osman Saba",
         dogum: "1910-1957",
-        ozellik: "Yedi Meşalecilerden; gündelik hayatı nostaljik bir duyarlılıkla işleyen şair",
+        ozellik: "Topluluğun şiire en sadık üyesi; anı ve nostalji şairi.",
         eserler: [
-          { ad: "Sebil ve Güvercinler", tur: "Şiir Kitabı", yil: "1943", osymYil: "ÖSYM Sık" },
-          { ad: "Geçen Zaman", tur: "Şiir Kitabı", yil: "1947", osymYil: "ÖSYM Sık" },
+          { ad: "Sebil ve Güvercinler", tur: "Şiir", yil: "1943", osymYil: "ÖSYM Çok Sık", aciklama: "Huzur, çocukluk özlemi ve dini duyarlılığın zirve yaptığı eseridir." },
+          { ad: "Geçen Zaman", tur: "Şiir", yil: "1947", osymYil: "ÖSYM Sık", aciklama: "Zamanın akışı ve fanilik temalarını işleyen duygusal şiirleridir." },
+          { ad: "Mesut İnsanlar Fotoğrafhanesi", tur: "Hikâye", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Anı karakteri taşıyan, küçük insanın iç dünyasını anlatan öyküler." }
         ],
       },
       {
         ad: "Sabri Esat Siyavuşgil",
         dogum: "1907-1968",
-        ozellik: "Yedi Meşalecilerden; psikoloji profesörü ve şair",
+        ozellik: "Psikoloji profesörü; empresyonist (izlenimci) betimlemeleriyle tanınan şair.",
         eserler: [
-          { ad: "Onar Mısra", tur: "Şiir Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
-          { ad: "Kahramanlar", tur: "Şiir Kitabı", yil: "1930", osymYil: "ÖSYM Sık" },
+          { ad: "Odalar ve Sofalar", tur: "Şiir", yil: "1933", osymYil: "ÖSYM Çok Sık", aciklama: "Eşyaların ve ev içlerinin psikolojik yansımalarını anlatan başyapıtıdır." },
+          { ad: "Karagöz", tur: "Araştırma", yil: "1961", osymYil: "ÖSYM Orta", aciklama: "Geleneksel Türk tiyatrosu üzerine yaptığı kapsamlı incelemedir." }
         ],
       },
       {
         ad: "Yaşar Nabi Nayır",
         dogum: "1908-1981",
-        ozellik: "Yedi Meşalecilerden; Varlık dergisinin kurucusu",
+        ozellik: "Edebiyatımızın en uzun soluklu dergisi olan Varlık'ın kurucusu ve yayıncısı.",
         eserler: [
-          { ad: "Şiirler", tur: "Şiir Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
+          { ad: "Onar Mısra", tur: "Şiir", yil: "1932", osymYil: "ÖSYM Sık", aciklama: "Yedi Meşale dönemindeki şiirlerini bir araya getirdiği kitabıdır." },
+          { ad: "Kahramanlar", tur: "Şiir", yil: "1929", osymYil: "ÖSYM Sık", aciklama: "Topluluğun ilk yıllarında yazdığı destansı şiirlerini kapsar." }
         ],
       },
       {
         ad: "Muammer Lütfi Bahşi",
         dogum: "1907-1959",
-        ozellik: "Yedi Meşalecilerden",
+        ozellik: "Topluluktan ilk ayrılan ve edebiyatı en erken bırakan üye.",
         eserler: [
-          { ad: "Bir Yudum Su", tur: "Şiir Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
-          { ad: "Bahar Hikâyeleri", tur: "Hikâye Kitabı", yil: "1930", osymYil: "ÖSYM Sık" },
+          { ad: "İlk Kurşun", tur: "Şiir", yil: "1928", osymYil: "ÖSYM Seyrek", aciklama: "Topluluk bünyesinde yazdığı sınırlı sayıdaki şiirlerinden biridir." }
         ],
       },
       {
         ad: "Kenan Hulusi Koray",
         dogum: "1906-1943",
-        ozellik: "Yedi Meşalecilerden; ilk ayrılan üye",
+        ozellik: "Yedi Meşalecilerin şiir yazmayan tek üyesi; korku ve fantastik öykünün öncüsü.",
         eserler: [
-          { ad: "Bahar Hikâyeleri", tur: "Hikâye Kitabı", yil: "1928", osymYil: "ÖSYM Sık" },
+          { ad: "Bahar Hikâyeleri", tur: "Hikâye", yil: "1939", osymYil: "ÖSYM Sık", aciklama: "Köy hayatını ve halk inanışlarını mistik bir dille anlattığı öyküler." },
+          { ad: "Bir Yudum Su", tur: "Hikâye", yil: "1944", osymYil: "ÖSYM Sık", aciklama: "Yazarın en bilinen fantastik ve gerçekçi öykü seçkisidir." },
+          { ad: "Bir Otelde Yedi Kişi", tur: "Hikâye", yil: "1940", osymYil: "ÖSYM Orta", aciklama: "Karakter tahlillerine odaklanan başarılı bir kurgu eseridir." }
         ],
       },
     ],
