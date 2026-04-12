@@ -455,6 +455,15 @@ const data = {
         ],
       },
       {
+  ad: "Ahmet Hikmet Müftüoğlu",
+  dogum: "1870-1927",
+  ozellik: "Türkçülük akımının öncülerinden; milli bilinci uyandıran eserlerin yazarı",
+  eserler: [
+    { ad: "Gönül Hanım", tur: "Roman", yil: "1920", osymYil: "ÖSYM Sık", aciklama: "Orhun Abideleri'ne yapılan bir seyahati ve Turancılık idealini konu alan tezli roman." },
+    { ad: "Çağlayanlar", tur: "Hikâye Kitabı", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Milli ruhu ve Türk tarihini ön plana çıkaran epik öyküler içerir." },
+  ],
+},
+      {
         ad: "Ömer Seyfettin",
         dogum: "1884-1920",
         ozellik: "Modern Türk hikâyeciliğinin kurucusu",
@@ -543,6 +552,81 @@ const data = {
           { ad: "Nur Baba", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Bektaşi tekke çevresindeki aşk ve yozlaşmayı anlatan roman. Yayımlandığında büyük tepkiler toplamıştır." },
         ],
       },
+      {
+  ad: "Oktay Akbal",
+  dogum: "1923-2015",
+  ozellik: "Anı tadındaki eserleriyle mahalle kültürünü ve bireyin yalnızlığını anlatan yazar",
+  eserler: [
+    { ad: "Garipler Sokağı", tur: "Roman", yil: "1950", osymYil: "ÖSYM Sık", aciklama: "Yoksul ama sıcak mahalle hayatını anlatan anı-roman niteliğinde eser." },
+    { ad: "Suçumuz İnsan Olmak", tur: "Roman", yil: "1957", osymYil: "ÖSYM Sık", aciklama: "Bireyin içsel çatışmalarını ve toplumla uyumsuzluğunu işler." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Bireyin İç Dünyası / Saf Şiir)
+{
+  ad: "Abdülhak Şinasi Hisar",
+  dogum: "1887-1963",
+  ozellik: "Boğaziçi medeniyetini, köşk hayatını ve mazi özlemini aristokrat dille anlatan yazar",
+  eserler: [
+    { ad: "Fahim Bey ve Biz", tur: "Roman", yil: "1941", osymYil: "ÖSYM Çok Sık", aciklama: "Hayalperest bir karakter üzerinden eski İstanbul hayatını betimler." },
+    { ad: "Çamlıca'daki Eniştemiz", tur: "Roman", yil: "1944", osymYil: "ÖSYM Sık", aciklama: "Eski İstanbul yaşantısını ve özgün bir şahsiyeti konu alır." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Postmodernizm)
+{
+  ad: "İhsan Oktay Anar",
+  dogum: "1960-",
+  ozellik: "Tarih, felsefe ve fantastik öğeleri postmodern kurguyla birleştiren yazar",
+  eserler: [
+    { ad: "Puslu Kıtalar Atlası", tur: "Roman", yil: "1995", osymYil: "ÖSYM Çok Sık", aciklama: "Düş ve felsefe temalı, edebiyatımızın en özgün postmodern romanlarından biri." },
+    { ad: "Amat", tur: "Roman", yil: "2005", osymYil: "ÖSYM Orta", aciklama: "Mistik ve alegorik bir gemi yolculuğunu konu alan denizcilik temalı roman." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Toplumcu Gerçekçilik)
+{
+  ad: "Orhan Kemal",
+  dogum: "1914-1970",
+  ozellik: "Çukurova'nın işçilerini, toprak ağalığını ve ekmek kavgasını gerçekçi dille anlatan yazar",
+  eserler: [
+    { ad: "Bereketli Topraklar Üzerinde", tur: "Roman", yil: "1954", osymYil: "ÖSYM Çok Sık", aciklama: "Mevsimlik işçilerin ağır yaşam koşullarını ve sömürüyü anlatır." },
+    { ad: "Hanımın Çiftliği", tur: "Roman", yil: "1961", osymYil: "ÖSYM Sık", aciklama: "Sınıf çatışmalarını ve iktidar hırsını Çukurova ekseninde işler." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Mistik Şiir)
+{
+  ad: "Sezai Karakoç",
+  dogum: "1933-2021",
+  ozellik: "Diriliş ekolünün kurucusu; modern şiiri İslami metafizikle buluşturan şair",
+  eserler: [
+    { ad: "Mona Roza", tur: "Şiir Kitabı", yil: "1952", osymYil: "ÖSYM Çok Sık", aciklama: "Edebiyatımızın en popüler aşk ve metafizik şiirlerinden biridir." },
+    { ad: "Hızırla Kırk Saat", tur: "Şiir Kitabı", yil: "1967", osymYil: "ÖSYM Sık", aciklama: "Modern şiir diliyle İslami düşünceyi harmanlayan kült eser." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Yedi Güzel Adam)
+{
+  ad: "Cahit Zarifoğlu",
+  dogum: "1940-1987",
+  ozellik: "Yedi Güzel Adam'ın en kapalı ve imgeci şairi; çocuk ruhlu mistik yazar",
+  eserler: [
+    { ad: "İşaret Çocukları", tur: "Şiir Kitabı", yil: "1967", osymYil: "ÖSYM Sık", aciklama: "Yazarın zor anlaşılan ama derinlikli imge dünyasını yansıtan ilk kitabı." },
+    { ad: "Yedi Güzel Adam", tur: "Şiir Kitabı", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "İnançlı ve mücadeleci bir neslin sembolleştiği şiirler bütünü." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Yedi Güzel Adam)
+{
+  ad: "Erdem Bayazıt",
+  dogum: "1939-2008",
+  ozellik: "Coşkulu, epik ve İslami tonu yüksek şiirleriyle tanınan şair",
+  eserler: [
+    { ad: "Sebep Ey", tur: "Şiir Kitabı", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Modern hayata karşı inanç temelli bir başkaldırıyı simgeler." },
+    { ad: "Risaleler", tur: "Şiir Kitabı", yil: "1987", osymYil: "ÖSYM Sık", aciklama: "Gür bir sesle yazılmış destansı İslami şiirleri kapsar." },
+  ],
+}
       {
         ad: "Reşat Nuri Güntekin",
         dogum: "1889-1956",
