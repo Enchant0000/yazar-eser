@@ -626,7 +626,7 @@ const data = {
     { ad: "Sebep Ey", tur: "Şiir Kitabı", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Modern hayata karşı inanç temelli bir başkaldırıyı simgeler." },
     { ad: "Risaleler", tur: "Şiir Kitabı", yil: "1987", osymYil: "ÖSYM Sık", aciklama: "Gür bir sesle yazılmış destansı İslami şiirleri kapsar." },
   ],
-}
+},
       {
         ad: "Reşat Nuri Güntekin",
         dogum: "1889-1956",
