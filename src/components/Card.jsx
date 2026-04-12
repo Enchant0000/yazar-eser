@@ -12,7 +12,7 @@ export function Card({ yazar, eser, donemColor, donemAccent }) {
     >
       <motion.div
         animate={{ rotateY: flipped ? 180 : 0 }}
-        transition={{ duration: 0.3, ease: "easeInOut" }}
+        transition={{ duration: 0.3, ease: "easeIn" }}
         style={{ transformStyle: "preserve-3d", width: "100%", height: "100%" }}
       >
         {/* ÖN YÜZ — Eser adı */}
