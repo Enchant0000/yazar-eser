@@ -536,7 +536,6 @@ const data = {
           { ad: "Primo Türk Çocuğu", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "İtalya'da doğup büyüyen Türk çocuğunun kimlik arayışını anlatan hikaye." },
           { ad: "Gizli Mabet", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "Dini ve aşk temalarını bir arada işleyen hikaye." },
           { ad: "Yalnız Efe", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Çok Sık", aciklama: "Anadolu halkının ruhunu ve kahramanlık temalarını işleyen epik hikâye." },
-  ],
         ],
       },
       {
