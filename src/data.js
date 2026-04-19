@@ -54,6 +54,22 @@ const data = {
         ],
       },
       {
+  ad: "Nergisi",
+  dogum: "?-1635",
+  ozellik: "Süslü nesrin (İnşa) en büyük üstadı; ilk mensur hamse yazarıdır",
+  eserler: [
+    { ad: "Nihâlistan", tur: "Mensur Hikâye", yil: "17. YY", osymYil: "ÖSYM Orta", aciklama: "Ağır ve sanatlı bir dille yazılmış, hamsesinin içinde yer alan eserdir." },
+  ],
+},
+{
+  ad: "Veysi",
+  dogum: "1561-1628",
+  ozellik: "Süslü nesrin usta ismi; toplumsal yergileriyle bilinen divan yazarı",
+  eserler: [
+    { ad: "Habname", tur: "Siyasetname / Hiciv", yil: "17. YY", osymYil: "ÖSYM Sık", aciklama: "Rüya kurgusu içinde devlet düzenindeki bozuklukları eleştiren önemli bir nesir." },
+  ],
+},
+      {
         ad: "Aşık Paşa",
         dogum: "1272-1332",
         ozellik: "Anadolu'da Türkçe divan şiirinin öncüsü",
@@ -166,6 +182,7 @@ const data = {
         eserler: [
           { ad: "Keşfü'z-Zünun", tur: "Bibliyografya", yil: "17. yy", osymYil: "2021, 2023", aciklama: "İslam kültüründeki 14.500'den fazla eseri ve yazarını listeleyen dev bibliyografya sözlüğüdür." },
           { ad: "Cihannüma", tur: "Coğrafya", yil: "17. yy", osymYil: "ÖSYM Sık", aciklama: "Osmanlı coğrafyasını ve dünyayı anlatan kapsamlı coğrafya eseridir." },
+          { ad: "Fezleke", tur: "Tarih", yil: "1641", osymYil: "ÖSYM Sık", aciklama: "Osmanlı tarihini olay sırasına göre ele alan kapsamlı bir tarih kitabıdır." },
         ],
       },
       {
@@ -194,6 +211,7 @@ const data = {
         eserler: [
           { ad: "Divan", tur: "Divan", yil: "1504-1507", osymYil: "2022" },
           { ad: "Döne Döne Redifli Gazel", tur: "Gazel", yil: "15. yy", osymYil: "2022" },
+          { ad: "Gül Kasidesi", tur: "Şiir (Kaside)", yil: "15. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Türk edebiyatındaki gül redifli en başarılı kasidelerden biridir." },
         ],
       },
       {
@@ -258,6 +276,30 @@ const data = {
         ],
       },
       {
+  ad: "Akif Paşa",
+  dogum: "1787-1845",
+  ozellik: "Klasik şiirle Batılılaşma arasında köprü; edebiyatımızda 'Yokluk' (Adem) temasının ilki",
+  eserler: [
+    { ad: "Adem Kasidesi", tur: "Şiir (Kaside)", yil: "1830-40", osymYil: "ÖSYM Sık", aciklama: "Varlık ve yokluk üzerine kafa yoran, felsefi derinliği olan meşhur kasidesidir." },
+  ],
+},
+      {
+  ad: "Münif Paşa",
+  dogum: "1830-1010",
+  ozellik: "Cemiyet-i İlmiye-i Osmaniye'nin kurucusu; felsefi çevirileriyle tanınan aydın",
+  eserler: [
+    { ad: "Muhaverat-ı Hikemiye", tur: "Çeviri", yil: "1859", osymYil: "ÖSYM Sık", aciklama: "Felsefi metinlerden oluşan Türk edebiyatının ilk çeviri eserlerinden biridir." },
+  ],
+},
+      {
+  ad: "Yusuf Kamil Paşa",
+  dogum: "1808-1876",
+  ozellik: "Edebiyatımızdaki ilk roman çevirisini yaparak türe öncülük eden devlet adamı",
+  eserler: [
+    { ad: "Telemak", tur: "Çeviri Roman", yil: "1859", osymYil: "ÖSYM Çok Sık", aciklama: "Fenelon'dan yapılan, Türkçedeki ilk roman çevirisi kabul edilen eser." },
+  ],
+},
+      {
         ad: "Namık Kemal",
         dogum: "1840-1888",
         ozellik: "Vatan şairi; hürriyet, vatan ve adalet temalarının büyük kalemi",
@@ -308,6 +350,7 @@ const data = {
           { ad: "Araba Sevdası", tur: "Roman", yil: "1898", osymYil: "2021, 2024", aciklama: "Türk edebiyatında Batılılaşma sorununu en iyi işleyen roman. Bihruz Bey adlı züppe Fransızcasıyla övünür, arabasıyla Çamlıca'ya gezmeye çıkar. Yanlış Batılılaşmanın hicvidir." },
           { ad: "Zemzeme", tur: "Şiir", yil: "1882", osymYil: "ÖSYM Sık", aciklama: "Recaizade'nin dört kitaplık şiir serisi. Batılı temalar ve biçimlerle yazılmıştır." },
           { ad: "Talim-i Edebiyat", tur: "Eleştiri", yil: "1879", osymYil: "ÖSYM Sık", aciklama: "Türk edebiyatının ilk sistematik edebiyat bilgisi kitabı." },
+          { ad: "Nijad Ekrem", tur: "Şiir / Anı", yil: "1900", osymYil: "ÖSYM Sık", aciklama: "Genç yaşta ölen oğlu Nijad için yazdığı, derin bir acı içeren 2 ciltlik anı-şiir kitabı." },
         ],
       },
       {
@@ -378,12 +421,21 @@ const data = {
         ],
       },
       {
+  ad: "Süleyman Nazif",
+  dogum: "1870-1927",
+  ozellik: "Feryat ve direniş şairi; güçlü hitabeti ve vatanperverliğiyle tanınır",
+  eserler: [
+    { ad: "Kara Bir Gün", tur: "Makale", yil: "1919", osymYil: "ÖSYM Çok Sık", aciklama: "Fransız generalin İstanbul'a girişi üzerine yazdığı, direnişi ateşleyen tarihi yazı." },
+  ],
+},
+      {
         ad: "Mehmet Rauf",
         dogum: "1875-1931",
         ozellik: "Eylül; Türk edebiyatının ilk psikolojik romanının yazarı",
         eserler: [
           { ad: "Eylül", tur: "Roman", yil: "1901", osymYil: "2019, 2022, 2024", aciklama: "Türk edebiyatının ilk psikolojik romanı. Evli Suat ile kocasının kuzeni Necip arasındaki yasak aşkı anlatır. Dar bir mekanda, dar bir mevsimde gelişen bu aşk ölümle son bulur." },
           { ad: "Siyah İnciler", tur: "Şiir", yil: "1901", osymYil: "ÖSYM Sık", aciklama: "Mensur şiirler. Halit Ziya'ya ithaf edilmiştir." },
+          { ad: "Genç Kız Kalbi", tur: "Roman", yil: "1911", osymYil: "ÖSYM Sık", aciklama: "Aşk ve bireysel duyguların ön planda olduğu, karakterlerin iç dünyasına odaklanan roman." },
         ],
       },
       {
@@ -443,6 +495,7 @@ const data = {
     color: "#2d5a27",
     accent: "#7BC67A",
     yazarlar: [
+      
       {
         ad: "Ziya Gökalp",
         dogum: "1876-1924",
@@ -464,6 +517,15 @@ const data = {
   ],
 },
       {
+  ad: "Mehmet Emin Yurdakul",
+  dogum: "1869-1944",
+  ozellik: "Türk Şairi olarak anılır; Milli Edebiyat'ın şiirdeki ilk sesidir",
+  eserler: [
+    { ad: "Türk Sazı", tur: "Şiir Kitabı", yil: "1914", osymYil: "ÖSYM Sık", aciklama: "Halkın dilinde ve hece vezniyle yazılmış, milli duyguları uyandıran şiirler." },
+  ],
+},
+      
+      {
         ad: "Ömer Seyfettin",
         dogum: "1884-1920",
         ozellik: "Modern Türk hikâyeciliğinin kurucusu",
@@ -473,6 +535,8 @@ const data = {
           { ad: "Efruz Bey", tur: "Roman", yil: "1919", osymYil: "2023", aciklama: "Yanlış Batılılaşmayı ve yarım aydın tipini hicveden hikaye kitabı. Efruz Bey tipi Türk edebiyatına mal olmuştur." },
           { ad: "Primo Türk Çocuğu", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "İtalya'da doğup büyüyen Türk çocuğunun kimlik arayışını anlatan hikaye." },
           { ad: "Gizli Mabet", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "Dini ve aşk temalarını bir arada işleyen hikaye." },
+          { ad: "Yalnız Efe", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Çok Sık", aciklama: "Anadolu halkının ruhunu ve kahramanlık temalarını işleyen epik hikâye." },
+  ],
         ],
       },
       {
@@ -493,6 +557,8 @@ const data = {
           { ad: "Vurun Kahpeye", tur: "Roman", yil: "1926", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı sırasında Anadolu'da görev yapan öğretmen Aliye'nin yurtsever mücadelesini ve şehit oluşunu anlatan roman." },
           { ad: "Sinekli Bakkal", tur: "Roman", yil: "1936", osymYil: "2020, 2023", aciklama: "İstanbul'da eski bir mahallede birbirinden farklı insanların bir arada yaşamasını anlatan roman. Batı-Doğu sentezini simgeler." },
           { ad: "Dağa Çıkan Kurt", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde bir askerin Anadolu'daki deneyimlerini anlatan roman." },
+          { ad: "Türk'ün Ateşle İmtihanı", tur: "Anı", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı yıllarına dair kişisel gözlemlerini ve anılarını içeren eser." },
+          
         ],
       },
       {
@@ -514,6 +580,7 @@ const data = {
           { ad: "Gurbet Hikâyeleri", tur: "Hikâye", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Sürgün yıllarında yazdığı özlem ve yalnızlık temalı hikayeler." },
           { ad: "Kirpinin Dedikleri", tur: "Fıkra", yil: "1925", osymYil: "ÖSYM Sık", aciklama: "Gündelik konuları ince mizahla ele aldığı fıkra yazıları." },
           { ad: "Sürgün", tur: "Roman", yil: "1941", osymYil: "ÖSYM Sık", aciklama: "İstanbul'dan uzaklaştırılarak Anadolu'ya sürülen bir ailenin yaşadıklarını anlatan roman." },
+          { ad: "Yezidin Kızı", tur: "Roman", yil: "1939", osymYil: "ÖSYM Orta", aciklama: "Lübnan ve Suriye ekseninde geçen, Yezidiler ve Ortadoğu kültürünü işleyen roman." },
         ],
       },
       {
@@ -550,8 +617,25 @@ const data = {
           { ad: "Ankara", tur: "Roman", yil: "1934", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde Ankara'nın başkent oluşunu ve yeni Cumhuriyet'in kuruluşunu anlatan roman." },
           { ad: "Sodom ve Gomore", tur: "Roman", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Mütareke dönemi İstanbul'undaki ahlaki ve toplumsal çöküşü anlatan roman. Yabancı işgali altındaki İstanbul'un kaotik ortamı aktarılır." },
           { ad: "Nur Baba", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Bektaşi tekke çevresindeki aşk ve yozlaşmayı anlatan roman. Yayımlandığında büyük tepkiler toplamıştır." },
+          { ad: "Hep O Şarkı", tur: "Roman", yil: "1956", osymYil: "ÖSYM Orta", aciklama: "Yazarın son romanıdır; Abdülaziz dönemi İstanbul hayatını ve aşklarını konu alır." },
         ],
       },
+      {
+  ad: "Tarık Buğra",
+  dogum: "1918-1994",
+  ozellik: "Milli Mücadele'yi ve tarihi olayları 'insan odaklı' bir bakış açısıyla anlatan yazar",
+  eserler: [
+    { ad: "Küçük Ağa", tur: "Roman", yil: "1963", osymYil: "ÖSYM Çok Sık", aciklama: "Kurtuluş Savaşı'nı bir kasaba halkı ve İstanbullu Hoca üzerinden anlatan başyapıt." },
+  ],
+},
+      {
+  ad: "Halikarnas Balıkçısı",
+  dogum: "1890-1973",
+  ozellik: "Bodrum ve Ege denizi edebiyatının babası; deniz insanlarını en iyi anlatan yazar",
+  eserler: [
+    { ad: "Aganta Burina Burinata", tur: "Roman", yil: "1945", osymYil: "ÖSYM Çok Sık", aciklama: "Deniz tutkusunu, gemicilerin hayatını ve denize olan aşkı anlatan başyapıt." },
+  ],
+},
       {
   ad: "Oktay Akbal",
   dogum: "1923-2015",
@@ -638,6 +722,8 @@ const data = {
           { ad: "Acımak", tur: "Roman", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Evlilik, vicdan ve pişmanlık temalarını işleyen psikolojik roman." },
           { ad: "Anadolu Notları", tur: "Gezi", yil: "1936", osymYil: "ÖSYM Sık", aciklama: "Anadolu'nun çeşitli şehirlerine yaptığı gezilerden notlar." },
           { ad: "Miskinler Tekkesi", tur: "Roman", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Dilenciliği ve asalaklığı konu alan roman." },
+          { ad: "Damga", tur: "Roman", yil: "1924", osymYil: "ÖSYM Orta", aciklama: "Bir iftira sonucu 'damgalanan' bir gencin onur mücadelesini anlatır." },
+          { ad: "Gizli El", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Toplumsal yozlaşmayı ve bürokrasinin arka yüzünü eleştiren bir eser." },
         ],
       },
       {
@@ -798,6 +884,7 @@ const data = {
           { ad: "Hayır", tur: "Roman", yil: "1987", osymYil: "2022" },
           { ad: "Fikrimin İnce Gülü", tur: "Roman", yil: "1976", osymYil: "2022" },
           { ad: "Üç Beş Kişi", tur: "Roman", yil: "1984", osymYil: "2022" },
+          { ad: "Yüksek Gerilim", tur: "Hikâye Kitabı", yil: "1974", osymYil: "ÖSYM Sık", aciklama: "Toplumsal ve bireysel krizleri, modern insanın sıkışmışlığını anlatan öyküler." },
         ],
       },
       {
@@ -1129,6 +1216,7 @@ const data = {
         eserler: [
           { ad: "Sisler Bulvarı", tur: "Şiir Kitabı", yil: "1954", osymYil: "ÖSYM Sık" },
           { ad: "Ben Sana Mecburum", tur: "Şiir Kitabı", yil: "1960", osymYil: "ÖSYM Sık" },
+          { ad: "Allah'ın Süngüleri", tur: "Roman", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Aynanın İçindekiler serisinin 6. kitabıdır; Kurtuluş Savaşı ve Atatürk'ü konu alır." },
         ],
       },
       {
@@ -1171,6 +1259,14 @@ const data = {
           { ad: "Memleketimden İnsan Manzaraları", tur: "Şiir", yil: "1966", osymYil: "ÖSYM Sık" },
         ],
       },
+      {
+  ad: "Sabahattin Ali",
+  dogum: "1907-1948",
+  ozellik: "Anadolu'yu ve insanın içsel trajedisini toplumsal bir zeminle en iyi birleştiren yazardır",
+  eserler: [
+    { ad: "Kürk Mantolu Madonna", tur: "Roman", yil: "1943", osymYil: "ÖSYM Çok Sık", aciklama: "İnsan ruhunun derinliklerini ve imkansız bir aşkı anlatan kült eser." },
+  ],
+},
       {
         ad: "Rıfat Ilgaz",
         dogum: "1911-1993",
