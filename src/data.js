@@ -184,7 +184,10 @@ const data = {
         dogum: "1681-1730",
         ozellik: "Lale Devri şairi; mahallileşme akımının öncüsü",
         eserler: [
-          { ad: "Divan", tur: "Divan", yil: "18. yy", osymYil: "2020, 2024", aciklama: "Nedim'in İstanbul sevgisini, Lale Devri'nin neşe ve eğlence ruhunu yansıtan şiirlerini içerir. Mahallileşme akımının en güzel örneğidir." },
+          { ad: "Nedim Divan'ı", tur: "Divan", yil: "18. yy", osymYil: "2020, 2024", aciklama: "Nedim'in İstanbul sevgisini, Lale Devri'nin neşe ve eğlence ruhunu yansıtan şiirlerini içerir. Mahallileşme akımının en güzel örneğidir." },
+          { ad: "Sahaifü'l-Ahbar", tur: "Tarih (Çeviri)", yil: "18. YY", osymYil: "ÖSYM Orta", aciklama: "Müneccimbaşı Ahmed İbn Lütfullah'ın Arapça tarih eserini Türkçeye çevirdiği önemli bir nesir eseridir." },
+    { ad: "İstanbul Kasidesi", tur: "Şiir (Kaside)", yil: "18. YY", osymYil: "ÖSYM Çok Sık", aciklama: "İstanbul'un güzelliklerini 'Bu şehr-i Sıtanbul ki bî-misl ü behâdır' dizesiyle öven en meşhur kasidesidir." },
+        
         ],
       },
       {
@@ -226,7 +229,6 @@ const data = {
         dogum: "?-1497",
         ozellik: "Fatih ve II. Bayezid dönemi divan şiirinin en güçlü sesi",
         eserler: [
-          { ad: "Divan", tur: "Divan", yil: "1483-1494", osymYil: "2021" },
           { ad: "Kerem Kasidesi", tur: "Kaside", yil: "15. yy", osymYil: "2021" },
           { ad: "Benefşe Kasidesi", tur: "Kaside", yil: "15. yy", osymYil: "2021" },
           { ad: "Ab Kasidesi", tur: "Kaside", yil: "15. yy", osymYil: "2021" },
@@ -237,7 +239,7 @@ const data = {
         dogum: "?-1509",
         ozellik: "Halk deyişlerini divana taşıyan; gazelde çığır açan şair",
         eserler: [
-          { ad: "Divan", tur: "Divan", yil: "1504-1507", osymYil: "2022" },
+      
           { ad: "Döne Döne Redifli Gazel", tur: "Gazel", yil: "15. yy", osymYil: "2022" },
           { ad: "Gül Kasidesi", tur: "Şiir (Kaside)", yil: "15. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Türk edebiyatındaki gül redifli en başarılı kasidelerden biridir." },
         ],
@@ -247,7 +249,7 @@ const data = {
         dogum: "?-1582",
         ozellik: "Kanuni dönemi hamse sahibi; Şehzade Mustafa mersiyesiyle tarihe geçen şair",
         eserler: [
-          { ad: "Divan", tur: "Divan", yil: "1575 sonrası", osymYil: "2023" },
+   
           { ad: "Şah u Geda", tur: "Mesnevi", yil: "~1537", osymYil: "2023" },
           { ad: "Yusuf u Züleyha", tur: "Mesnevi", yil: "16. yy", osymYil: "2022, 2023" },
           { ad: "Gencine-i Râz", tur: "Mesnevi", yil: "1540-1541", osymYil: "2023" },
@@ -268,7 +270,7 @@ const data = {
         ozellik: "Halk tasavvuf şiirinin en büyük sesi",
         eserler: [
           { ad: "Risaletü'n-Nushiyye", tur: "Mesnevi", yil: "1307", osymYil: "ÖSYM Sık", aciklama: "Öğüt risalesi anlamında. Tasavvufi ahlak öğütlerini mesnevi biçiminde sunar." },
-          { ad: "Divan", tur: "Divan", yil: "13-14. yy", osymYil: "ÖSYM Sık", aciklama: "Yunus Emre'nin ilahi, nefes ve şiirlerini içeren divan. Sade Türkçesiyle, tasavvufi aşk ve insan sevgisini en yalın biçimde dile getirir. Halk arasında yüzyıllardır okunmaya devam eder." },
+          { ad: "Yunus Divan'ı", tur: "Divan", yil: "13-14. yy", osymYil: "ÖSYM Sık", aciklama: "Yunus Emre'nin ilahi, nefes ve şiirlerini içeren divan. Sade Türkçesiyle, tasavvufi aşk ve insan sevgisini en yalın biçimde dile getirir. Halk arasında yüzyıllardır okunmaya devam eder." },
         ],
       },
       {
