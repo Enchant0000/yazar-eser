@@ -1160,7 +1160,7 @@ const data = {
         eserler: [
           { ad: "Bahar Hikâyeleri", tur: "Hikâye", yil: "1939", osymYil: "ÖSYM Sık", aciklama: "Köy hayatını ve halk inanışlarını mistik bir dille anlattığı öyküler." },
           { ad: "Bir Yudum Su", tur: "Hikâye", yil: "1944", osymYil: "ÖSYM Sık", aciklama: "Yazarın en bilinen fantastik ve gerçekçi öykü seçkisidir." },
-          { ad: "Bir Otelde Yedi Kişi", tur: "Hikâye", yil: "1940", osymYil: "ÖSYM Orta", aciklama: "Karakter tahlillerine odaklanan başarılı bir kurgu eseridir." }
+          { ad: "Bir Otelde Yedi Kişi", tur: "Hikâye", yil: "1940", osymYil: "ÖSYM Orta", aciklama: "Karakter tahlillerine odaklanan başarılı bir kurgu eseridir." },
           { ad: "Osmanoflar", tur: "Roman", yil: "1938", osymYil: "ÖSYM Sık", aciklama: "Yazarın tek romanıdır; bir ailenin çöküşünü anlatır. (Tarık Buğra'nın Osmancık eseriyle karıştırılmamalıdır!)" },
         ],
       },
