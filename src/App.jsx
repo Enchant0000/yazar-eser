@@ -453,7 +453,7 @@ function OgrenScreen({ kartlar: baslangicKartlar, onExit }) {
                 </button>
                 <button onClick={handleBilmedim}
                   style={{ padding: "12px 24px", background: "#ef4444", border: "none", borderRadius: "6px", color: "#fff", fontWeight: "700", cursor: "pointer", fontFamily: "monospace", fontSize: "12px", display: "flex", alignItems: "center", gap: "6px" }}>
-                  <IconRotate /> Tekrar
+                  <IconRotate /> Öğrenmedim
                 </button>
               </>
             )}
