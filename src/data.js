@@ -626,7 +626,7 @@ const data = {
           { ad: "Gurbet Hikâyeleri", tur: "Hikâye", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Sürgün yıllarında yazdığı özlem ve yalnızlık temalı hikayeler." },
           { ad: "Kirpinin Dedikleri", tur: "Fıkra", yil: "1925", osymYil: "ÖSYM Sık", aciklama: "Gündelik konuları ince mizahla ele aldığı fıkra yazıları." },
           { ad: "Sürgün", tur: "Roman", yil: "1941", osymYil: "ÖSYM Sık", aciklama: "İstanbul'dan uzaklaştırılarak Anadolu'ya sürülen bir ailenin yaşadıklarını anlatan roman." },
-          { ad: "İstanbul'un İç Yüzü", tur: "Roman", yil: "1920", osymYil: "ÖSYM Sık", aciklama: "Meşrutiyet sonrası zenginleşen kesimleri ve İstanbul sosyetesini eleştiren yazarın ilk romanıdır." },2
+          { ad: "İstanbul'un İç Yüzü", tur: "Roman", yil: "1920", osymYil: "ÖSYM Sık", aciklama: "Meşrutiyet sonrası zenginleşen kesimleri ve İstanbul sosyetesini eleştiren yazarın ilk romanıdır." },
           { ad: "Yezidin Kızı", tur: "Roman", yil: "1939", osymYil: "ÖSYM Orta", aciklama: "Lübnan ve Suriye ekseninde geçen, Yezidiler ve Ortadoğu kültürünü işleyen roman." },
         ],
       },
