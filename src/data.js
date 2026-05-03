@@ -274,6 +274,14 @@ const data = {
         ],
       },
       {
+  ad: "Bayburtlu Zihnî",
+  dogum: "1795-1859",
+  ozellik: "Hem hece hem aruzla yazan; taşlamaları ve vatan sevgisini işleyen şiirleriyle tanınan gezgin şair.",
+  eserler: [
+    { ad: "Sergüzeştnâme", tur: "Mesnevi / Anı", yil: "19. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Yazarın başından geçen olayları ve Rus işgali dönemindeki acıları anlatan otobiyografik eseridir." },
+  ],
+},
+      {
         ad: "Hacı Bektaş-ı Veli",
         dogum: "1209-1271",
         ozellik: "Bektaşi düşüncesinin temel kaynağı",
@@ -510,6 +518,8 @@ const data = {
         eserler: [
           { ad: "Piyale", tur: "Şiir", yil: "1926", osymYil: "2021, 2023", aciklama: "Ahmet Haşim'in en olgun şiir kitabı. Akşam, alacakaranlık ve ay ışığı gibi empresyonist imgeler kullanılır. Dünyanın gerçeğinden kaçış ve estetik sığınak teması işlenir." },
           { ad: "Göl Saatleri", tur: "Şiir", yil: "1921", osymYil: "ÖSYM Sık", aciklama: "İlk şiir kitabı. Empresyonist duyarlılıkla yazılmış şiirler içerir." },
+          { ad: "Merdiven", tur: "Şiir", yil: "1921", osymYil: "ÖSYM Çok Sık", aciklama: "Hayatı ve ölümü basamaklar metaforuyla anlatan, sembolizmin en güçlü örneklerinden olan şiir." },
+          { ad: "O Belde", tur: "Şiir", yil: "1909", osymYil: "ÖSYM Çok Sık", aciklama: "Hayali ve ideal bir mekanı, hüzün ve özlemle anlattığı sembolist eseridir." },
           { ad: "Bize Göre", tur: "Deneme", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Gündelik hayat gözlemlerini ironi ve mizahla ele alan deneme kitabı." },
           { ad: "Gurabahane-i Laklakan", tur: "Deneme", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Leyleklerin yurdu anlamında. Seyahat izlenimlerini felsefi derinlikle aktardığı deneme kitabı." },
         ],
@@ -601,6 +611,9 @@ const data = {
         eserler: [
           { ad: "Kendi Gök Kubbemiz", tur: "Şiir", yil: "1961", osymYil: "2018, 2021, 2024", aciklama: "Yahya Kemal'in ölümünden sonra yayımlanan şiir kitabı. İstanbul sevgisi, tarih bilinci ve Türk-İslam medeniyetine bağlılık temel tema." },
           { ad: "Eski Şiirin Rüzgârıyle", tur: "Şiir", yil: "1962", osymYil: "2019, 2023", aciklama: "Divan şiiri nazım biçimleriyle yazdığı şiirleri bir araya getirdiği kitap. Geleneksel biçimle modern duyarlılığı birleştirir." },
+          { ad: "Süleymaniye'de Bayram Sabahı", tur: "Şiir", yil: "1950'ler", osymYil: "ÖSYM Çok Sık", aciklama: "Osmanlı tarihini ve Türk ruhunu Süleymaniye Camii ekseninde anlatan destansı şiiridir." },
+    { ad: "Sessiz Gemi", tur: "Şiir", yil: "1950'ler", osymYil: "ÖSYM Çok Sık", aciklama: "Ölüm temasını 'demir almak' metaforuyla anlatan, Türk edebiyatının en meşhur şiirlerinden biridir." },
+    { ad: "Açık Deniz", tur: "Şiir", yil: "1950'ler", osymYil: "ÖSYM Sık", aciklama: "Sonsuzluk arayışını ve tarihe duyulan özlemi işleyen lirik eseridir." },
           { ad: "Aziz İstanbul", tur: "Deneme", yil: "1964", osymYil: "ÖSYM Sık", aciklama: "İstanbul'u konu alan deneme ve yazıların toplandığı kitap." },
         ],
       },
@@ -613,6 +626,7 @@ const data = {
           { ad: "Gurbet Hikâyeleri", tur: "Hikâye", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Sürgün yıllarında yazdığı özlem ve yalnızlık temalı hikayeler." },
           { ad: "Kirpinin Dedikleri", tur: "Fıkra", yil: "1925", osymYil: "ÖSYM Sık", aciklama: "Gündelik konuları ince mizahla ele aldığı fıkra yazıları." },
           { ad: "Sürgün", tur: "Roman", yil: "1941", osymYil: "ÖSYM Sık", aciklama: "İstanbul'dan uzaklaştırılarak Anadolu'ya sürülen bir ailenin yaşadıklarını anlatan roman." },
+          { ad: "İstanbul'un İç Yüzü", tur: "Roman", yil: "1920", osymYil: "ÖSYM Sık", aciklama: "Meşrutiyet sonrası zenginleşen kesimleri ve İstanbul sosyetesini eleştiren yazarın ilk romanıdır." },2
           { ad: "Yezidin Kızı", tur: "Roman", yil: "1939", osymYil: "ÖSYM Orta", aciklama: "Lübnan ve Suriye ekseninde geçen, Yezidiler ve Ortadoğu kültürünü işleyen roman." },
         ],
       },
@@ -659,6 +673,16 @@ const data = {
   ozellik: "Edebiyat araştırmacısı ve şair; vatan sevgisini işleyen epik şiirleriyle tanınır.",
   eserler: [
     { ad: "Bu Vatan Kimin", tur: "Şiir", yil: "1937", osymYil: "ÖSYM Çok Sık", aciklama: "Milli heyecanı zirveye taşıyan, vatan sevgisinin en güçlü lirik ifadelerinden biri olan şiiridir." },
+  ],
+},
+      {
+  ad: "Peyami Safa",
+  dogum: "1899-1961",
+  ozellik: "Psikolojik romanın zirve ismi; Doğu-Batı çatışmasını ve ahlak çöküntüsünü derin tahlillerle işler.",
+  eserler: [
+    { ad: "9. Hariciye Koğuşu", tur: "Roman", yil: "1930", osymYil: "ÖSYM Çok Sık", aciklama: "Otobiyografik izler taşıyan; bir gencin hastalık ve aşk arasındaki psikolojik savaşını anlatan başyapıt." },
+    { ad: "Fatih-Harbiye", tur: "Roman", yil: "1931", osymYil: "ÖSYM Çok Sık", aciklama: "Doğu ve Batı kültürleri arasındaki bocalamayı Neriman karakteri üzerinden somutlaştıran tezli roman." },
+    { ad: "Sözde Kızlar", tur: "Roman", yil: "1923", osymYil: "ÖSYM Sık", aciklama: "Mütareke dönemindeki ahlaki çöküşü ve değer yargılarının yitirilmesini eleştiren eseridir." },
   ],
 },
       {
@@ -1395,11 +1419,25 @@ const data = {
   ],
 },
       {
+  ad: "Talip Apaydın",
+  dogum: "1923-2014",
+  ozellik: "Köy Enstitüsü çıkışlı yazarların önde gelenlerindendir; Polatlı, Eskişehir ve çevresindeki köy hayatını işler.",
+  eserler: [
+    { ad: "Sarı Traktör", tur: "Roman", yil: "1958", osymYil: "ÖSYM Çok Sık", aciklama: "Tarımda makineleşmenin köy hayatındaki etkisini ve yarattığı heyecanı anlatan en ünlü eseridir." },
+    { ad: "Ortakçılar", tur: "Roman", yil: "1964", osymYil: "ÖSYM Sık", aciklama: "Köylü ile toprak sahibi arasındaki çatışmayı ve ortakçılık sistemini eleştirel bir dille anlatır." },
+  ],
+},
+      {
   ad: "Sabahattin Ali",
   dogum: "1907-1948",
   ozellik: "Anadolu'yu ve insanın içsel trajedisini toplumsal bir zeminle en iyi birleştiren yazardır",
   eserler: [
     { ad: "Kürk Mantolu Madonna", tur: "Roman", yil: "1943", osymYil: "ÖSYM Çok Sık", aciklama: "İnsan ruhunun derinliklerini ve imkansız bir aşkı anlatan kült eser." },
+    { ad: "Değirmen", tur: "Hikâye Kitabı", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk hikâye kitabıdır; içinde romantik ve masalsı öyküler de barındırır." },
+    { ad: "Kağnı", tur: "Hikâye Kitabı", yil: "1936", osymYil: "ÖSYM Çok Sık", aciklama: "Köy ve kasaba gerçeklerini, köylünün bürokrasi karşısındaki çaresizliğini anlatan öyküler." },
+    { ad: "Ses", tur: "Hikâye Kitabı", yil: "1937", osymYil: "ÖSYM Sık", aciklama: "Halkın yaşamını ve müziğin, sanatın köylü üzerindeki etkisini işleyen öyküler toplamı." },
+    { ad: "Yeni Dünya", tur: "Hikâye Kitabı", yil: "1943", osymYil: "ÖSYM Orta", aciklama: "İkinci Dünya Savaşı yıllarındaki toplumsal değişimi ve insan psikolojisini yansıtır." },
+    { ad: "Sırça Köşk", tur: "Hikâye Kitabı", yil: "1947", osymYil: "ÖSYM Sık", aciklama: "Eleştirel ve masalsı bir dille yazılmış, siyasi göndermeleri olan son hikâye kitabıdır." },
   ],
 },
       {
