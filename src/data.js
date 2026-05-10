@@ -51,6 +51,7 @@ const data = {
           { ad: "Divan-ı Kebir", tur: "Şiir", yil: "13. yy", osymYil: "ÖSYM Sık", aciklama: "Mevlana'nın Türkçe, Farsça ve Arapça şiirlerini içeren büyük divanıdır." },
           { ad: "Fihi Ma Fih", tur: "Düzyazı", yil: "13. yy", osymYil: "ÖSYM Sık", aciklama: "Sohbet notlarından derlenen nesir eser. Tasavvuf, aşk ve insan üzerine derin düşünceler içerir." },
           { ad: "Mektubat", tur: "Mektup", yil: "13. yy", osymYil: "ÖSYM Sık", aciklama: "Mevlana'nın devlet adamlarına, dostlarına yazdığı mektupların derlemesidir." },
+          { ad: "Mecalis-i Seba", tur: "Nesir / Vaaz", yil: "13. YY", osymYil: "ÖSYM Sık", aciklama: "Mevlâna'nın yedi farklı mecliste verdiği vaazların derlenmesiyle oluşan öğretici eserdir." },
         ],
       },
       {
@@ -139,6 +140,14 @@ const data = {
           { ad: "Vesiletü'n-Necat (Mevlid)", tur: "Mesnevi", yil: "1409", osymYil: "ÖSYM Sık", aciklama: "Hz. Muhammed'in doğumunu anlatan manzum eser. Osmanlı'da yüzyıllarca doğum, ölüm törenlerinde okunmuştur." },
         ],
       },
+      {
+  ad: "Eşrefoğlu Rumi",
+  dogum: "1353-1469",
+  ozellik: "Eşrefiyye kolunun kurucusu; Yunus Emre tarzını sürdüren, halka hitap eden mutasavvıf.",
+  eserler: [
+    { ad: "Müzekki’n Nüfus", tur: "Nesir / Tasavvuf", yil: "1448", osymYil: "ÖSYM Sık", aciklama: "Halkın anlayabileceği sade bir dille nefis terbiyesini ve ahlakı anlatan etkileyici bir eserdir." },
+  ],
+},
       {
         ad: "Ali Şir Nevaî",
         dogum: "1441-1501",
@@ -297,6 +306,16 @@ const data = {
           { ad: "Makalat", tur: "Tasavvuf", yil: "13. yy", osymYil: "ÖSYM Sık", aciklama: "Hacı Bektaş-ı Veli'nin tasavvuf anlayışını dört kapı kırk makam çerçevesinde anlattığı eserdir." },
         ],
       },
+      {
+  ad: "Kaygusuz Abdal",
+  dogum: "1341-1444",
+  ozellik: "Alevi-Bektaşi edebiyatının kurucusu kabul edilir; şathiyeleri ve hiciv dolu üslubuyla tanınır.",
+  eserler: [
+    { ad: "Budalaname", tur: "Nesir", yil: "15. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Tasavvuf yolundaki aşamaları, nefis terbiyesini sembolik ve mizahi bir dille anlatan nesir eseridir." },
+    { ad: "Sarayname", tur: "Mesnevi", yil: "15. YY", osymYil: "ÖSYM Orta", aciklama: "Dünya hayatının geçiciliğini ve tasavvufi hakikatleri anlatan didaktik eserdir." },
+    { ad: "Muglataname", tur: "Nesir", yil: "15. YY", osymYil: "ÖSYM Orta", aciklama: "Rüya kurgusu içinde tasavvufi sırları ve nefis mertebelerini işleyen eseridir." },
+  ],
+},
       {
         ad: "Erzurumlu İbrahim Hakkı",
         dogum: "1703-1780",
