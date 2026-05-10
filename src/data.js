@@ -61,12 +61,28 @@ const data = {
     { ad: "Nihâlistan", tur: "Mensur Hikâye", yil: "17. YY", osymYil: "ÖSYM Orta", aciklama: "Ağır ve sanatlı bir dille yazılmış, hamsesinin içinde yer alan eserdir." },
   ],
 },
+      {
+  ad: "Sinan Paşa",
+  dogum: "1440-1486",
+  ozellik: "Süslü nesrin (inşa) Türk edebiyatındaki ilk ve en önemli temsilcisidir.",
+  eserler: [
+    { ad: "Tazarrunâme", tur: "Nesir / Münacat", yil: "15. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Sanatlı, seci dolu diliyle Tanrı'ya yakarışı anlatan süslü nesrin şaheseridir." },
+  ],
+},
 {
   ad: "Veysi",
   dogum: "1561-1628",
   ozellik: "Süslü nesrin usta ismi; toplumsal yergileriyle bilinen divan yazarı",
   eserler: [
     { ad: "Habname", tur: "Siyasetname / Hiciv", yil: "17. YY", osymYil: "ÖSYM Sık", aciklama: "Rüya kurgusu içinde devlet düzenindeki bozuklukları eleştiren önemli bir nesir." },
+  ],
+},
+      {
+  ad: "Seydi Ali Reis",
+  dogum: "1498-1563",
+  ozellik: "Denizci, coğrafyacı ve şair; Türk edebiyatında gezi türünün ilk örneğini vermiştir.",
+  eserler: [
+    { ad: "Mir'atü'l Memalik", tur: "Gezi Yazısı", yil: "1557", osymYil: "ÖSYM Çok Sık", aciklama: "Hindistan'dan İstanbul'a yaptığı dönüş yolculuğunu anlatan ilk gezi kitabımızdır." },
   ],
 },
       {
@@ -553,6 +569,14 @@ const data = {
   ],
 },
       {
+  ad: "Mithat Cemal Kuntay",
+  dogum: "1885-1956",
+  ozellik: "İstanbul'un üç farklı dönemini Adnan karakteri üzerinden ustalıkla analiz eden yazardır.",
+  eserler: [
+    { ad: "Üç İstanbul", tur: "Roman", yil: "1938", osymYil: "ÖSYM Çok Sık", aciklama: "İstibdat, Meşrutiyet ve Mütareke dönemlerini yansıtan, toplumun ahlaki çöküşünü inceleyen dev eser." },
+  ],
+},
+      {
   ad: "Mehmet Emin Yurdakul",
   dogum: "1869-1944",
   ozellik: "Türk Şairi olarak anılır; Milli Edebiyat'ın şiirdeki ilk sesidir",
@@ -678,6 +702,32 @@ const data = {
   ],
 },
       {
+  ad: "Arif Nihat Asya",
+  dogum: "1904-1975",
+  ozellik: "Bayrak Şairi olarak tanınır; vatan sevgisini lirik ve epik bir dille rubailerle birleştirmiştir.",
+  eserler: [
+    { ad: "Dualar ve Aminler", tur: "Şiir Kitabı", yil: "1950'ler", osymYil: "ÖSYM Sık", aciklama: "Milli ve manevi duyguların, bayrak sevgisinin zirve yaptığı şiirleri içerir." },
+  ],
+},
+      {
+  ad: "Zeki Ömer Defne",
+  dogum: "1903-1992",
+  ozellik: "Anadolu'yu, şehirleri ve doğayı betimleyen şiirleriyle memleketçi şiirin güçlü kalemidir.",
+  eserler: [
+    { ad: "Ilgaz", tur: "Şiir", yil: "20. YY", osymYil: "ÖSYM Orta", aciklama: "Ilgaz Dağı üzerinden Anadolu'nun doğasını ve insanını yücelten ünlü şiiridir." },
+  ],
+},
+
+// Cumhuriyet Dönemi (Milli Duyarlılık)
+{
+  ad: "Necmeddin Halil Onan",
+  dogum: "1902-1968",
+  ozellik: "Vatan ve bağımsızlık temalı şiirleriyle Milli Edebiyat zevkini sürdüren şair.",
+  eserler: [
+    { ad: "Bir Yolcuya", tur: "Şiir", yil: "1940'lar", osymYil: "ÖSYM Çok Sık", aciklama: "'Dur Yolcu!' dizesiyle başlayan, Çanakkale ruhunu simgeleyen en ünlü şiiridir." },
+  ],
+},
+      {
   ad: "Nezihe Meriç",
   dogum: "1924-2009",
   ozellik: "Cumhuriyet dönemi modern hikâyeciliğin kadın duyarlılığını işleyen en önemli isimlerindendir.",
@@ -711,6 +761,15 @@ const data = {
   ozellik: "Milli Mücadele'yi ve tarihi olayları 'insan odaklı' bir bakış açısıyla anlatan yazar",
   eserler: [
     { ad: "Küçük Ağa", tur: "Roman", yil: "1963", osymYil: "ÖSYM Çok Sık", aciklama: "Kurtuluş Savaşı'nı bir kasaba halkı ve İstanbullu Hoca üzerinden anlatan başyapıt." },
+  ],
+},
+      {
+  ad: "İsmail Habib Sevük",
+  dogum: "1892-1954",
+  ozellik: "Edebiyat tarihi araştırmaları ve Avrupa gezi yazılarıyla tanınan aydın.",
+  eserler: [
+    { ad: "Tuna'dan Batı'ya", tur: "Gezi Yazısı", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Avrupa seyahatindeki gözlemlerini akıcı ve edebi bir dille anlattığı kitabıdır." },
+    { ad: "Türk Teceddüt Edebiyatı Tarihi", tur: "Edebiyat Tarihi", yil: "1924", osymYil: "ÖSYM Orta", aciklama: "Modern Türk edebiyatı üzerine yaptığı ilk ve önemli incelemelerden biridir." },
   ],
 },
       {
@@ -890,6 +949,7 @@ const data = {
         eserler: [
           { ad: "Tek Adam", tur: "Biyografi", yil: "1963", osymYil: "ÖSYM Sık", aciklama: "Atatürk'ün hayatını ve kişiliğini üç ciltte anlatan biyografi." },
           { ad: "Suyu Arayan Adam", tur: "Anı", yil: "1959", osymYil: "ÖSYM Sık", aciklama: "Şevket Süreyya'nın kendi hayatını ve dönemin siyasi atmosferini aktardığı anı kitabı." },
+          { ad: "İkinci Adam", tur: "Biyografi", yil: "1966", osymYil: "ÖSYM Sık", aciklama: "İsmet İnönü dönemini inceleyen kapsamlı biyografi eseridir." },          
         ],
       },
       {
