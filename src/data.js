@@ -1551,7 +1551,7 @@ const data = {
         dogum: "",
         ozellik: "",
         eserler: [
-          { ad: "İstanbul Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          { ad: "İstanbul Şairi (Milli E.)", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
       },
       {
@@ -1559,7 +1559,7 @@ const data = {
         dogum: "",
         ozellik: "",
         eserler: [
-          { ad: "İstanbul Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          { ad: "İstanbul Şairi (Divan E.)", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
           { ad: "Lale Devri Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
           { ad: "Şarkı Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
