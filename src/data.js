@@ -1920,79 +1920,87 @@ const data = {
   "accent": "#e67e22",
   "yazarlar": [
     {
-      "isim": "Peyami Safa",
-      "sifreler": ["Ruh tahlili", "Vicdan azabı", "Mistisizm", "Doğu-Batı çatışması"],
-      "romanlar": [
-        { "ad": "Dokuzuncu Hariciye Koğuşu", "ozet": "En başarılı otobiyografik roman. Hasta bir gencin hastane koridorlarındaki acıları ve Nüzhet'e imkansız aşkı." },
-        { "ad": "Fatih Harbiye", "ozet": "Doğu (Fatih-Şinasi) ile Batı (Harbiye-Macit) arasında sıkışan Neriman'ın özüne dönüşü." },
-        { "ad": "Matmazel Noraliya’nın Koltuğu", "ozet": "Ateist tıp öğrencisi Samim'in, Matmazel Noraliya'nın gizemli hayatı ve seccadesiyle mistisizme/imana yönelişi." },
-        { "ad": "Yalnızız", "ozet": "Materyalizm ve ahlaki çöküntü yaşayan Samerim ailesi. Samim'in kafasındaki ütopik ülke: Simeranya." },
-        { "ad": "Sözde Kızlar", "ozet": "Mütareke İstanbul'unun yozlaşmış sosyetesini, Anadolu'dan gelen saf Mebrure'nin gözünden eleştiri." },
-        { "ad": "Mahşer", "ozet": "Çanakkale gazisi Nihad'ın, İstanbul'un savaş zenginleri ve ahlaki bozulması karşısındaki idealizm mücadelesi." },
-        { "ad": "Şimşek", "ozet": "Bir aldatma hikayesi üzerinden insanın vicdan azabı, kıskançlığı ve iç dünyasındaki fırtınalar." },
-        { "ad": "Biz İnsanlar", "ozet": "İkinci Meşrutiyet ve Mütareke yıllarında maddecilik-maneviyat çatışması (Öğretmen Necati)." },
-        { "ad": "Cingöz Recai (Server Bedi)", "ozet": "Para kazanmak amacıyla yazılan, kibar ve zeki bir hırsızın polisiye maceraları." },
-        { "ad": "Cumbadan Rumbaya (Server Bedi)", "ozet": "Geleneksel mahalle hayatından (cumba) yozlaşmış modern hayata (rumba) geçmeye çalışan Selma." }
+      "ad": "Peyami Safa",
+      "dogum": "1899-1961",
+      "ozellik": "Psikolojik romanın ve doğu-batı çatışmasının Türk edebiyatındaki zirve ismidir...",
+      "eserler": [
+        { "ad": "Dokuzuncu Hariciye Koğuşu", "tur": "Roman", "yil": "1930", ... },
+        { "ad": "Fatih Harbiye", "tur": "Roman", "yil": "1931", ... },
+        { "ad": "Matmazel Noraliya’nın Koltuğu", "tur": "Roman", "yil": "1949", ... },
+        { "ad": "Yalnızız", "tur": "Roman", "yil": "1951", ... },
+        { "ad": "Sözde Kızlar", "tur": "Roman", "yil": "1923", ... },
+        { "ad": "Mahşer", "tur": "Roman", "yil": "1924", ... },
+        { "ad": "Şimşek", "tur": "Roman", "yil": "1923", ... },
+        { "ad": "Biz İnsanlar", "tur": "Roman", "yil": "1959", ... },
+        { "ad": "Cingöz Recai", "tur": "Polisiye Dizi", "yil": "1924+", ... },
+        { "ad": "Cumbadan Rumbaya", "tur": "Roman", "yil": "1936", ... }
       ]
     },
     {
-      "isim": "Tarık Buğra",
-      "sifreler": ["Milli Mücadele'ye/tarihe küçük insanların iç dünyasından bakış", "İnsan psikolojisi ve çatışmalar"],
-      "romanlar": [
-        { "ad": "Küçük Ağa", "ozet": "Milli Mücadele romanı. İstanbullu Hoca'nın (Salih) Kuva-yı Milliye safına geçip Küçük Ağa'ya dönüşümü." },
-        { "ad": "Küçük Ağa Ankara’da", "ozet": "Kurtuluş Savaşı'nın Ankara ayağı, meclis ve düzenli ordu kuruluş sancıları, Çerkez Ethem olayları." },
-        { "ad": "Firavun İmanı", "ozet": "Üçlemenin sonu. Sakarya zaferi sonrası Ankara'daki çıkar kavgaları, para ve güce tapanların iman sorgulaması." },
-        { "ad": "Osmancık", "ozet": "Osmanlı'nın kuruluşu. Şeyh Edebali'nin tedrisatıyla deli dolu Osmancık'ın bilge Osman Gazi'ye dönüşümü." },
-        { "ad": "Dönemeç", "ozet": "Çok partili hayata geçiş döneminde bir taşra kasabasındaki (Akşehir) siyasi çekişmeler ve Doktor Şerif." },
-        { "ad": "Gençliğim Eyvah", "ozet": "1970'lerin ideolojik gençlik çatışmaları, anarşi ve gençlerin gizli güçlerce piyon olarak kullanılması." },
-        { "ad": "İbiş’in Rüyası", "ozet": "Naşit Özcan'ın hayatından esinlenme. Tiyatrocu Nahit'in sanat tutkusu, Hatice'ye aşkı ve yalnızlığı." }
+      "ad": "Tarık Buğra",
+      "dogum": "1918-1994",
+      "ozellik": "Milli Mücadele'ye ve tarihe 'küçük insanların' iç dünyasından bakar...",
+      "eserler": [
+        { "ad": "Küçük Ağa", "tur": "Roman", "yil": "1963", ... },
+        { "ad": "Küçük Ağa Ankara’da", "tur": "Roman", "yil": "1966", ... },
+        { "ad": "Firavun İmanı", "tur": "Roman", "yil": "1978", ... },
+        { "ad": "Osmancık", "tur": "Roman", "yil": "1983", ... },
+        { "ad": "Dönemeç", "tur": "Roman", "yil": "1978", ... },
+        { "ad": "Gençliğim Eyvah", "tur": "Roman", "yil": "1979", ... },
+        { "ad": "İbiş’in Rüyası", "tur": "Roman", "yil": "1970", ... }
       ]
     },
     {
-      "isim": "Samiha Ayverdi",
-      "sifreler": ["Tekke ve konak hayatı", "İstanbul kültürü", "Tasavvuf ve ilahi aşk"],
-      "romanlar": [
-        { "ad": "İbrahim Efendi Konağı", "ozet": "Bir devrin batış romanı. İhtişamlı konak üzerinden Osmanlı'nın son dönemi ve Tanzimat'la başlayan çözülme." },
-        { "ad": "Mesih Paşa İmamı", "ozet": "Mesleğini sadece geçim kapısı gören sevgisiz İmam Halis Bey'in tasavvufi aşkla olgunlaşması." },
-        { "ad": "Batmayan Gün", "ozet": "Yazarın felsefi ve mistik yönü en ağır basan romanı; varoluş amacı ve ilahi aşk arayışı." },
-        { "ad": "İnsan ve Şeytan", "ozet": "İnsanın kendi içindeki iyi (melek/iman) ve kötü (şeytan/nefis) güçlerin felsefi/tasavvufi savaşı." },
-        { "ad": "Aşk Budur", "ozet": "İlk romanı. Beşeri (insani) aşktan yola çıkarak hakiki (ilahi) aşkın yollarını bulma." }
+      "ad": "Samiha Ayverdi",
+      "dogum": "1905-1993",
+      "ozellik": "Edebiyatımızda tasavvufun, İstanbul kültürünün ve konak hayatının kadın temsilcisidir...",
+      "eserler": [
+        { "ad": "İbrahim Efendi Konağı", "tur": "Roman", "yil": "1964", ... },
+        { "ad": "Mesih Paşa İmamı", "tur": "Roman", "yil": "1948", ... },
+        { "ad": "Batmayan Gün", "tur": "Roman", "yil": "1948", ... },
+        { "ad": "İnsan ve Şeytan", "tur": "Roman", "yil": "1952", ... },
+        { "ad": "Aşk Budur", "tur": "Roman", "yil": "1938", ... }
       ]
     },
     {
-      "isim": "Abdülhak Şinasi Hisar",
-      "sifreler": ["Eski İstanbul ve Boğaziçi hayranlığı", "Geçmiş zaman özlemi/anılar", "Aristokrat ve eksantrik karakterler"],
-      "romanlar": [
-        { "ad": "Fahim Bey ve Biz", "ozet": "Gerçeklikten kopuk, hayali pamuk ticareti şirket planları yapan, odasında boş defterlere yazan nevrotik Fahim Bey." },
-        { "ad": "Çamlıca’daki Eniştemiz", "ozet": "Deli dahi arası, titiz, rüya tabirlerine inanan eksantrik Hacı Vamık Efendi ve eski Çamlıca hayatı." },
-        { "ad": "Ali Nizami Bey’in Alafrangalığı ve Şeyhliği", "ozet": "Miras yedi alafranga Ali Nizami Bey'in parası bitince Bektaşi tekkesine sığınıp şeyhliğe (yarı deliliğe) varan çöküşü." },
-        { "ad": "Boğaziçi Mehtapları / Boğaziçi Yalıları / Geçmiş Zaman Köşkleri", "ozet": "Deneme/anı türünde; eski İstanbul geceleri, yalılar, köşkler ve kaybolan Osmanlı asaletinin hatıraları." }
+      "ad": "Abdülhak Şinasi Hisar",
+      "dogum": "1887-1963",
+      "ozellik": "Eski İstanbul, Boğaziçi ve mazi hayranıdır...",
+      "eserler": [
+        { "ad": "Fahim Bey ve Biz", "tur": "Roman", "yil": "1941", ... },
+        { "ad": "Çamlıca’daki Eniştemiz", "tur": "Roman", "yil": "1944", ... },
+        { "ad": "Ali Nizami Bey’in Alafrangalığı ve Şeyhliği", "tur": "Roman", "yil": "1952", ... },
+        { "ad": "Boğaziçi Mehtapları / Boğaziçi Yalıları / Geçmiş Zaman Köşkleri", "tur": "Deneme/Anı", "yil": "1942-1956", ... }
       ]
     },
     {
-      "isim": "Mehmet Seyda",
-      "sifreler": ["Bireyin büyüme sancıları", "Zonguldak kömür havzası"],
-      "romanlar": [
-        { "ad": "Ne Ekersen", "ozet": "TDK ödüllü. Zonguldak kömür havzasında çocukluktan gençliğe geçen karakterin gözünden toplumsal yapı ve büyüme sancıları." }
+      "ad": "Mehmet Seyda",
+      "dogum": "1919-1986",
+      "ozellik": "Bireyin büyüme, kendini bulma sancılarını ve dönemin toplumsal yapısını yansıtır...",
+      "eserler": [
+        { "ad": "Ne Ekersen", "tur": "Roman", "yil": "1958", ... }
       ]
     },
     {
-      "isim": "Hikmet Erhan Bener",
-      "sifreler": ["Psikolojik detaylar", "Yaşlılık ve ölüm korkusu"],
-      "romanlar": [
-        { "ad": "Hınzır Kız", "ozet": "Yunus Nadi ödüllü. Yaşlı ve yalnız bir adamın, hayatına giren genç kız üzerinden geçmişi, cinselliği ve ölüm korkusuyla yüzleşmesi." }
+      "ad": "Hikmet Erhan Bener",
+      "dogum": "1929-2007",
+      "ozellik": "Psikolojik detaylara, yaşlılık ve ölüm temalarına önem verir...",
+      "eserler": [
+        { "ad": "Hınzır Kız", "tur": "Roman", "yil": "1984", ... }
       ]
     },
     {
-      "isim": "Mehmet Önal",
-      "sifreler": ["Geleneksel değerler", "Anadolu insanının inancı", "Mistik ve destansı dil"],
-      "romanlar": [
-        { "ad": "Efsane", "ozet": "TYB ödüllü. Anadolu insanının iç dünyasını, sabrını ve inancını destansı ve mistik bir dille harmanlayan roman." },
-        { "ad": "Çemberimde Gül Oya", "ozet": "Hikaye kitabı. Kasaba hayatı, geleneksel ilişkiler, hüzünler ve geçmişe duyulan özlem." }
+      "ad": "Mehmet Önal",
+      "dogum": "1953-?",
+      "ozellik": "Geleneksel değerleri, Anadolu insanının iç dünyasını destansı bir dille ele alır...",
+      "eserler": [
+        { "ad": "Efsane", "tur": "Roman", "yil": "1997", ... },
+        { "ad": "Çemberimde Gül Oya", "tur": "Hikaye", "yil": "1994", ... }
       ]
     }
   ]
 },
+
   "Cumhuriyet — Modernizm ve Postmodernizmi Esas Alanlar": {
     color: "#1f2d3d",
     accent: "#3498db",
