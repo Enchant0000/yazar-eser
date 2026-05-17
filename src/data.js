@@ -1916,10 +1916,83 @@ const data = {
     ]
   },
   "Cumhuriyet — Bireyin İç Dünyasını Esas Alanlar": {
-    color: "#3d1f1f",
-    accent: "#e67e22",
-    yazarlar: [],
-  },
+  "color": "#3d1f1f",
+  "accent": "#e67e22",
+  "yazarlar": [
+    {
+      "isim": "Peyami Safa",
+      "sifreler": ["Ruh tahlili", "Vicdan azabı", "Mistisizm", "Doğu-Batı çatışması"],
+      "romanlar": [
+        { "ad": "Dokuzuncu Hariciye Koğuşu", "ozet": "En başarılı otobiyografik roman. Hasta bir gencin hastane koridorlarındaki acıları ve Nüzhet'e imkansız aşkı." },
+        { "ad": "Fatih Harbiye", "ozet": "Doğu (Fatih-Şinasi) ile Batı (Harbiye-Macit) arasında sıkışan Neriman'ın özüne dönüşü." },
+        { "ad": "Matmazel Noraliya’nın Koltuğu", "ozet": "Ateist tıp öğrencisi Samim'in, Matmazel Noraliya'nın gizemli hayatı ve seccadesiyle mistisizme/imana yönelişi." },
+        { "ad": "Yalnızız", "ozet": "Materyalizm ve ahlaki çöküntü yaşayan Samerim ailesi. Samim'in kafasındaki ütopik ülke: Simeranya." },
+        { "ad": "Sözde Kızlar", "ozet": "Mütareke İstanbul'unun yozlaşmış sosyetesini, Anadolu'dan gelen saf Mebrure'nin gözünden eleştiri." },
+        { "ad": "Mahşer", "ozet": "Çanakkale gazisi Nihad'ın, İstanbul'un savaş zenginleri ve ahlaki bozulması karşısındaki idealizm mücadelesi." },
+        { "ad": "Şimşek", "ozet": "Bir aldatma hikayesi üzerinden insanın vicdan azabı, kıskançlığı ve iç dünyasındaki fırtınalar." },
+        { "ad": "Biz İnsanlar", "ozet": "İkinci Meşrutiyet ve Mütareke yıllarında maddecilik-maneviyat çatışması (Öğretmen Necati)." },
+        { "ad": "Cingöz Recai (Server Bedi)", "ozet": "Para kazanmak amacıyla yazılan, kibar ve zeki bir hırsızın polisiye maceraları." },
+        { "ad": "Cumbadan Rumbaya (Server Bedi)", "ozet": "Geleneksel mahalle hayatından (cumba) yozlaşmış modern hayata (rumba) geçmeye çalışan Selma." }
+      ]
+    },
+    {
+      "isim": "Tarık Buğra",
+      "sifreler": ["Milli Mücadele'ye/tarihe küçük insanların iç dünyasından bakış", "İnsan psikolojisi ve çatışmalar"],
+      "romanlar": [
+        { "ad": "Küçük Ağa", "ozet": "Milli Mücadele romanı. İstanbullu Hoca'nın (Salih) Kuva-yı Milliye safına geçip Küçük Ağa'ya dönüşümü." },
+        { "ad": "Küçük Ağa Ankara’da", "ozet": "Kurtuluş Savaşı'nın Ankara ayağı, meclis ve düzenli ordu kuruluş sancıları, Çerkez Ethem olayları." },
+        { "ad": "Firavun İmanı", "ozet": "Üçlemenin sonu. Sakarya zaferi sonrası Ankara'daki çıkar kavgaları, para ve güce tapanların iman sorgulaması." },
+        { "ad": "Osmancık", "ozet": "Osmanlı'nın kuruluşu. Şeyh Edebali'nin tedrisatıyla deli dolu Osmancık'ın bilge Osman Gazi'ye dönüşümü." },
+        { "ad": "Dönemeç", "ozet": "Çok partili hayata geçiş döneminde bir taşra kasabasındaki (Akşehir) siyasi çekişmeler ve Doktor Şerif." },
+        { "ad": "Gençliğim Eyvah", "ozet": "1970'lerin ideolojik gençlik çatışmaları, anarşi ve gençlerin gizli güçlerce piyon olarak kullanılması." },
+        { "ad": "İbiş’in Rüyası", "ozet": "Naşit Özcan'ın hayatından esinlenme. Tiyatrocu Nahit'in sanat tutkusu, Hatice'ye aşkı ve yalnızlığı." }
+      ]
+    },
+    {
+      "isim": "Samiha Ayverdi",
+      "sifreler": ["Tekke ve konak hayatı", "İstanbul kültürü", "Tasavvuf ve ilahi aşk"],
+      "romanlar": [
+        { "ad": "İbrahim Efendi Konağı", "ozet": "Bir devrin batış romanı. İhtişamlı konak üzerinden Osmanlı'nın son dönemi ve Tanzimat'la başlayan çözülme." },
+        { "ad": "Mesih Paşa İmamı", "ozet": "Mesleğini sadece geçim kapısı gören sevgisiz İmam Halis Bey'in tasavvufi aşkla olgunlaşması." },
+        { "ad": "Batmayan Gün", "ozet": "Yazarın felsefi ve mistik yönü en ağır basan romanı; varoluş amacı ve ilahi aşk arayışı." },
+        { "ad": "İnsan ve Şeytan", "ozet": "İnsanın kendi içindeki iyi (melek/iman) ve kötü (şeytan/nefis) güçlerin felsefi/tasavvufi savaşı." },
+        { "ad": "Aşk Budur", "ozet": "İlk romanı. Beşeri (insani) aşktan yola çıkarak hakiki (ilahi) aşkın yollarını bulma." }
+      ]
+    },
+    {
+      "isim": "Abdülhak Şinasi Hisar",
+      "sifreler": ["Eski İstanbul ve Boğaziçi hayranlığı", "Geçmiş zaman özlemi/anılar", "Aristokrat ve eksantrik karakterler"],
+      "romanlar": [
+        { "ad": "Fahim Bey ve Biz", "ozet": "Gerçeklikten kopuk, hayali pamuk ticareti şirket planları yapan, odasında boş defterlere yazan nevrotik Fahim Bey." },
+        { "ad": "Çamlıca’daki Eniştemiz", "ozet": "Deli dahi arası, titiz, rüya tabirlerine inanan eksantrik Hacı Vamık Efendi ve eski Çamlıca hayatı." },
+        { "ad": "Ali Nizami Bey’in Alafrangalığı ve Şeyhliği", "ozet": "Miras yedi alafranga Ali Nizami Bey'in parası bitince Bektaşi tekkesine sığınıp şeyhliğe (yarı deliliğe) varan çöküşü." },
+        { "ad": "Boğaziçi Mehtapları / Boğaziçi Yalıları / Geçmiş Zaman Köşkleri", "ozet": "Deneme/anı türünde; eski İstanbul geceleri, yalılar, köşkler ve kaybolan Osmanlı asaletinin hatıraları." }
+      ]
+    },
+    {
+      "isim": "Mehmet Seyda",
+      "sifreler": ["Bireyin büyüme sancıları", "Zonguldak kömür havzası"],
+      "romanlar": [
+        { "ad": "Ne Ekersen", "ozet": "TDK ödüllü. Zonguldak kömür havzasında çocukluktan gençliğe geçen karakterin gözünden toplumsal yapı ve büyüme sancıları." }
+      ]
+    },
+    {
+      "isim": "Hikmet Erhan Bener",
+      "sifreler": ["Psikolojik detaylar", "Yaşlılık ve ölüm korkusu"],
+      "romanlar": [
+        { "ad": "Hınzır Kız", "ozet": "Yunus Nadi ödüllü. Yaşlı ve yalnız bir adamın, hayatına giren genç kız üzerinden geçmişi, cinselliği ve ölüm korkusuyla yüzleşmesi." }
+      ]
+    },
+    {
+      "isim": "Mehmet Önal",
+      "sifreler": ["Geleneksel değerler", "Anadolu insanının inancı", "Mistik ve destansı dil"],
+      "romanlar": [
+        { "ad": "Efsane", "ozet": "TYB ödüllü. Anadolu insanının iç dünyasını, sabrını ve inancını destansı ve mistik bir dille harmanlayan roman." },
+        { "ad": "Çemberimde Gül Oya", "ozet": "Hikaye kitabı. Kasaba hayatı, geleneksel ilişkiler, hüzünler ve geçmişe duyulan özlem." }
+      ]
+    }
+  ]
+},
   "Cumhuriyet — Modernizm ve Postmodernizmi Esas Alanlar": {
     color: "#1f2d3d",
     accent: "#3498db",
