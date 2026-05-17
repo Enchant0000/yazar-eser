@@ -2090,7 +2090,7 @@ const data = {
         ],
       },
       {
-        ad: "Devlet",
+        ad: "Sultan II. Mahmud (zamanında çıkarıldı)",
         dogum: "",
         ozellik: "",
         eserler: [
