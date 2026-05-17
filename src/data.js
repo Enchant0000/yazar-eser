@@ -1637,22 +1637,283 @@ const data = {
   "Cumhuriyet — Milli Edebiyat Anlayışını Sürdürenler": {
     color: "#4a3728",
     accent: "#d4a574",
-    yazarlar: [],
+    yazarlar: [
+      {
+        ad: "Ahmet Kutsi Tecer",
+        dogum: "1901-1967",
+        ozellik: "Memleketçi şiirin öncülerinden olan, Âşık Veysel'i keşfeden ve folklor çalışmalarına ağırlık veren şair ve oyun yazarı",
+        eserler: [
+          { ad: "Neredesin", tur: "Şiir", yil: "1930'lar", osymYil: "ÖSYM Sık", aciklama: "Özlem, yalnızlık ve mistik bir gurbet duygusu taşıyan, Türk edebiyatının en bilinen lirik şiirlerindendir." },
+          { ad: "Orda Bir Köy Var Uzakta", tur: "Şiir", yil: "1927", osymYil: "ÖSYM Sık", aciklama: "Köy ve memleket özlemini, taşra hayatına duyulan saf sevgiyi çocuksu bir içtenlikle anlatan şiirdir." },
+          { ad: "Köşebaşı", tur: "Tiyatro", yil: "1947", osymYil: "ÖSYM Sık", aciklama: "İstanbul'un bir mahallesindeki 24 saatlik kesiti ve geleneksel Anadolu hayatını modern bir batı tekniğiyle sahneye taşıyan tiyatro eseridir." },
+          { ad: "Koçyiğit Köroğlu", tur: "Tiyatro", yil: "1942", osymYil: "ÖSYM Orta", aciklama: "Halk hikâyelerinden ve Köroğlu destanından yola çıkarak yiğitlik ve halk kahramanlığını işleyen tiyatro eseridir." }
+        ]
+      },
+      {
+        ad: "Arif Nihat Asya",
+        dogum: "1904-1975",
+        ozellik: "Milli ve dini değerleri, kahramanlık ve bayrak sevgisini hem hece hem aruzla birleştiren 'Bayrak Şairi'",
+        eserler: [
+          { ad: "Bir Bayrak Rüzgâr Bekliyor", tur: "Şiir", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Bayrak, vatan sevgisi ve millî duygu temasını epik ve lirik bir tonla harmanlayan en önemli şiir kitabıdır." },
+          { ad: "Rubaiyyat-ı Ârif", tur: "Şiir", yil: "1954", osymYil: "ÖSYM Orta", aciklama: "Klasik edebiyat geleneğini sürdürerek yazdığı rubailerden oluşan şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Kemalettin Kamu",
+        dogum: "1901-1948",
+        ozellik: "Vatan sevgisini ve yalnızlığı harmanlayarak 'Gurbet Şairi' unvanını alan önemli memleketçi sanatçı",
+        eserler: [
+          { ad: "Bingöl Çobanları", tur: "Şiir", yil: "1920'ler", osymYil: "ÖSYM Sık", aciklama: "Anadolu’nun yayla ve çoban yaşamını pastoral bir duyarlılıkla, son derece içten anlatan ünlü şiiridir." },
+          { ad: "Gurbet", tur: "Şiir", yil: "1920'ler", osymYil: "ÖSYM Sık", aciklama: "Özlem, yalnızlık ve vatanından ayrı kalmanın getirdiği derin ayrılık duygusunu işleyen imza şiiridir." }
+        ]
+      },
+      {
+        ad: "Zeki Ömer Defne",
+        dogum: "1903-1992",
+        ozellik: "Erzurum, Eğin, Ilgaz gibi Anadolu coğrafyasını ve özellikle deniz sevgisini lirik bir dille şiirleştiren öğretmen-şair",
+        eserler: [
+          { ad: "Denizden Çalınmış Ülke", tur: "Şiir", yil: "1971", osymYil: "ÖSYM Orta", aciklama: "Deniz, yurt, tarih ve memleket özlemini içeren lirik tarzda kaleme alınmış şiir kitabıdır." },
+          { ad: "Sessiz Nehir", tur: "Şiir", yil: "1985", osymYil: "ÖSYM Orta", aciklama: "Şairin sakin, olgunluk dönemi duyarlılığını ve lirizm ağırlıklı tarzını yansıtan şiir kitabıdır." },
+          { ad: "Kardelenler", tur: "Şiir", yil: "1988", osymYil: "ÖSYM Orta", aciklama: "Zorluklara karşı direnişi, doğa gözlemlerini ve umut duygusunu taşıyan şiirleridir." }
+        ]
+      },
+      {
+        ad: "Ömer Bedrettin Uşaklı",
+        dogum: "1904-1943",
+        ozellik: "Anadolu bürokrasisinde kaymakamlık yaparken doğa, taşra hayatı ve deniz temasını şiirlerine taşıyan 'Anadolu Şairi'",
+        eserler: [
+          { ad: "Deniz Sarhoşları", tur: "Şiir", yil: "1926", osymYil: "ÖSYM Sık", aciklama: "Deniz sevgisi, dalgalar ve tabiat duyarlığıyla öne çıkan, şairin doğa izlenimlerini barındıran ilk şiir kitabıdır." },
+          { ad: "Yayla Dumanı", tur: "Şiir", yil: "1934", osymYil: "ÖSYM Sık", aciklama: "Yayla hayatını, gurbet acısını ve Anadolu insanının duyarlığını hüzünlü bir tonda yansıtan ünlü şiir kitabıdır." },
+          { ad: "Sarıkız Mermerleri", tur: "Şiir", yil: "1970 (Ölümünden sonra)", osymYil: "ÖSYM Orta", aciklama: "Anadolu coğrafyasını, efsaneleri ve yerel motifleri çağrıştıran şiirlerinin yer aldığı eserdir." }
+        ]
+      },
+      {
+        ad: "Necmettin Halil Onan",
+        dogum: "1902-1968",
+        ozellik: "Akademisyen kimliğinin yanında, millî mücadele ruhunu ve vatan sevgisini destansı bir dille aktaran sanatçı",
+        eserler: [
+          { ad: "Bir Yolcuya (Dur Yolcu)", tur: "Şiir", yil: "1920'ler", osymYil: "ÖSYM Sık", aciklama: "Çanakkale Savaşı ruhunu ve bu toprakların nasıl vatan yapıldığını anlatan, Çanakkale sırtlarında da yazılı olan epik şiiridir." }
+        ]
+      },
+      {
+        ad: "Behçet Kemal Çağlar",
+        dogum: "1908-1969",
+        ozellik: "Atatürk ilkelerini ve Cumhuriyet devrimlerini kitlelere yaymayı amaçlayan, coşkulu hitabetiyle tanınan 'Ankaralı Âşık Ömer'",
+        eserler: [
+          { ad: "10. Yıl Marşı", tur: "Marş / Şiir", yil: "1933", osymYil: "ÖSYM Sık", aciklama: "Faruk Nafiz Çamlıbel ile birlikte yazdığı, Cumhuriyet’in ilk on yılındaki atılımları ve coşkuyu kutlayan tarihi marştır." }
+        ]
+      },
+      {
+        ad: "Orhan Şaik Gökyay",
+        dogum: "1902-1994",
+        ozellik: "Edebi eleştirileri, Dede Korkut üzerine yaptığı araştırmaları ve vatan temalı lirik-epik şiirleriyle tanınan araştırmacı şair",
+        eserler: [
+          { ad: "Bu Vatan Kimin", tur: "Şiir", yil: "1937", osymYil: "ÖSYM Sık", aciklama: "Vatan sevgisini, şehitlik mertebesini ve tarih bilincini son derece coşkulu bir dille vurgulayan epik şiiridir." },
+          { ad: "Destursuz Bağa Girenler", tur: "Eleştiri", yil: "1982", osymYil: "ÖSYM Sık", aciklama: "Edebi ve tarihi araştırmalardaki metodolojik hataları, uydurmaları sert ve iğneleyici bir dille ortaya koyan eleştiri türünde başyapıtıdır." }
+        ]
+      },
+      {
+        ad: "Mithat Cemal Kuntay",
+        dogum: "1901-1956",
+        ozellik: "Vatan ve millet sevgisini aruz ölçüsüyle işleyen, tek romanıyla edebiyat tarihinde derin iz bırakan yazar",
+        eserler: [
+          { ad: "Üç İstanbul", tur: "Roman", yil: "1938", osymYil: "ÖSYM Sık", aciklama: "İstibdat, Meşrutiyet ve Mütareke dönemleri İstanbul'unu, yozlaşan değerler ve Adnan Bey karakteri üzerinden anlatan nehir romandır." },
+          { ad: "Türk'ün Şehnamesi", tur: "Şiir", yil: "1971 (Genişletilmiş)", osymYil: "ÖSYM Orta", aciklama: "Aruz ölçüsüyle yazılmış, tarih bilinci ve yüksek bir milliyetçi ton taşıyan epik şiirlerini barındıran kitaptır." }
+        ]
+      },
+      {
+        ad: "Bedri Rahmi Eyüpoğlu",
+        dogum: "1911-1975",
+        ozellik: "Ressam kimliğini şiirine yansıtarak renkli imajlar kuran, Anadolu halk sanatını ve folklorunu modern tarzla birleştiren sanatçı",
+        eserler: [
+          { ad: "Karadut", tur: "Şiir", yil: "1948", osymYil: "ÖSYM Sık", aciklama: "Halk söyleyişlerini, türkü tadını ve Anadolu samimiyetini çağdaş batı şiiriyle eriten, edebiyatımızın en ünlü aşk ve özlem şiirlerindendir." },
+          { ad: "Dol Karabakır Dol", tur: "Şiir", yil: "1974", osymYil: "ÖSYM Orta", aciklama: "Şairin tüm şiirlerini içeren, Anadolu insanını ve doğasını renkli ve coşkulu bir dille anlatan geniş kapsamlı kitabıdır." },
+          { ad: "Tezek", tur: "Şiir / Deneme", yil: "1953", osymYil: "ÖSYM Orta", aciklama: "Anadolu gezilerinden edindiği izlenimleri, kır hayatını ve yerel motifleri barındıran şiir ve yazılarından oluşan kitabıdır." }
+        ]
+      },
+      {
+        ad: "Hüseyin Nihal Atsız",
+        dogum: "1905-1975",
+        ozellik: "Türkçülük akımının en önemli fikir adamlarından, Türk tarihini ve destan unsurlarını romanlarında epik bir dille canlandıran yazar",
+        eserler: [
+          { ad: "Bozkurtların Ölümü", tur: "Roman", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Kür Şad ve 40 çerisinin Çin sarayını basmasını anlatan, Türk tarihî, bağımsızlık karakteri ve destanî temalı epik romanıdır." },
+          { ad: "Bozkurtlar Diriliyor", tur: "Roman", yil: "1949", osymYil: "ÖSYM Sık", aciklama: "Göktürk Devleti'nin yeniden küllerinden doğuşunu ve bağımsızlık mücadelesini işleyen Bozkurtlar dizisinin devam romanıdır." },
+          { ad: "Ruh Adam", tur: "Roman", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Yüzbaşı Selim Pusat karakteri üzerinden otobiyografik, psikolojik derinliği olan, sembolik ve tarihî unsurları sıra dışı bir kurguyla birleştiren romanıdır." }
+        ]
+      }
+    ]
   },
   "Cumhuriyet — Garip Sonrası Bağımsızlar": {
     color: "#1a3a4a",
     accent: "#5ba3c9",
-    yazarlar: [],
+    yazarlar: [
+      {
+        ad: "Behçet Necatigil",
+        dogum: "1916-1979",
+        ozellik: "Gündelik hayatı, orta halli vatandaşın çilesini, geçim sıkıntısını ve iç dünyasını ev-aile ekseninde işleyen 'Evler Şairi'",
+        eserler: [
+          { ad: "Kapalı Çarşı", tur: "Şiir", yil: "1945", osymYil: "ÖSYM Sık", aciklama: "Şairin ilk dönem şiirlerini barındıran, şehir hayatı ve küçük insanın dünyasına kapı aralayan ilk şiir kitabıdır." },
+          { ad: "Çevre", tur: "Şiir", yil: "1951", osymYil: "ÖSYM Sık", aciklama: "Kent, insan, sokak ve gündelik hayatın yarattığı dar çevreyi ve bu çevre içindeki sıkışmışlığı işleyen şiir kitabıdır." },
+          { ad: "Evler", tur: "Şiir", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Ev, sığınak, aile ve iç dünya metaforlarıyla kurulan, şaire ününü kazandıran en karakteristik şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Cahit Külebi",
+        dogum: "1917-1997",
+        ozellik: "Anadolu coğrafyasını ve insanını gerçekçi, lirik, modern ve alışılmamış bir türkü tadıyla anlatan özgün şair",
+        eserler: [
+          { ad: "Türk Mavisi", tur: "Şiir", yil: "1965", osymYil: "ÖSYM Sık", aciklama: "Külebi’nin olgunluk dönemi şiirlerinden oluşan, memleket sevgisini ve doğayı lirik bir dille birleştiren kitabıdır." },
+          { ad: "Adamın Biri", tur: "Şiir", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Şairin çocukluk ve gençlik izlenimlerini, Anadolu insanına bakışını yalın bir dille yansıtan ilk şiir kitabıdır." },
+          { ad: "Atatürk Kurtuluş Savaşı'nda", tur: "Şiir / Epik", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Atatürk'ü, Millî Mücadele yıllarını ve halkın direnişini destansı ama son derece samimi bir dille anlatan yapıtıdır." }
+        ]
+      },
+      {
+        ad: "Fazıl Hüsnü Dağlarca",
+        dogum: "1914-2008",
+        ozellik: "Kendine has bir dil evreni kuran, epik, felsefi ve toplumsal konularda binlerce şiir yazmış 'Türkçem benim ses bayrağım' diyen usta şair",
+        eserler: [
+          { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
+          { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Sabahattin Kudret Aksal",
+        dogum: "1920-1993",
+        ozellik: "Garip akımının etkilerini taşra ve kent gözlemleriyle birleştiren, felsefi derinliğe ve entelektüel duyarlılığa sahip şair ve öykücü",
+        eserler: [
+          { ad: "Şarkılı Kahve", tur: "Şiir", yil: "1944", osymYil: "ÖSYM Sık", aciklama: "Günlük hayatı, sıradan insan ilişkilerini ve neşesini Garip akımına yakın bir dille şiirleştiren ilk kitabıdır." },
+          { ad: "Gün Işığı", tur: "Şiir", yil: "1953", osymYil: "ÖSYM Orta", aciklama: "Aydınlık, yaşama sevinci, duyarlık ve yalın söyleyişin öne çıktığı şiirlerinden oluşan kitabıdır." },
+          { ad: "Duru Gök", tur: "Şiir", yil: "1958", osymYil: "ÖSYM Orta", aciklama: "Doğa, kozmos, zaman ve insanın içsellik temalarını dingin bir dille ele alan şiir kitabıdır." },
+          { ad: "Elinle", tur: "Şiir", yil: "1962", osymYil: "ÖSYM Orta", aciklama: "Aşk, dokunma ve insan sıcaklığı temalı lirik şiirlerin yer aldığı bir kitaptır." },
+          { ad: "Eşik", tur: "Şiir", yil: "1970", osymYil: "ÖSYM Orta", aciklama: "Zihinsel arayışları, geçiş, sınır ve insanın iç gerilim duygusunu felsefi tonda taşıyan eseridir." },
+          { ad: "Batıkent", tur: "Şiir", yil: "1980'ler", osymYil: "ÖSYM Orta", aciklama: "Kentleşme sorunlarını, modern yaşam izleklerini ve insanın şehirdeki yalnızlığını konu edinen şiirleridir." }
+        ]
+      },
+      {
+        ad: "Necati Cumalı",
+        dogum: "1921-2001",
+        ozellik: "Ege bölgesinin kırsal yaşamını, tütün işçilerini, insan ilişkilerini ve töreleri lirik bir dille tiyatro, roman ve şiirlerine aktaran yazar",
+        eserler: [
+          { ad: "Susuz Yaz", tur: "Hikâye", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Ege köyündeki kuraklık, su mücadelesi ve kardeş çatışması etrafında kurulan, sinemaya da uyarlanmış ünlü öykü kitabıdır." },
+          { ad: "Boş Beşik", tur: "Tiyatro", yil: "1949", osymYil: "ÖSYM Sık", aciklama: "Yörük kültürü, taşra yaşamı, çocuk özlemi ve toplumsal geleneklerin baskısını işleyen trajik tiyatro eseridir." }
+        ]
+      },
+      {
+        ad: "Salah Birsel",
+        dogum: "1919-1999",
+        ozellik: "Şiirde zekayı, ironiyi ve dil oyunlarını ön plana çıkaran; denemeleriyle Türkçenin kelime hazinesini zenginleştiren özgün sanatçı",
+        eserler: [
+          { ad: "Hacivat'ın Karısı", tur: "Şiir", yil: "1955", osymYil: "ÖSYM Sık", aciklama: "Toplumsal yergiyi, ironik ve oyunbaz bir dille sunan, şairin mizahi üslubunu tam yansıtan şiir kitabıdır." },
+          { ad: "Kikirikname", tur: "Şiir", yil: "1961", osymYil: "ÖSYM Sık", aciklama: "Mizah, hiciv ve dil oyunu ağırlıklı, absürt unsurlar barındıran neşeli şiir kitabıdır." },
+          { ad: "Haydar Haydar", tur: "Şiir", yil: "1972", osymYil: "ÖSYM Orta", aciklama: "Halk kültürü, argosu ve sokak dili çağrışımları taşıyan, ritmik yapısı güçlü şiir kitabıdır." },
+          { ad: "Ases", tur: "Şiir", yil: "1960", osymYil: "ÖSYM Orta", aciklama: "Tarihsel ögeleri ve eski unvanları güncel taşlamalarla birleştiren kısa, ironik şiirleriyle bilinen eseridir." },
+          { ad: "Köçekçeler", tur: "Şiir", yil: "1981", osymYil: "ÖSYM Orta", aciklama: "Divan ve halk edebiyatı formlarını bozarak, geleneksel söyleyişe yaslanan parodi niteliğinde şiir kitabıdır." }
+        ]
+      }
+    ]
   },
   "Cumhuriyet — 60 Sonrası İslami Mistik Şiir": {
     color: "#2d1b4e",
     accent: "#9b59b6",
-    yazarlar: [],
+    yazarlar: [
+      {
+        ad: "Hilmi Yavuz",
+        dogum: "1936-...",
+        ozellik: "Geleneksel divan ve halk şiiri ögelerini, batı estetiği ve derin bir felsefi-metafizik hüzünle harmanlayan entelektüel şair",
+        eserler: [
+          { ad: "Hüzün ki En Çok Yakışandır Bize", tur: "Şiir", yil: "1989", osymYil: "ÖSYM Sık", aciklama: "Hüzün, Doğu kültürü, tasavvuf ve metafizik duyarlığın estetik imgelerle öne çıktığı en popüler şiir kitabıdır." },
+          { ad: "Gülün Ustası Yoktur", tur: "Şiir", yil: "1993", osymYil: "ÖSYM Sık", aciklama: "Simgeci, soyut ve yoğun düşünsel arka plana sahip şiirlerinin yer aldığı karakteristik eserlerindendir." },
+          { ad: "Büyü'sün Yaz", tur: "Şiir", yil: "2006", osymYil: "ÖSYM Orta", aciklama: "Mevsimler, zamanın akışı, hafıza ve geçmişe özlem çağrışımlarının belirgin olduğu olgunluk dönemi şiir kitabıdır." },
+          { ad: "Bakış Kuşu", tur: "Şiir", yil: "1969", osymYil: "ÖSYM Orta", aciklama: "Hilmi Yavuz’un imge dünyasını, biçim arayışlarını ve dil ustalığını gösteren ilk şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Cahit Zarifoglu",
+        dogum: "1940-1987",
+        ozellik: "İslami mistisizmi, modern insanın yalnızlığını ve içsel bunalımlarını kapalı, yoğun ve sıra dışı bir imge dünyasıyla işleyen Yedi Güzel Adam'dan biri",
+        eserler: [
+          { ad: "İşaret Çocukları", tur: "Şiir", yil: "1967", osymYil: "ÖSYM Sık", aciklama: "Şairin ilk şiir kitabıdır; içe dönük, yoğun, girift ve insanın varoluşsal arayışlarını barındıran kapalı bir söyleyişi vardır." },
+          { ad: "Yedi Güzel Adam", tur: "Şiir", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Dostluk, dava bilinci, aidiyet, inanç ve Müslüman coğrafyaların kaderini epik-mistik bir tonla öne çıkaran sembolik şiir kitabıdır." },
+          { ad: "Menziller", tur: "Şiir", yil: "1977", osymYil: "ÖSYM Orta", aciklama: "İçsel arayış, tasavvufi yolculuk, dünya hayatının durakları ve hakikate ulaşma çabasını işleyen şiir kitabıdır." },
+          { ad: "Korku ve Yakarış", tur: "Şiir", yil: "1985", osymYil: "ÖSYM Orta", aciklama: "Kulun Yaratıcı karşısındaki acziyetini, dua, metafizik korku ve tam bir teslimiyet duygusunu belirgin şekilde yansıtan son şiir kitabıdır." },
+          { ad: "Yaşamak", tur: "Günlük", yil: "1980", osymYil: "ÖSYM Sık", aciklama: "Sanatçının iç dünyasını, edebî çevrelerini ve hayata bakışını şiirsel, soyut ve estetik bir dille aktardığı düzyazı formundaki eseridir." }
+        ]
+      },
+      {
+        ad: "Erdem Bayazıt",
+        dogum: "1939-2008",
+        ozellik: "İslami uyanışı, şehirleşmenin getirdiği makineleşmeye karşı direnişi gür sesli, epik ve coşkulu bir hitabetle şiirleştiren Yedi Güzel Adam'dan biri",
+        eserler: [
+          { ad: "Sebep Ey", tur: "Şiir", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Varoluş gayesi, yaratılış sırrı, batı uygarlığının yıkıcılığı karşısında Doğu'nun inanç arayışını işleyen ilk ve en etkili şiir kitabıdır." }
+        ]
+      }
+    ]
   },
   "Cumhuriyet — 80 Sonrası Şiir": {
     color: "#1b3a2f",
     accent: "#2ecc71",
-    yazarlar: [],
+    yazarlar: [
+      {
+        ad: "Haydar Ergülen",
+        dogum: "1956-...",
+        ozellik: "Modern şiirimizde şefkat, yalnızlık, hüzün, kardeşlik ve çocukluk temalarını lirik, ince ve masum bir dille işleyen usta şair",
+        eserler: [
+          { ad: "Üzgün Kediler Gazeli", tur: "Şiir", yil: "2007", osymYil: "ÖSYM Sık", aciklama: "Kayıp duygusu, aidiyetsizlik, yalnızlık ve modern bireyin içsel melankolisini kendine has bir estetikle işleyen ödüllü şiir kitabıdır." },
+          { ad: "Nar", tur: "Şiir", yil: "2000", osymYil: "ÖSYM Sık", aciklama: "Bütünlük, çokluk içinde teklik, aile ve aşk temalarını son derece imgeli, sıcak ve lirik bir söyleyişle sunan şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Hüseyin Atlansoy",
+        dogum: "1962-...",
+        ozellik: "Metropol hayatının absürtlüğünü, kent-birey çatışmasını mistik ve ironik bir duyarlılıkla, şaşırtıcı çağrışımlarla işleyen 80 kuşağı şairi",
+        eserler: [
+          { ad: "İntihar İlacı", tur: "Şiir", yil: "1985", osymYil: "ÖSYM Sık", aciklama: "Şairin ilk şiir kitabıdır; modern kentin kaosu, yabancılaşma ve modern yaşamın getirdiği ruhsal gerilimleri çarpıcı metaforlarla işler." },
+          { ad: "Şehir Konuşmaları", tur: "Şiir", yil: "1990", osymYil: "ÖSYM Orta", aciklama: "Şehir, modern kapitalist hayat, betonlaşma ve bu karmaşada kaybolan insanın iç sesini ve manevi arayışını konu edinir." },
+          { ad: "Kaçak Yolcu", tur: "Şiir", yil: "1998", osymYil: "ÖSYM Orta", aciklama: "Dünya hayatında bir misafir olma bilincini, yolculuk, yabancılık ve modern dünyadan kaçış duygusunu taşıyan şiir kitabıdır." },
+          { ad: "Yarın Bekleyebilir", tur: "Şiir", yil: "2004", osymYil: "ÖSYM Orta", aciklama: "Zaman kavramı, modern hayatın hızı, erteleme duygusu ve ölüm gerçeğini bilgece bir tonda ele alan şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Murathan Mungan",
+        dogum: "1955-...",
+        ozellik: "Mezopotamya efsanelerini, popüler kültürü, yalnızlığı ve sinematografik ögeleri şiir, roman ve tiyatrolarında disiplinlerarası başarıyla kullanan üretken yazar",
+        eserler: [
+          { ad: "Şairin Romanı", tur: "Roman", yil: "2011", osymYil: "ÖSYM Sık", aciklama: "Şiir formunda olmayıp, şiirin ve şairlerin başrolde olduğu fantastik, polisiye ve felsefi nitelikteki hacimli roman eseridir." },
+          { ad: "Yüksek Topuklular", tur: "Roman / Düzyazı", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Şehirli kadınların dünyasını, ilişkileri, toplumsal rolleri ve modern yaşamı ironik, eleştirel bir dille ele alan düzyazı eseridir." },
+          { ad: "Osmanlı'ya Dair Hikayat", tur: "Şiir", yil: "1988", osymYil: "ÖSYM Sık", aciklama: "Tarihî, kültürel, mitolojik ve Osmanlı dönemi atmosferini modern bir şiir dili ve kurgusuyla yeniden yorumlayan eseridir." },
+          { ad: "Yaz Sinemaları", tur: "Şiir", yil: "1989", osymYil: "ÖSYM Sık", aciklama: "Yaz mevsimi, çocukluk nostaljisi, eski yazlık sinema imajları ve geçmişe duyulan özlemi estetik imgelerle öne çıkaran şiir kitabıdır." }
+        ]
+      },
+      {
+        ad: "Abdürrahim Karakoç",
+        dogum: "1932-2012",
+        ozellik: "Halk şiiri geleneğini sürdürerek toplumsal taşlamaları ve aşk şiirlerini temiz, yalın ve saz eşliğinde söylenebilecek bir ritimle yazan halk şairi",
+        eserler: [
+          { ad: "Mihriban", tur: "Şiir", yil: "1960'lar", osymYil: "ÖSYM Sık", aciklama: "Platonik aşkın, kavuşamamanın ve derin bir sadakatin eşsiz sembolü haline gelmiş, bestelenerek halka mal olmuş efsanevi şiiridir." }
+        ]
+      },
+      {
+        ad: "Dilaver Cebeci",
+        dogum: "1943-2008",
+        ozellik: "Milliyetçi-mukaddesatçı çizgide, Türk tarihini ve coğrafyasını coşkulu, epik ve hamasi bir lirizmle şiirlerine taşıyan şair",
+        eserler: [
+          { ad: "Türkiyem", tur: "Şiir", yil: "1970'ler", osymYil: "ÖSYM Sık", aciklama: "Milli ve hamasi tonu çok yüksek olan, vatan sevgisini coşkuyla haykıran ve marş formunda bestelenen dünyaca ünlü şiiridir." },
+          { ad: "Hun Aşkı", tur: "Şiir", yil: "1973", osymYil: "ÖSYM Orta", aciklama: "Türk tarihi köklerine, Hunlar dönemine ve Orta Asya coğrafyasına dair epik-millî çizgideki şiirlerini içeren ilk kitabıdır." },
+          { ad: "Şafağa Çekilenler", tur: "Şiir", yil: "1984", osymYil: "ÖSYM Orta", aciklama: "Milli mücadele azmini, geleceğe duyulan sarsılmaz inancı, umut ve doğuş çağrışımlarını taşıyan şiir kitabıdır." },
+          { ad: "Sığınırım İçime", tur: "Şiir", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Dış dünyanın yozlaşması karşısında şairin kendi manevi dünyasına, içe dönüşüne ve yalnızlık duygusuna odaklandığı şiirleridir." }
+        ]
+      },
+      {
+        ad: "Cemal Safi",
+        dogum: "1938-2018",
+        ozellik: "Hece ölçüsünü modern ve lirik bir dille birleştirerek Türk sanat müziğine ve popüler kültüre yön veren, şarkı sözü niteliğindeki aşk şiirlerinin usta şairi",
+        eserler: [
+          { ad: "Ya Evde Yoksan", tur: "Şiir", yil: "1990'lar", osymYil: "ÖSYM Sık", aciklama: "Aşkın getirdiği tatlı endişeyi, şüpheyi ve derin özlemi lirik bir dille işleyen, bestelenerek popülerleşmiş ünlü şiiridir." },
+          { ad: "Sende Kalmış", tur: "Şiir", yil: "1980'ler", osymYil: "ÖSYM Orta", aciklama: "Ayrılık sonrası geride bırakılan duyguları, sitemi ve romantik söyleyişi yüksek bir dille aktaran lirik şiiridir." },
+          { ad: "Vurgun", tur: "Şiir", yil: "1980'ler", osymYil: "ÖSYM Sık", aciklama: "Aşkın insanı sarsan, adeta çarpan o büyüleyici ve yıkıcı gücünü mükemmel bir hece ritmiyle anlayan ve ödül alan imza şiiridir." }
+        ]
+      }
+    ]
   },
   "Cumhuriyet — Bireyin İç Dünyasını Esas Alanlar": {
     color: "#3d1f1f",
@@ -1662,7 +1923,373 @@ const data = {
   "Cumhuriyet — Modernizm ve Postmodernizmi Esas Alanlar": {
     color: "#1f2d3d",
     accent: "#3498db",
-    yazarlar: [],
+    yazarlar: [
+      {
+        ad: "Rasim Özdenören",
+        dogum: "1940-2022",
+        ozellik: "Geleneksel ve dini değerleri modern hikaye teknikleriyle birleştiren, yabancılaşma ve kültür şokunu derinlemesine işleyen 'Yedi Güzel Adam'dan biri",
+        eserler: [
+          { ad: "Gül Yetiştiren Adam", tur: "Roman", yil: "1979", osymYil: "ÖSYM Sık", aciklama: "Kültür şokunu ve yabancılaşmayı, modernleşen topluma ayak uyduramayıp evine kapanan bir adam üzerinden anlatan sınavın favori eseridir." },
+          { ad: "Denize Açılan Kapı", tur: "Hikâye", yil: "1983", osymYil: "ÖSYM Sık", aciklama: "Tasavvufi yönü ağır basan, insanın manevi arayışını, içsel aydınlanmasını ve dönüşümünü işleyen ödüllü öykü kitabıdır." },
+          { ad: "Hastalar ve Işıklar", tur: "Hikâye", yil: "1967", osymYil: "ÖSYM Orta", aciklama: "Yazarın ilk öykü kitabıdır; bireyin iç dünyasını, yalnızlığını ve varoluşsal sancılarını ele alır." },
+          { ad: "Çarpılmışlar", tur: "Hikâye", yil: "1977", osymYil: "ÖSYM Orta", aciklama: "Modern hayatın getirdiği manevi boşluk, yabancılaşma ve değer erozyonunu işleyen öykülerden oluşur." },
+          { ad: "Çözülme", tur: "Hikâye", yil: "1973", osymYil: "ÖSYM Orta", aciklama: "Aile ve toplum yapısındaki geleneksel bağların kopuşunu, yozlaşmayı ve modernleşmenin sancılarını anlatan öykülerdir." },
+          { ad: "Çok Sesli Bir Ölüm", tur: "Hikâye", yil: "1974", osymYil: "ÖSYM Sık", aciklama: "Bireyin içsel sorgulamalarını ve ölüm temasını işleyen, TRT tarafından televizyona da uyarlanmış ünlü öyküsüdür." }
+        ]
+      },
+      {
+        ad: "Mustafa Kutlu",
+        dogum: "1945-...",
+        ozellik: "Geleneksel halk hikayeciliği ve kıssa geleneğini modern ve sinematografik bir dille buluşturan, uzun hikayeleriyle tanınan usta yazar",
+        eserler: [
+          { ad: "Yokuşa Akan Sular", tur: "Hikâye", yil: "1979", osymYil: "ÖSYM Sık", aciklama: "Köyden kente göçü, sanayileşmenin getirdiği çıraklık/işçi sorunlarını ve kapitalist çarkı ele alan ilk uzun hikayesidir." },
+          { ad: "Yoksulluk İçimizde", tur: "Hikâye", yil: "1981", osymYil: "ÖSYM Sık", aciklama: "Modern ve dünyevi aşk anlayışına karşı, Süheyla ile Şefik karakterleri üzerinden tasavvufi ve manevi aşkı ön plana çıkaran hikayedir." },
+          { ad: "Ya Tahammül Ya Sefer", tur: "Hikâye", yil: "1983", osymYil: "ÖSYM Sık", aciklama: "Dava insanlarının zamanla uğradığı zihniyet değişimini, ideallerden kopuşu ve dünyevileşmeyi sertçe eleştiren uzun hikayesidir." },
+          { ad: "Bu Böyledir", tur: "Hikâye", yil: "1987", osymYil: "ÖSYM Orta", aciklama: "Lunapark sembolü üzerinden dünya hayatının aldatıcılığını, geçiciliğini ve kapitalist düzenin çarklarını anlatır." },
+          { ad: "Sır", tur: "Hikâye", yil: "1990", osymYil: "ÖSYM Orta", aciklama: "Keramet, şeyhlik, tarikat ve tasavvuf dünyasını modern anlatım teknikleriyle ve gizemli bir kurguyla sorgulayan hikayedir." },
+          { ad: "Mavi Kuş", tur: "Hikâye", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Bir otobüs yolculuğu esnasında taşra insanlarının hayatlarını, kaderlerini ve ilişkilerini sıcak ve ironik bir dille sunar." },
+          { ad: "Ortadaki Adam", tur: "Hikâye", yil: "1977", osymYil: "ÖSYM Orta", aciklama: "Taşra hayatı ile şehir hayatı arasında sıkışmış, iki dünyaya da ait olamayan insanın yalnızlığını anlatır." },
+          { ad: "Uzun Hikaye", tur: "Hikâye", yil: "2000", osymYil: "ÖSYM Sık", aciklama: "Sinemaya da uyarlanan; Ali adındaki bir adamın adalet arayışını, aşkını ve oğluyla kasaba kasaba gezişini anlatan sıcak, nostaljik bir öyküdür." }
+        ]
+      },
+      {
+        ad: "Ayla Kutlu",
+        dogum: "1938-...",
+        ozellik: "Kadın duyarlılığını, göç dramlarını, tarihi ve toplumsal çalkantıları epik ve psikolojik derinliği olan bir dille romanlarına aktaran kadın yazar",
+        eserler: [
+          { ad: "Kaçış", tur: "Roman", yil: "1979", osymYil: "ÖSYM Orta", aciklama: "Savaşın, göçün ve siyasi çalkantıların ortasındaki çaresiz insanların psikolojik durumlarını ve savruluşlarını inceler." },
+          { ad: "Bir Göçmen Kuştu O", tur: "Roman", yil: "1985", osymYil: "ÖSYM Sık", aciklama: "Yazarın kendi ailesinden de esinlendiği, Balkanlar'dan Anadolu'ya göç eden bir ailenin dramını ve yeni topraklarda kökleşme çabasını anlatır." },
+          { ad: "Tutsaklar", tur: "Roman", yil: "1983", osymYil: "ÖSYM Orta", aciklama: "Toplumsal baskıların, feodal yapının ve katı geleneklerin kıskacında sıkışmış kadınların özgürlük mücadelesini işler." }
+        ]
+      },
+      {
+        ad: "Sevgi Soysal",
+        dogum: "1938-1976",
+        ozellik: "12 Mart dönemini, kadın kimliğini ve toplumsal normları ironik, gözlemci ve eleştirel bir modern üslupla kaleme alan cesur yazar",
+        eserler: [
+          { ad: "Yenişehir'de Bir Öğle Vakti", tur: "Roman", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Ankara’da devrilen bir kavak ağacı ekseninde, dönemin farklı toplumsal sınıflarını, aydınları ve 12 Mart siyasi dönemini anlatır." },
+          { ad: "Tutkulu Perçem", tur: "Hikâye", yil: "1962", osymYil: "ÖSYM Orta", aciklama: "Kadın duyarlılığını, varoluşsal sıkıntıları ve bireyin toplum içindeki yabancılaşmasını işleyen yazarın ilk öykü kitabıdır." },
+          { ad: "Yürümek", tur: "Roman", yil: "1970", osymYil: "ÖSYM Sık", aciklama: "Evlilik kurumunu, kadın-erkek ilişkilerini, toplumsal tabuları ve cinselliği sorgulayan, döneminde yasaklanmış TRT ödüllü romanıdır." }
+        ]
+      },
+      {
+        ad: "Oktay Akbal",
+        dogum: "1923-2015",
+        ozellik: "Sıradan insanların küçük dünyalarını, geçmişe duyulan özlemi ve İstanbul anılarını şiirsel ve minimalist bir dille öyküleştiren yazar",
+        eserler: [
+          { ad: "Önce Ekmekler Bozuldu", tur: "Hikâye", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "İkinci Dünya Savaşı yıllarında İstanbul'daki geçim sıkıntısını, savaşın getirdiği ahlaki çöküntüyü ve değişen değerleri anlatan en ünlü öyküsüdür." },
+          { ad: "Aşksız İnsanlar", tur: "Hikâye", yil: "1949", osymYil: "ÖSYM Orta", aciklama: "Büyük şehirdeki yalnız, sevgisiz, sıradan ve tutunacak dalı olmayan insanların dramlarını ele alan hüzünlü öykülerdir." },
+          { ad: "Ey Gece Kapımı Üstüme Kapat", tur: "Roman", yil: "1994", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi anılarından yola çıkarak içsel yalnızlığı, yaşlanma psikolojisini ve geçmişe duyulan melankolik özlemi işlediği romanıdır." },
+          { ad: "Suçumuz İnsan Olmak", tur: "Roman", yil: "1957", osymYil: "ÖSYM Sık", aciklama: "Küçük bir memur ile evli bir kadının imkansız aşkını, monoton yaşamlarını ve katı toplum baskısını anlatan romanıdır." },
+          { ad: "Hiroşimalar Olmasın", tur: "Deneme / Gezi", yil: "1976", osymYil: "ÖSYM Orta", aciklama: "Savaş karşıtı, barışçıl, hümanist ve insancıl düşüncelerini, gezi izlenimleriyle topladığı deneme tarzındaki eseri." }
+        ]
+      },
+      {
+        ad: "Selim İleri",
+        dogum: "1949-...",
+        ozellik: "Eserlerinde zengin bir edebiyat kültürünü, İstanbul'un eski seçkin hayatlarını, yalnızlığı ve aydınların içsel boşluklarını hüzünlü ve şiirsel bir dille işleyen yazar",
+        eserler: [
+          { ad: "Cumartesi Yalnızlığı", tur: "Hikâye", yil: "1968", osymYil: "ÖSYM Sık", aciklama: "Modern şehir hayatında sıkışmış, iletişim kuramayan, yalnızlığa mahkum olmuş insanların iç dünyalarını anlatan ilk öykü kitabıdır." },
+          { ad: "Pastırma Yazı", tur: "Hikâye", yil: "1971", osymYil: "ÖSYM Orta", aciklama: "Gençlik bunalımlarını, yozlaşan burjuva özentisi çevreleri, büyük şehirdeki kırgınlıkları ve hayal kırıklıklarını işleyen öykülerdir." },
+          { ad: "Her Gece Bodrum", tur: "Roman", yil: "1976", osymYil: "ÖSYM Sık", aciklama: "Bodrum'daki aydınların, sanatçıların ve gençlerin içsel boşluklarını, hayal kırıklıklarını, biten ilişkilerini anlatan en popüler ödüllü romanıdır." },
+          { ad: "Destan Gönüller", tur: "Roman", yil: "1973", osymYil: "ÖSYM Orta", aciklama: "Yeşilçam sineması esintileriyle, geleneksel aşk temaları ile modern yaşamın getirdiği yabancılaşmanın çatışmasını ele alan romanıdır." }
+        ]
+      },
+      {
+        ad: "Hasan Ali Toptaş",
+        dogum: "1958-...",
+        ozellik: "Gerçekle hayali, rüya ile uyanıklığı iç içe geçiren, dildeki eşsiz müzikalite ve imge gücü nedeniyle 'Edebiyatın Doğu Prensi' olarak anılan postmodernist",
+        eserler: [
+          { ad: "Gölgesizler", tur: "Roman", yil: "1993", osymYil: "ÖSYM Sık", aciklama: "Postmodernizmin doruk noktası. Bir köyde insanların ve muhtarın aniden ortadan kaybolmasıyla gerçekle hayalin, rüya ile yazgının iç içe geçtiği gizemli romandır." },
+          { ad: "Sonsuzluğa Nokta", tur: "Roman", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Ölüm, bellek, varoluş sancıları ve insan ruhunun karanlık dehlizlerini bir iç sorgulama üzerinden aktaran soyut eseri." },
+          { ad: "Kayıp Hayaller Kitabı", tur: "Roman", yil: "1996", osymYil: "ÖSYM Orta", aciklama: "Taşrada çocuk olmak, sinema tutkusu, kasaba hayatının durağanlığı ve hayal kırıklıkları üzerine yoğunlaşan katmanlı romanıdır." },
+          { ad: "Bin Hüzünlü Haz", tur: "Roman", yil: "1998", osymYil: "ÖSYM Sık", aciklama: "Postmodernizmin 'metinlerarasılık' tekniğini yoğun kullandığı, Alâaddin karakteri üzerinden bizzat yazma eyleminin kendisini konu edinen soyut eseri." },
+          { ad: "Ben Bir Gürgen Dalıyım", tur: "Anlatı", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Bir gürgen ağacının gözünden savaşı, insan doğasının acımasızlığını, doğa katliamını ve kıyımı anlatan alegorik/felsefi anlatıdır." },
+          { ad: "Uykuların Doğusu", tur: "Roman", yil: "2005", osymYil: "ÖSYM Orta", aciklama: "Doğu masalları ve destan esintileriyle örülü, hafıza, kimlik arayışı ve delilik sınırında gezinen katmanlı postmodern romanıdır." },
+          { ad: "Kuşlar Yasına Gider", tur: "Roman", yil: "2016", osymYil: "ÖSYM Sık", aciklama: "Bir babanın (Aziz Bey) hastalığı ve ölümü ekseninde, taşra yollarını, vefayı ve baba-oğul ilişkisini çok yalın, sarsıcı anlatan eseri." },
+          { ad: "Beni Kör Kuyularda", tur: "Roman", yil: "2019", osymYil: "ÖSYM Orta", aciklama: "Bir genç kızın (Güneş) neticesiz bir hüzünle taş kesilmesi etrafında, toplumun duyarsızlığını, dedikoduyu ve seyirci kalma kültürünü eleştirir." },
+          { ad: "Heba", tur: "Roman", yil: "2013", osymYil: "ÖSYM Orta", aciklama: "Savaş travması yaşayan ve vicdan azabı çeken bir askerin (Ziya) taşradaki bir sınır köyüne sığınışı ancak oradaki adaletsizliklerle de yüzleşmesini anlatır." },
+          { ad: "Ölü Zaman Gezginleri", tur: "Hikâye", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Yazarın rüya ile gerçek arasında gidip gelen, zaman algısını ters yüz eden ödüllü ilk öykü kitabıdır." },
+          { ad: "Başlarken Yalnızsın Bittiğinde Daha Da Yalnız", tur: "Deneme", yil: "2008", osymYil: "ÖSYM Orta", aciklama: "İnsanın değişmeyen yalnızlık kaderini, yazma sancılarını ve varoluşsal çıkmazlarını işleyen deneme/anlatı kitabıdır." }
+        ]
+      },
+      {
+        ad: "İhsan Oktay Anar",
+        dogum: "1960-...",
+        ozellik: "Osmanlı arka planını, felsefeyi, tarihi, kadim mitleri ve masalsı unsurları harmanlayarak tamamen kendine özgü, arkaik bir dil evreni kuran postmodern dahi",
+        eserler: [
+          { ad: "Puslu Kıtalar Atlası", tur: "Roman", yil: "1995", osymYil: "ÖSYM Sık", aciklama: "Postmodernizmin başyapıtı. Uzun İhsan Efendi'nin rüyaları, felsefesi ve oğlu Bünyamin'in 17. yy İstanbul'unda geçen fantastik, gizemli macerasıdır." },
+          { ad: "Kitab-ül Hiyel", tur: "Roman", yil: "1996", osymYil: "ÖSYM Sık", aciklama: "Osmanlı dönemindeki mucitlerin (Yafes Çelebi, Calût) iktidar hırsını, mekanik aletlerin (hiyel) ve yalanların felsefi hikayesini anlatır." },
+          { ad: "Efrasiyab'ın Hikayeleri", tur: "Roman / Öykü", yil: "1998", osymYil: "ÖSYM Sık", aciklama: "Ölüm (Cezzar Dede) ile Dünyanın Şahı'nın cezadan kurtulmak için birbirlerine anlattıkları masalsı, felsefi ve alegorik öykülerdir." },
+          { ad: "Amat", tur: "Roman", yil: "2005", osymYil: "ÖSYM Orta", aciklama: "17. yüzyılda bir Osmanlı kalyonunda (gemisinde) geçen, Nuh'un Gemisi mitine göz kırpan, mistik ve denizcilik terimleriyle yüklü alegorik romandır." },
+          { ad: "Suskunlar", tur: "Roman", yil: "2007", osymYil: "ÖSYM Sık", aciklama: "Musiki (ney, makamlar) merkezli, Eflatun'un hikayesi üzerinden körlük, sağırlık, şeytanın musikisi ve tasavvuf içeren postmodern başyapıtlardandır." },
+          { ad: "Yedinci Gün", tur: "Roman", yil: "2012", osymYil: "ÖSYM Orta", aciklama: "İnsan iradesi, uçma tutkusu, zeplinler ve zaman kavramını harmanlayan, yine bilim ve felsefe kokan sıra dışı kurgulu romanıdır." },
+          { ad: "Galîz Kahraman", tur: "Roman", yil: "2014", osymYil: "ÖSYM Orta", aciklama: "Kabadayılık kültürünü, argoyu, dolandırıcılığı ve sokak hayatını ironik, mizahi ve eski dille ele alan parodi niteliğindeki postmodern eseri." }
+        ]
+      },
+      {
+        ad: "Demir Özlü",
+        dogum: "1935-2021",
+        ozellik: "Eserlerinde varoluşçuluk akımını benimseyen, modern kent insanının bunaltısını, yabancılaşmasını ve mültecilik psikolojisini işleyen 50 Kuşağı yazarından biri",
+        eserler: [
+          { ad: "Bunaltı", tur: "Hikâye", yil: "1958", osymYil: "ÖSYM Sık", aciklama: "Varoluşçuluk (Sartre/Camus) akımının Türk edebiyatındaki ilk ve en net yansımalarından olan, bireysel bunalımı işleyen imza öykü kitabıdır." },
+          { ad: "Soluma", tur: "Hikâye", yil: "1963", osymYil: "ÖSYM Orta", aciklama: "Bireyin içsel sıkıntılarını, büyük şehirdeki anlamsızlık duygusunu, yabancılaşmasını ve varoluş sancılarını sürdüren öyküleridir." },
+          { ad: "Stokholm Öyküleri", tur: "Hikâye", yil: "1988", osymYil: "ÖSYM Orta", aciklama: "Yazarın sürgün yıllarında yaşadığı İsveç'teki yabancılık, yalnızlık, coğrafi soğukluk ve melankoli duygularını işleyen öyküleridir." },
+          { ad: "Bir Uzun Sonbahar", tur: "Roman", yil: "1980", osymYil: "ÖSYM Orta", aciklama: "Paris ve Avrupa şehirlerinde geçen, entelektüel bunalımı, arayışı ve siyasi mülteciliği felsefi dille anlatan romanıdır." },
+          { ad: "İtaka'ya Yolculuk", tur: "Roman", yil: "1996", osymYil: "ÖSYM Orta", aciklama: "Mitolojik ögelerle (Odysseus) süslü, insanın kendi geçmişine ve iç dünyasına yaptığı felsefi yolculuğu anlatır." }
+        ]
+      },
+      {
+        ad: "Erdal Öz",
+        dogum: "1935-2006",
+        ozellik: "Bireyin iç yalnızlığından yola çıkıp 12 Mart döneminin siyasi acılarını, hapishane gerçeklerini ve toplumsal haksızlıkları belgesel bir gerçekçilikle sunan yazar",
+        eserler: [
+          { ad: "Odalarda", tur: "Roman", yil: "1960", osymYil: "ÖSYM Orta", aciklama: "Yalnızlık, iletişimsizlik, dar mekanlar ve cinsellik labirentinde sıkışmış genç bir adamın sancılı iç dünyasını işleyen ilk romanıdır." },
+          { ad: "Yaralısın", tur: "Roman", yil: "1974", osymYil: "ÖSYM Sık", aciklama: "12 Mart döneminin siyasi işkencelerini, hapishane gerçeğini ve baskıları 'Nuri' karakteri üzerinden insan onuru ekseninde anlatan sarsıcı romanıdır." },
+          { ad: "Gülünün Solduğu Akşam", tur: "Belgesel Roman", yil: "1986", osymYil: "ÖSYM Sık", aciklama: "Deniz Gezmiş ve arkadaşlarının idam sürecini, hücre anılarını ve günlük belgelerine dayanarak anlatan çok ünlü anı-roman tarzı başyapıtıdır." },
+          { ad: "Defterimde Kuş Sesleri", tur: "Hikâye", yil: "1998", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi çocukluk hafızasından, gençlik anılarından ve özlemlerinden yola çıkarak yazdığı lirik öyküleridir." },
+          { ad: "Havada Kar Sesi", tur: "Hikâye", yil: "1987", osymYil: "ÖSYM Orta", aciklama: "Toplumsal çarpıklıkları, haksızlıkları ve siyasi baskı dönemlerindeki sıradan bireyin çaresizliklerini işleyen öyküleridir." }
+        ]
+      },
+      {
+        ad: "Mehmet Eroğlu",
+        dogum: "1948-...",
+        ozellik: "Siyasi çalkantıları yaşayan aydınların vicdan muhasebelerini, hayal kırıklıklarını ve varoluşsal sancılarını felsefi derinlikle kurgulayan ödüllü romancı",
+        eserler: [
+          { ad: "Yarım Kalan Yürüyüş", tur: "Roman", yil: "1984", osymYil: "ÖSYM Orta", aciklama: "Siyasi inançları, idealleri ile aşkı ve kaçınılmaz hayal kırıklıkları arasında kalan bir devrimcinin dramatik hikayesidir." },
+          { ad: "Unutulan Adam", tur: "Roman", yil: "1986", osymYil: "ÖSYM Orta", aciklama: "Ölümcül bir hastalığa yakalanan, geçmişiyle, siyasi geçmişiyle ve vicdanıyla hesaplaşan bir aydının felsefi iç döküşüdür." },
+          { ad: "Zamanın Manzarası", tur: "Roman", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Türkiye'nin yakın tarihinin siyasi ve toplumsal panoramasını, bireysel hayat hikayeleri üzerinden sunan katmanlı, hacimli romanıdır." },
+          { ad: "Düş Kırgınlıkları", tur: "Roman", yil: "2010", osymYil: "ÖSYM Orta", aciklama: "Hayalleri yıkılmış, ideallerini kaybetmiş 78 kuşağının melankolisini, içsel hesaplaşmalarını ve inziva hayatını işler." }
+        ]
+      },
+      {
+        ad: "Cemil Kavukçu",
+        dogum: "1951-...",
+        ozellik: "Taşranın sıkıntısını, sıradan küçük insanların, memurların, gemicilerin ve aylakların dünyasını minimalist, hüzünlü ve gerçekçi bir dille anlatan çağdaş öykücü",
+        eserler: [
+          { ad: "Patika", tur: "Hikâye", yil: "1987", osymYil: "ÖSYM Sık", aciklama: "Taşra hayatının durağanlığını, monotonluğunu ve sıradan insanların gizli kalmış hüzünlerini anlatan Yaşar Nabi Nayır ödüllü ilk öykü kitabıdır." },
+          { ad: "Pazar Güneşi", tur: "Hikâye", yil: "2000", osymYil: "ÖSYM Orta", aciklama: "Memurların, gemicilerin ve sıradan insanların küçük dünyalarındaki büyük kırılmaları, hayalleri ve hayal kırıklıklarını anlatan öykülerdir." },
+          { ad: "Temmuz Suçlu", tur: "Hikâye", yil: "1990", osymYil: "ÖSYM Orta", aciklama: "Doğayla iç içe, deniz insanlarının, balıkçıların ve küçük kıyı kasabalarının melankolik atmosferini yansıtan öykü kitabıdır." },
+          { ad: "Uzak Noktalara Doğru", tur: "Hikâye", yil: "1995", osymYil: "ÖSYM Sık", aciklama: "Sait Faik Hikâye Armağanı alan; insanın kendi yalnızlığına, içsel kaçış arzularına ve doğaya sığınışına odaklanan öyküleridir." },
+          { ad: "Yalnız Uyuyanlar İçin", tur: "Hikâye", yil: "1996", osymYil: "ÖSYM Orta", aciklama: "Gecenin gizemini, rüyaların tekinsizliğini ve yalnızlığın psikolojisini işleyen hüzünlü, atmosferik anlatılardır." },
+          { ad: "Suda Bulanık Oyunlar", tur: "Hikâye", yil: "2004", osymYil: "ÖSYM Orta", aciklama: "Denizcilik maceraları, liman kentleri ve karakterlerin içsel çalkantılarını, alkolün yarattığı dumanlı dünyayı sunan öykülerdir." },
+          { ad: "Dönüş", tur: "Roman", yil: "1998", osymYil: "ÖSYM Orta", aciklama: "Karakterlerin geçmişe, çocukluklarının geçtiği eski kasabalarına dönerek kendileriyle ve anılarıyla yüzleşmelerini anlatan romanıdır." }
+        ]
+      },
+      {
+        ad: "Pınar Kür",
+        dogum: "1943-...",
+        ozellik: "Kadın cinselliğini, psikolojisini ve toplumsal ahlakın ikiyüzlülüğünü cesurca işleyen; polisiye kurguyu postmodern üstkurmaca teknikleriyle buluşturan yazar",
+        eserler: [
+          { ad: "Akışı Olmayan Sular", tur: "Hikâye", yil: "1983", osymYil: "ÖSYM Sık", aciklama: "Kadın duyarlılığını, yalnızlığı, yaşlanma korkusunu ve hayal kırıklıklarını işleyen Sait Faik Ödüllü ünlü öykü kitabıdır." },
+          { ad: "Yarın Yarın", tur: "Roman", yil: "1976", osymYil: "ÖSYM Sık", aciklama: "12 Mart dönemi ekseninde, burjuva kökenli radikal gençlerin siyasi çalkantılarını, bunalımlarını ve karmaşık ilişkilerini anlatır." },
+          { ad: "Asılacak Kadın", tur: "Roman", yil: "1979", osymYil: "ÖSYM Sık", aciklama: "Melek adındaki bir kadının cinsel/toplumsal istismara uğramasını ve toplumun ikiyüzlü ahlak anlayışını işleyen, sansüre uğramış ünlü romanıdır." },
+          { ad: "Bir Cinayet Romanı", tur: "Roman", yil: "1989", osymYil: "ÖSYM Sık", aciklama: "Türk edebiyatında polisiye kurguyla postmodern tarzda yazılmış, yazarın bizzat kurguya dahil olduğu ilk metafiksiyon (üstkurmaca) örneğidir." },
+          { ad: "Bitmeyen Aşk", tur: "Roman", yil: "1986", osymYil: "ÖSYM Orta", aciklama: "Aşkın doğasını, imkansızlığını, tutkuyu ve zaman karşısındaki aşınma direncini sorgulayan, yine sansüre uğramış romanıdır." },
+          { ad: "Bir Deli Ağaç", tur: "Hikâye", yil: "1981", osymYil: "ÖSYM Orta", aciklama: "Kadın kahramanların psikolojilerine, içsel isyanlarına ve cinselliğe tabuları yıkarak cesurca yaklaşan öyküleridir." },
+          { ad: "Cinayet Fakültesi", tur: "Roman", yil: "2006", osymYil: "ÖSYM Orta", aciklama: "'Bir Cinayet Romanı'nın devamı niteliğinde, yine polisiye kurguyla postmodern kurmaca oyunlarını birleştiren romanıdır." }
+        ]
+      },
+      {
+        ad: "Nazlı Eray",
+        dogum: "1945-...",
+        ozellik: "Türk edebiyatında 'büyülü gerçekçilik' ve fantastik gerçekçiliğin öncüsü olan, hayal gücünün sınırlarını zorlayan, absürt ve neşeli üslubuyla tanınan yazar",
+        eserler: [
+          { ad: "Ah Bayım Ah", tur: "Hikâye", yil: "1975", osymYil: "ÖSYM Sık", aciklama: "Büyülü gerçekçilik akımının bizdeki ilk örneklerinden; günlük hayatın içine aniden sızan hayal ve gerçeküstü ögelerin işlendiği ironik öykülerdir." },
+          { ad: "Mösyö Hristo", tur: "Hikâye", yil: "1984", osymYil: "ÖSYM Orta", aciklama: "Fantastik ve gerçeküstü ögelerle örülü, yalnızlık çeken sıradışı marjinal karakterlerin dünyasını anlatan ünlü öyküsüdür." },
+          { ad: "Pasifik Günleri", tur: "Roman", yil: "1981", osymYil: "ÖSYM Orta", aciklama: "Yazarın fantastik kurguyla hayal gücünün sınırlarını zorladığı, rüya-seyahat-roman tarzındaki özgün eseri." },
+          { ad: "Aşkı Giyinen Adam", tur: "Roman", yil: "2001", osymYil: "ÖSYM Orta", aciklama: "Reenkarnasyon, zaman yolculuğu, tarihi figürler ve ölümsüz aşk temalı Yunus Nadi Ödüllü büyülü gerçekçi romanıdır." },
+          { ad: "Uyku İstasyonu", tur: "Roman", yil: "1994", osymYil: "ÖSYM Orta", aciklama: "Gerçek dünyanın katı kurallarından kaçıp düşler dünyasına, tren vagonlarına sığınan insanların fantastik sığınağını anlatan romanıdır." },
+          { ad: "Kız Öpme Kuyruğu", tur: "Roman", yil: "2001", osymYil: "ÖSYM Orta", aciklama: "Ankara sokaklarından başlayıp fantastik mekanlara uzanan, mizahi, ironik ve absürt ögeler içeren renkli postmodern romanıdır." },
+          { ad: "Aşk Artık Burada Oturmuyor", tur: "Roman", yil: "1989", osymYil: "ÖSYM Orta", aciklama: "Yalnızlık, eski aşklar, anılar ve modern popüler kültürün insan ilişkilerini nasıl hızla tükettiğini anlatan eseri." },
+          { ad: "Geceyi Tanıdım", tur: "Hikâye", yil: "1980", osymYil: "ÖSYM Orta", aciklama: "Gecenin gizemini, rüyaları, yalnızlığı ve bilinçaltının karanlık dehlizlerini fantastik ve masalsı bir atmosferle işleyen öyküleridir." }
+        ]
+      },
+      {
+        ad: "Latife Tekin",
+        dogum: "1957-...",
+        ozellik: "Köyden kente göçün trajedisini ve gecekondu yaşamını batıl inançlar, masallar ve 'büyülü gerçekçilik' estetiğiyle edebiyata taşıyan öncü kadın yazar",
+        eserler: [
+          { ad: "Sevgili Arsız Ölüm", tur: "Roman", yil: "1983", osymYil: "ÖSYM Sık", aciklama: "Büyülü gerçekçiliğin zirvesi. Dirmit Kız ve Aktaş ailesinin köyden kente göçünü, batıl inançlar, cinler ve masalsı bir dille anlatan otobiyografik başyapıttır." },
+          { ad: "Berci Kristin Çöp Masalları", tur: "Roman", yil: "1984", osymYil: "ÖSYM Sık", aciklama: "Çöp tepelerinin yanında kurulan bir gecekondu mahallesinin (Çiçektepe) yıkımlara karşı hayatta kalma mücadelesini şiirsel ve masalsı anlatan eseridir." },
+          { ad: "Gece Dersleri", tur: "Roman", yil: "1986", osymYil: "ÖSYM Sık", aciklama: "Siyasi bir yapılanmanın içindeki kadınların gözünden sol fraksiyonların iç işleyişini, dilini, baskılarını ve uğranılan hayal kırıklıklarını eleştirir." },
+          { ad: "Buzdan Kılıçlar", tur: "Roman", yil: "1989", osymYil: "ÖSYM Sık", aciklama: "Kenar mahalledeki yoksul insanların, özellikle de Halilhan Geldim'in kapitalist düzene karşı trajikomik para kazanma ve lüks araba tutkusu çabalarını anlatır." }
+        ]
+      },
+      {
+        ad: "Emine Işınsu",
+        dogum: "1938-2021",
+        ozellik: "Dış Türklerin (Batı Trakya, Kerkük) maruz kaldığı zulmü, millî uyanışı ve ilerleyen dönemlerinde tasavvuf büyüklerinin hayatlarını işleyen nehir romancı",
+        eserler: [
+          { ad: "Küçük Dünya", tur: "Roman", yil: "1966", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk romanıdır; Urfa'da yaşayan genç bir kadının iç dünyasını, mutsuz evliliğini ve çevreyle uyumsuzluğunu psikolojik tonda anlatır." },
+          { ad: "Azap Toprakları", tur: "Roman", yil: "1970", osymYil: "ÖSYM Sık", aciklama: "Batı Trakya'daki Türklerin yaşadığı ağır zulmü, asimilasyon baskılarını ve milliyetçi uyanışı işleyen çok önemli nehir romanıdır." },
+          { ad: "Tutsak", tur: "Roman", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Irak (Kerkük) Türklerinin esaret altındaki yaşam mücadelesini, kimliklerini koruma çabalarını ve uğradıkları haksızlıkları anlatır." },
+          { ad: "Sancı", tur: "Roman", yil: "1974", osymYil: "ÖSYM Sık", aciklama: "1970'li yılların ideolojik çatışmalarını ve dönemin olaylarında öldürülen ülkücü genç Dursun Önkuzu'nun hayatını konu edinen belgesel nitelikli romandır." },
+          { ad: "Bir Ben Vardır Benden İçeri", tur: "Roman", yil: "2002", osymYil: "ÖSYM Orta", aciklama: "Yunus Emre'nin hayatını, nefis terbiyesini ve tasavvuf yolculuğunu anlatan biyografik-tarihi romanıdır." },
+          { ad: "Hacı Bayram", tur: "Roman", yil: "2005", osymYil: "ÖSYM Orta", aciklama: "Hacı Bayram Veli'nin hayatını, Ankara arka planında, dervişlik geleneği ve tasavvufi derinlikle işleyen tarihi romanıdır." },
+          { ad: "Hacı Bektaş Veli", tur: "Roman", yil: "2008", osymYil: "ÖSYM Orta", aciklama: "Hacı Bektaş Veli'nin Horasan'dan Anadolu'ya gelişini, halkı irşad edişini ve felsefesini ele alan tarihi-tasavvufi romanıdır." }
+        ]
+      },
+      {
+        ad: "Sait Faik Abasıyanık",
+        dogum: "1906-1954",
+        ozellik: "Türk hikayeciliğinde Maupassant tarzını yıkıp Çehov (durum) hikayeciliğinin öncüsü olan, Burgazada'yı, balıkçıları ve küçük insanları sevgiyle anlatan modernizm dehası",
+        eserler: [
+          { ad: "Semaver", tur: "Hikâye", yil: "1936", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk öykü kitabı; Ali ve annesinin semaver kaynattıkları o huzurlu sabahı ve küçük, çalışan işçi insanların temiz yaşamını anlatır." },
+          { ad: "Sarnıç", tur: "Hikâye", yil: "1939", osymYil: "ÖSYM Orta", aciklama: "Yazarın gençlik dönemi gözlemlerini, doğayı, insan sevgisini ve Avrupa seyahati izlenimlerini içeren erken dönem öyküleridir." },
+          { ad: "Şahmerdan", tur: "Hikâye", yil: "1940", osymYil: "ÖSYM Orta", aciklama: "Fabrika işçileri, köylüler, kenar mahalle insanları ve toplumsal adaletsizliklerin gölgesindeki hayatlara dokunan öykülerdir." },
+          { ad: "Lüzumsuz Adam", tur: "Hikâye", yil: "1948", osymYil: "ÖSYM Sık", aciklama: "İstanbul'un (özellikle Beyoğlu/Tünel) sokaklarında aylakça gezen, sıradan insanları ve yalnızlığı gözlemleyen yazarın kendisini anlattığı imza kitabıdır." },
+          { ad: "Mahalle Kahvesi", tur: "Hikâye", yil: "1950", osymYil: "ÖSYM Sık", aciklama: "Mahalle kültürünü, sıradan insanların dostluklarını, balıkçıları ve kahvehanelerdeki insan sıcaklığını anlatan durum öyküleridir." },
+          { ad: "Havada Bulut", tur: "Hikâye", yil: "1951", osymYil: "ÖSYM Orta", aciklama: "Birbirine bağlı öykülerden oluşan, İstanbul'un yoksul semtlerindeki ve meyhanelerindeki yaşamı konu alan eserdir." },
+          { ad: "Kumpanya", tur: "Hikâye", yil: "1951", osymYil: "ÖSYM Orta", aciklama: "Gezici bir tiyatro kumpanyasının oyuncularının fedakarlıklarını, dramatik ve ironik yaşam mücadelelerini anlatan uzun öyküdür." },
+          { ad: "Havuz Başı", tur: "Hikâye", yil: "1951", osymYil: "ÖSYM Orta", aciklama: "İnsan sevgisi, evrensel yalnızlık, ölüm düşüncesi ve doğa temalarının minimalist bir dille anlatıldığı olgunluk öyküleridir." },
+          { ad: "Son Kuşlar", tur: "Hikâye", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Burgazada'daki doğa katliamını, avcılar yüzünden kuşların artık gelmeyişini ve yeşilin yok edilişini anlatan çevreci/hüzünlü başyapıtıdır." },
+          { ad: "Alemdağ'da Var Bir Yılan", tur: "Hikâye", yil: "1954", osymYil: "ÖSYM Sık", aciklama: "Sürrealizme ve gerçeküstücülüğe kaydığı, yalnızlığın zirve yaptığı, 'Panco' karakterinin göründüğü en modern/postmodern öykü kitabıdır." },
+          { ad: "Az Şekerli", tur: "Hikâye", yil: "1954", osymYil: "ÖSYM Orta", aciklama: "Yazarın ölümünden hemen sonra yayımlanan, yine küçük insanları, adalayı ve deniz sevgisini anlatan son öyküleridir." },
+          { ad: "Tüneldeki Çocuk", tur: "Hikâye", yil: "1955", osymYil: "ÖSYM Orta", aciklama: "Şehir hayatının mekanik karmaşasını, yapaylığını ve çocuk saflığını karşılaştıran öykülerinin yer aldığı eserdir." },
+          { ad: "Şimdi Sevişme Vakti", tur: "Şiir", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Sait Faik'in hayata, insana, denize ve doğaya duyduğu coşkulu aşkı dizeleştirdiği tek şiir kitabıdır." },
+          { ad: "Medarı Maişet Motoru (Birtakım İnsanlar)", tur: "Roman", yil: "1944", osymYil: "ÖSYM Sık", aciklama: "Geçim derdindeki Burgazada insanlarının, balıkçıların, emekçilerin hayatını anlatan ve döneminde sansüre uğrayan ilk romanıdır." },
+          { ad: "Kayıp Aranıyor", tur: "Roman", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Konsolos kızı Nevin'in, sosyetenin yapaylığından ve babasının dünyasından kaçıp balıkçılar arasında özgürlüğünü ve kendini arayışını anlatan ikinci romanıdır." }
+        ]
+      },
+      {
+        ad: "Orhan Pamuk",
+        dogum: "1952-...",
+        ozellik: "Türk edebiyatının ilk Nobel Edebiyat Ödüllü yazarı olan, Doğu-Batı çatışmasını, kimlik değişimlerini ve tarihi üstkurmaca teknikleriyle işleyen postmodernizmin zirvesi",
+        eserler: [
+          { ad: "Cevdet Bey ve Oğulları", tur: "Roman", yil: "1982", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk romanı; Nişantaşı burjuvazisinin ve Abdülhamit döneminden 1970'lere bir ailenin üç kuşaklık modernleşme hikayesini geleneksel tarzda anlatır." },
+          { ad: "Sessiz Ev", tur: "Roman", yil: "1983", osymYil: "ÖSYM Sık", aciklama: "Bir babaannenin Cennethisar'daki evinde toplanan üç torunun (ve cüce Recep'in) gözünden 1980 öncesi Türkiye'nin siyasi ve düşünsel kaosunu aktarır." },
+          { ad: "Beyaz Kale", tur: "Roman", yil: "1985", osymYil: "ÖSYM Sık", aciklama: "Venedikli bir köle ile ona tıpatıp benzeyen Osmanlı alimi Hoca'nın 'doğu-batı çatışması' ve 'kimlik değişimi' üzerine kurulu tarihi-postmodern romanıdır." },
+          { ad: "Kara Kitap", tur: "Roman", yil: "1990", osymYil: "ÖSYM Sık", aciklama: "Avukat Galip'in, kaybolan karısı Rüya ve yazar Celal Salik'i Şeyh Galip'in Hüsn-ü Aşk'ından esinlenerek İstanbul sokaklarında arama hikayesini işleyen başyapıttır." },
+          { ad: "Yeni Hayat", tur: "Roman", yil: "1994", osymYil: "ÖSYM Sık", aciklama: "'Bir gün bir kitap okudum ve bütün hayatım değişti' cümlesiyle başlayan; gizemli bir kitabın peşinden otobüs yolculuklarına çıkan gençlerin postmodern arayış romanıdır." },
+          { ad: "Benim Adım Kırmızı", tur: "Roman", yil: "1998", osymYil: "ÖSYM Sık", aciklama: "16. yy Osmanlı nakkaşlarının dünyasında geçen, minyatür sanatını ve bir cinayeti nesnelerin/renklerin/katillerin ağzından anlatan tarihi-postmodern başyapıtıdır." },
+          { ad: "Kar", tur: "Roman", yil: "2002", osymYil: "ÖSYM Sık", aciklama: "Şair Ka'nın, intihar eden başörtülü kızları araştırmak üzere gittiği Kars'ta karşılaştığı siyasi, dini çatışmaları ve darbe tiyatrosunu anlatan siyasi romanıdır." },
+          { ad: "Kafamda Bir Tuhaflık", tur: "Roman", yil: "2014", osymYil: "ÖSYM Orta", aciklama: "Bozacı Mevlut Karataş'ın gözünden 1970'lerden günümüze İstanbul'un sokaklarını, göç dalgalarını, dönüşümünü ve sokak satıcılığını anlatan romanıdır." },
+          { ad: "Kızıl Saçlı Kadın", tur: "Roman", yil: "2016", osymYil: "ÖSYM Orta", aciklama: "Oidipus ve Rüstem-Sohrab mitleri üzerinden, bir kuyu kazıcısının çırağı olan Cem'in ve Kızıl Saçlı Kadın'ın 'baba-oğul' temalı trajik hikayesidir." },
+          { ad: "Babamın Bavulu", tur: "Konuşma / Deneme", yil: "2007", osymYil: "ÖSYM Sık", aciklama: "Orhan Pamuk'un Nobel Edebiyat Ödülü'nü alırken yaptığı, yazarlık eylemini, kütüphanesini ve babasıyla olan edebi-ruhi ilişkisini anlatan meşhur konuşma metnidir." }
+        ]
+      },
+      {
+        ad: "Vüs'at O. Bener",
+        dogum: "1922-2005",
+        ozellik: "Az kelimeyle çok yoğun anlamlar kuran, ironik, mesafeli üslubuyla minimalist öykücülüğün ve postmodernizmin gizli ustalarından olan yazar",
+        eserler: [
+          { ad: "Dost", tur: "Hikâye", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Minimalist öykücülüğün şah eseri; taşra bürokrasisini, memurları ve sıradan insanların dramını çok az kelimeyle, yoğun ve eksiltili anlatır." },
+          { ad: "Mızıkalı Yürüyüş", tur: "Hikâye / Anlatı", yil: "1997", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi anılarından, ölümlerinden (kardeşi Özdemir Asaf esintileri) ve içsel hesaplaşmalarından beslenen otobiyografik anlatısıdır." },
+          { ad: "Buzul Çağın Virüsü", tur: "Roman", yil: "1984", osymYil: "ÖSYM Sık", aciklama: "Aydın yabancılaşmasını, entelektüel çevrelerin evlilik çatışmalarını ve bireyin nihilizmini (hiçlik) işleyen soyut ve parçalı postmodern romanıdır." },
+          { ad: "Bay Muannit Sahtegi'nin Notları", tur: "Roman", yil: "1991", osymYil: "ÖSYM Sık", aciklama: "Postmodern ironinin ve bilinç akışının doruğu; huysuz, inatçı, yaşlı bir adamın fragmanlar ve kopuk tarihler halindeki günlük notlarıdır." }
+        ]
+      },
+      {
+        ad: "Yusuf Atılgan",
+        dogum: "1921-1989",
+        ozellik: "Bireyin yalnızlığını, yabancılaşmasını, topluma uyum sağlayamayışını (tutunamayışını) ve psikoseksüel çatışmalarını Türk edebiyatında ilk kez doruğa çıkaran modernist",
+        eserler: [
+          { ad: "Aylak Adam", tur: "Roman", yil: "1959", osymYil: "ÖSYM Sık", aciklama: "C. karakteri üzerinden; işi gücü olmayan, miras yedi, İstanbul'da 'gerçek sevgiyi' (mavi yağmurluklu kız) arayan yabancılaşmış modern bireyin ilk prototipidir." },
+          { ad: "Anayurt Oteli", tur: "Roman", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Zebercet karakteri üzerinden; taşradaki bir otelde katiplik yapan, geciken bir kadının ardından şizofreniye, saplantılara ve intihara sürüklenişinin yalnızlık psikolojisidir." },
+          { ad: "Canistan", tur: "Roman", yil: "2000 (Ölümünden sonra)", osymYil: "ÖSYM Orta", aciklama: "Yazarın yarım kalan son romanı; köy/kasaba dekorunda güç çatışmasını, intikamı ve insan doğasının vahşetini dört bölüm halinde işler." }
+        ]
+      },
+      {
+        ad: "Bilge Karasu",
+        dogum: "1930-1995",
+        ozellik: "Metinlerinde felsefi derinliği, dili işleme ustalığını, sembolizmi ve allegoriyi en üst düzeyde kullanan, Türk edebiyatının 'filozof' postmodern yazarı",
+        eserler: [
+          { ad: "Gece", tur: "Roman", yil: "1985", osymYil: "ÖSYM Sık", aciklama: "Postmodernizmin en kapalı metni (Pegasus Ödüllü). Diktatörlük, baskı ve karanlık bir dünyayı 'gece işçileri' ve 'yazarlar' üzerinden sembolik anlatan romandır." },
+          { ad: "Kılavuz", tur: "Roman", yil: "1990", osymYil: "ÖSYM Sık", aciklama: "Polisiye ve fantastik unsurlarla bezeli; Uğur karakteri üzerinden gerçeklik algısını yıkan, rüya ve kabusların iç içe geçtiği postmodern romanıdır." },
+          { ad: "Göçmüş Kediler Bahçesi", tur: "Hikâye", yil: "1980", osymYil: "ÖSYM Sık", aciklama: "Masalların yapısını bozarak (tersyüz ederek) yeniden kurduğu, felsefi, allegorik ve korku ögeleri barındıran öykülerden oluşan eseriidir." },
+          { ad: "Ne Kitapsız Ne Kedisiz", tur: "Deneme", yil: "1994", osymYil: "ÖSYM Orta", aciklama: "Yazarın edebiyat, dil bilinci, sevgi, yalnızlık ve hayatına eşlik eden kediler üzerine felsefi düşüncelerini topladığı deneme kitabıdır." },
+          { ad: "Narla İncire Gazel", tur: "Anlatı / Şiirsel", yil: "1995", osymYil: "ÖSYM Orta", aciklama: "Tasavvufi, mistik ve felsefi dille yazılmış; sevgi, dostluk ve varoluş üzerine yoğunlaşan ritmik ve mensur metinlerdir." },
+          { ad: "Troya'da Ölüm Vardı", yer: "Hikâye", yil: "1963", osymYil: "ÖSYM Orta", aciklama: "Bireysel yalnızlık, içsel hesaplaşmalar, çocukluk anıları ve sevginin imkansızlığı üzerine kurulmuş yazarın ilk öykü kitabıdır." },
+          { ad: "Uzun Sürmüş Bir Günün Akşamı", tur: "Hikâye", yil: "1970", osymYil: "ÖSYM Sık", aciklama: "Bizans döneminde ikonaklastik (din baskısı) dönemden kaçan keşişler (Andronikos ve Ioakim) üzerinden 'inanç, baskı ve boyun eğme' kavramlarını sorgulayan ödüllü öyküsüdür." },
+          { ad: "Kısmet Büfesi", tur: "Deneme / Metin", yil: "1982", osymYil: "ÖSYM Orta", aciklama: "Hayatın sıradan anlarındaki gizli felsefi anlamları, dildeki tıkanmaları ve insan ilişkilerini sorgulayan öyküsel metinlerdir." },
+          { ad: "Lağımlar Anası Ya Da Beyoğlu", tur: "Anlatı", yil: "2000 (Ölümünden sonra)", osymYil: "ÖSYM Orta", aciklama: "Beyoğlu’nun arka sokaklarını, marjinal hayatları, yozlaşmayı ve şehrin karanlık yüzünü şiirsel, soyut bir dille anlatan eseri." },
+          { ad: "Susanlar", tur: "Metin / Felsefi", yil: "2008 (Ölümünden sonra)", osymYil: "ÖSYM Orta", aciklama: "Sessizlik, iletişim kuramama, kelimelerin yetersizliği ve dilin sınırları üzerine yoğunlaşan felsefi ve soyut metinleridir." }
+        ]
+      },
+      {
+        ad: "Nezihe Meriç",
+        dogum: "1925-2009",
+        ozellik: "Cumhuriyet edebiyatında kadın dünyasını, genç kızların iç çatışmalarını ve yalnızlığını 'bilinç akışı' tekniğiyle modern tarzda işleyen ilk kadın yazarlardan biri",
+        eserler: [
+          { ad: "Korsan Çıkmazı", tur: "Roman", yil: "1961", osymYil: "ÖSYM Sık", aciklama: "Meli ve Berna adındaki iki kadının çocukluk, gençlik anıları ve iç döküşleri üzerinden kadın dünyasını bilinç akışı ve geriye dönüşle anlatan TDK ödüllü başyapıtıdır." },
+          { ad: "Boz Bulanık", tur: "Hikâye", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Cumhuriyet dönemi Türk edebiyatında kadın duyarlılığını, kasaba-kent sıkışmışlığını ve yalnızlığını modern tarzda işleyen ilk öykü kitabıdır." },
+          { ad: "Topal Koşma", tur: "Hikâye", yil: "1956", osymYil: "ÖSYM Orta", aciklama: "Toplumsal değişimlerin, evliliklerin ve yerleşik değerlerin kadın üzerindeki psikolojik baskısını anlatan sarsıcı öykülerdir." },
+          { ad: "Bir Kara Derin Kuyu", tur: "Hikâye", yil: "1989", osymYil: "ÖSYM Orta", aciklama: "Yaşlılık, yalnızlık, geçmişe özlem ve ölüm temalarına odaklanan, hüzünlü ve derin kadın portreleri sunan Sait Faik ödüllü öyküleridir." },
+          { ad: "Gülün İçinde Bülbül Sesi Var", tur: "Hikâye", yil: "2008", osymYil: "ÖSYM Orta", aciklama: "Geleneksel motiflerle ve masalsı dille modern kadının yalnızlığını, hüznünü harmanlayan geç dönem öyküleridir." },
+          { ad: "Boşlukta Mavi", tur: "Hikâye", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Hayatın anlamını sorgulayan, kentli aydınların varoluşsal boşluklarını ve tıkanmalarını işleyen öyküleridir." },
+          { ad: "Sular Aydınlanıyordu", tur: "Tiyatro", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Kadının toplumda var olma mücadelesini, içsel aydınlanmasını ve erkek egemen dünyaya direnişini anlatan oyun tarzı eseridir." },
+          { ad: "Alagün Çocukları", tur: "Hikâye / Çocuk", yil: "1976", osymYil: "ÖSYM Orta", aciklama: "Çocuk dünyasını, saflığı, oyunları ve çocukların gözünden büyüklerin dünyasındaki yapaylıkları anlatan ödüllü öyküleridir." }
+        ]
+      },
+      {
+        ad: "Adalet Ağaoğlu",
+        dogum: "1929-2020",
+        ozellik: "Türkiye'nin modernleşme sürecini, aydınların çıkmazlarını ve 12 Mart dönemini yenilikçi tekniklerle (iç monolog, geriye dönüş) sorgulayan modernizmin güçlü kalemi",
+        eserler: [
+          { ad: "Ölmeye Yatmak", tur: "Roman", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Doçent Aysel karakteri üzerinden; Cumhuriyet ideolojisinin yetiştirdiği kadının, bir otel odasında intiharı düşünerek yaptığı geçmiş ve kimlik muhasebesidir (Dar Zamanlar üçlemesinin ilki)." },
+          { ad: "Bir Düğün Gecesi", tur: "Roman", yil: "1979", osymYil: "ÖSYM Sık", aciklama: "'İntihar etmeyeceksek içelim bari' cümlesiyle ünlü; bir düğündeki davetlilerin iç konuşmaları üzerinden 12 Mart döneminin siyasi-toplumsal eleştirisidir (Üçlemenin ikincisi)." },
+          { ad: "Fikrimin İnce Gülü", tur: "Roman", yil: "1976", osymYil: "ÖSYM Sık", aciklama: "Almanya'da işçi olan Bayram'ın, köyüne hava atmak için aldığı sarı Mercedes'i ile Türkiye'ye gelişi yolculuğunda kapitalizmin insanı nasıl çürüttüğünün hikayesidir." }
+        ]
+      },
+      {
+        ad: "Füruzan",
+        dogum: "1932-2024",
+        ozellik: "Eserlerinde hiçbir ideolojik şablona düşmeden yoksul kadınları, yetim çocukları, göçmenleri ve kenar mahalle insanlarını derin bir şefkat ve gerçekçilikle anlatan yazar",
+        eserler: [
+          { ad: "Parasız Yatılı", tur: "Hikâye", yil: "1971", osymYil: "ÖSYM Sık", aciklama: "Yoksul kadınların, yetim kız çocuklarının, şefkat arayanların ve toplum dışına itilmiş insanların dramını anlatan Sait Faik ödüllü ilk öykü kitabıdır (Sınavın gözdelerindendir)." },
+          { ad: "Kuşatma", tur: "Hikâye", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Yine anne-kız ilişkileri, yoksulluk, kente uyum sancıları ve toplumsal baskı altındaki küçük insanların dünyasını anlatan öyküleridir." },
+          { ad: "Benim Sinemalarım", tur: "Hikâye", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Sinema tutkusu olan yoksul bir genç kızın (Nesrin) hayalleri ve gerçek hayatın sert tokatıyla yüzleşmesini anlatan, sinemaya da uyarlanmış imza öyküsüdür." },
+          { ad: "Gecenin Öteki Yüzü", tur: "Hikâye", yil: "1982", osymYil: "ÖSYM Orta", aciklama: "Kentin kenar mahallelerinde, çöküşün eşiğinde hayatta kalmaya çalışan dul kadınların ve çocukların dramatik yaşamlarını ele alan öyküleridir." },
+          { ad: "Gül Mevsimidir", tur: "Hikâye", yil: "1973", osymYil: "ÖSYM Orta", aciklama: "Mesaadet karakteri üzerinden göçmen bir kadının eski konak hayatını, eski aşklarını ve geçmişe duyulan lirik özlemi işleyen uzun öyküsüdür." },
+          { ad: "47'liler", tur: "Roman", yil: "1974", osymYil: "ÖSYM Sık", aciklama: "1947 doğumlu (71 muhtırasını yaşayan) üniversiteli gençlerin (özellikle Emine'nin) işkenceler, hapishane ve siyasi idealler eksenindeki kuşağını anlatan TDK ödüllü romanıdır." },
+          { ad: "Berlin Nar Çiçeği", tur: "Roman", yil: "1888", osymYil: "ÖSYM Orta", aciklama: "Almanya'ya göç eden Türk işçilerinin (gastarbeiter) ve oradaki yaşlı Almanların birbirleriyle olan insani ilişkilerini, uyum sorunlarını anlatan romanıdır." }
+        ]
+      },
+      {
+        ad: "İnci Aral",
+        dogum: "1944-...",
+        ozellik: "Kadın kimliğini, evlilik açmazlarını, toplumsal yozlaşmayı ve popüler kültürün insan ruhunda açtığı yaraları psikolojik derinlikle işleyen çağdaş romancı",
+        eserler: [
+          { ad: "Ölü Erkek Kuşlar", tur: "Roman", yil: "1991", osymYil: "ÖSYM Sık", aciklama: "Suna, Ayhan ve Suzan ekseninde; geleneksel evlilik kurumunu, kadın kimliğini, sadakati, aldatmayı ve özgürlüğü sorgulayan çok ünlü kadın romanıdır." },
+          { ad: "Yeni Yalan Zamanlar", tur: "Roman", yil: "1994", osymYil: "ÖSYM Sık", aciklama: "'Yeşil' romanı olarak da bilinir; popüler kültürün, medyanın, tarikat-para ilişkilerinin ve paranın insan ilişkilerini nasıl sahteleştirdiğini anlatır." },
+          { ad: "Mor", tur: "Roman", yil: "2003", osymYil: "ÖSYM Sık", aciklama: "Kadına yönelik şiddeti, taşrada kadın olmayı, tutkulu aşkları ve intikam temalarını işleyen Orhan Kemal ödüllü sarsıcı romanıdır." },
+          { ad: "Safran Sarı", tur: "Roman", yil: "2007", osymYil: "ÖSYM Orta", aciklama: "Paranın, gücün ve şöhretin esiri olmuş modern metropol insanının ahlaki çöküşünü, yozlaşmasını ve Yeni Yalan Zamanlar üçlemesinin sonunu anlatır." },
+          { ad: "Taş ve Ten", tur: "Roman", yil: "2005", osymYil: "ÖSYM Orta", aciklama: "Anadolu'nun tarihi ve mitolojik arka planını (arkeolojik kazılar) kullanarak insan tutkularını, ölümsüz aşkı ve tarihi işleyen eseri." },
+          { ad: "Hiçbir Aşk Hiçbir Ölüm", tur: "Roman", yil: "1997", osymYil: "ÖSYM Orta", aciklama: "Bir anne ile kızın çatışmasını, yabancılaşmasını ve modern kadının varoluşsal sancılarını işleyen dramatik kurgulu romanıdır." },
+          { ad: "İçimden Kuşlar Göçüyor", tur: "Anlatı", yil: "1998", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi iç dünyasını, edebiyat çevrelerini, yazma sancılarını ve anılarını içtenlikle paylaştığı edebi günlüğü/anlatısıdır." }
+        ]
+      },
+      {
+        ad: "Ferit Edgü",
+        dogum: "1936-2024",
+        ozellik: "Varoluşçu felsefeyi minimal (küçürek) öykü türüyle birleştiren, insanın yalnızlığını ve yabancılaşmasını Hakkari'nin sert coğrafyasıyla sembolleştiren usta yazar",
+        eserler: [
+          { ad: "Kimse", tur: "Roman", yil: "1976", osymYil: "ÖSYM Orta", aciklama: "Hakkari'nin bir dağ köyünde kışın mahsur kalan bir aydının, kendi iç sesiyle, bilinciyle ve yalnızlığıyla yaptığı felsefi diyaloglardan oluşur." },
+          { ad: "Hakkari'de Bir Mevsim (O)", tur: "Roman", yil: "1977", osymYil: "ÖSYM Sık", aciklama: "Hakkari'ye sürgün giden bir öğretmenin (yazarın), oranın sert coğrafyası, yabancı dili ve feodal kültürüyle yüzleşerek 'kendini bulma' hikayesidir (Sinemaya uyarlanmıştır)." },
+          { ad: "Kaçkınlar", tur: "Hikâye", yil: "1959", osymYil: "ÖSYM Sık", aciklama: "Varoluşçu felsefenin (Sartre) izinde; toplumdan, yerleşik düzenden ve bizzat kendinden kaçan modern insanın bunalımlı ilk öyküleridir." },
+          { ad: "Bozgun", tur: "Hikâye", yil: "1962", osymYil: "ÖSYM Orta", aciklama: "İnsanın iç dünyasındaki ani yıkımları, güvensizlikleri, iletişimsizliği ve çaresizlikleri ele alan minimalist öyküleridir." },
+          { ad: "Av", tur: "Hikâye", yil: "1967", osymYil: "ÖSYM Orta", aciklama: "Bireyin toplum, bürokrasi veya otorite tarafından adeta avlanışını, kapana kısılmışlığını anlatan soyut ve varoluşçu öyküleridir." },
+          { ad: "Çığlık", tur: "Hikâye", yil: "1982", osymYil: "ÖSYM Sık", aciklama: "İnsanın varoluşsal korkularını ve modern dünyanın çaresizliğini 'çığlık' sembolü üzerinden anlatan küçürek (minimal) öykü türünün başyapıtıdır." },
+          { ad: "Nijinski Öyküleri", tur: "Hikâye", yil: "1983", osymYil: "ÖSYM Orta", aciklama: "Ünlü dahi ve akıl hastası Rus dansçı Nijinski'nin delilik, sanat ve dahilik arasındaki sınırda gezinen içsel dünyasını işler." },
+          { ad: "Ah Minel Aşk", tur: "Deneme / Öykü", yil: "1978", osymYil: "ÖSYM Orta", aciklama: "Aşkın yakıcı, yıkıcı, marjinal ve felsefi boyutunu şiirsel bir dille ele alan deneme-öykü kırması estetik eseridir." },
+          { ad: "Dağ Şiirleri", tur: "Şiir", yil: "1999", osymYil: "ÖSYM Orta", aciklama: "Hakkari dağlarının sertliğini, yalnızlığı ve vahşi doğanın insan ruhundaki yansımasını minimalist dizelerle anlatan şiirleridir." },
+          { ad: "Eylülün Gölgesinde Bir Yazdı", tur: "Roman", yil: "1988", osymYil: "ÖSYM Orta", aciklama: "Sait Faik ödüllü; geçmişe duyulan melankolik özlemi, yaşanmışlıkları, entelektüel duruşu ve yaşlılık psikolojisini anlatan romanıdır." }
+        ]
+      },
+      {
+        ad: "Oğuz Atay",
+        dogum: "1934-1977",
+        ozellik: "Türk edebiyatında modernizmden postmodernizme geçişin kapısını açan, burjuva düzenine ve basmakalıp değerlere meydan okuyan 'tutunamayan' aydınların ironik sesi",
+        eserler: [
+          { ad: "Tutunamayanlar", tur: "Roman", yil: "1971", osymYil: "ÖSYM Sık", aciklama: "Türk edebiyatının dönüm noktası. İntihar eden arkadaşı Selim Işık'ın izini sürerek burjuva toplumuna, basmakalıp değerlere 'tutunamayan' aydınları (Turgut Özben) hicveden postmodern başyapıttır." },
+          { ad: "Tehlikeli Oyunlar", tur: "Roman", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "Hikmet Benol karakteri üzerinden; gerçek dünyadan kaçıp bir gecekonduya sığınan ve kafasının içinde 'oyunlar' (tiyatrolar) oynayarak trajediye ve deliliğe sürüklenen insanın romanıdır." },
+          { ad: "Eylembilim", tur: "Roman", yil: "1998 (Ölümünden sonra)", osymYil: "ÖSYM Sık", aciklama: "Yazarın yarım kalan, üniversitedeki sağ-sol çatışmalarını ve profesörlerin (Mustafa İnan esintileri) bu olaylar karşısındaki ironik, eylemsiz duruşlarını anlatan hiciv romanıdır." },
+          { ad: "Bir Bilim Adamının Romanı", tur: "Biyografik Roman", yil: "1975", osymYil: "ÖSYM Sık", aciklama: "Oğuz Atay'ın İTÜ'den hocası olan ünlü bilim insanı Mustafa İnan'ın zorluklarla dolu hayatını, halka adanmışlığını ve idealizmini anlatan başarılı bir biyografik romandır." },
+          { ad: "Korkuyu Beklerken", tur: "Hikâye", yil: "1975", osymYil: "ÖSYM Sık", aciklama: "Toplumsal kalıplardan gizlenip mektuplardan korkan, gizemli bildirilerle eve kapanan yalnız insanların korkularını, trajedilerini ve ironik dünyalarını anlatan muazzam tek öykü kitabıdır." }
+        ]
+      }
+    ]
   },
   "Lakaplar": {
     color: "#4a1942",
