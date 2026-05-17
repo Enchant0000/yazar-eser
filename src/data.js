@@ -2252,6 +2252,13 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Marco Paşa", tur: "Dergi", yil: "", osymYil: "ÖSYM Sık", aciklama: "Siyasi mizah" },
+        ],
+      },
+      {
+        ad: "Aziz Nesin",
+        dogum: "",
+        ozellik: "",
+        eserler: [
           { ad: "Zübük", tur: "Dergi", yil: "", osymYil: "ÖSYM Sık", aciklama: "Siyasi mizah" },
         ],
       },
