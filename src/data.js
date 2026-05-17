@@ -1572,6 +1572,68 @@ const data = {
       },
     ],
   },
+"Cumhuriyet — Saf (Öz) Şiir": {
+    color: "#4a3728",
+    accent: "#d4a574",
+    yazarlar: [
+      {
+        ad: "Ahmet Hamdi Tanpınar",
+        dogum: "1901-1962",
+        ozellik: "Zaman, rüya ve bilinçaltı temalarını Doğu-Batı senteziyle işleyen çok yönlü estetik şairi ve romancısı",
+        eserler: [
+          { ad: "Beş Şehir", tur: "Deneme", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Ankara, Erzurum, Konya, Bursa ve İstanbul’u tarih, kültür ve şahsi izlenimler üzerinden anlatan deneme kitabıdır." },
+          { ad: "Huzur", tur: "Roman", yil: "1948", osymYil: "ÖSYM Sık", aciklama: "Mümtaz ve Nuran'ın aşkı çerçevesinde, bireysel huzursuzluk, Doğu-Batı çatışması ve modernleşme gerilimini işleyen bir romandır." },
+          { ad: "Mahur Beste", tur: "Roman", yil: "1944", osymYil: "ÖSYM Orta", aciklama: "Osmanlı'nın son dönemi ile Tanzimat geçişini aile, gelenek ve klasik müzik çevresiyle anlatan romandır." },
+          { ad: "Saatleri Ayarlama Enstitüsü", tur: "Roman", yil: "1961", osymYil: "ÖSYM Sık", aciklama: "Zaman kavramı, bürokrasi, insan ve toplum eleştirisini derin bir ironi ve hicivle birleştiren romandır." },
+          { ad: "Sahnenin Dışındakiler", tur: "Roman", yil: "1973", osymYil: "ÖSYM Orta", aciklama: "Kurtuluş Savaşı yıllarında Anadolu sahneyi, işgal altındaki İstanbul ise sahnenin dışını temsil edecek şekilde dönemin atmosferini veren romandır." },
+          { ad: "Abdullah Efendi'nin Rüyaları", tur: "Hikâye", yil: "1943", osymYil: "ÖSYM Orta", aciklama: "Rüya, bilinçaltı, tekinsizlik ve kişilik bölünmesi temalarını işleyen ilk hikâye kitabıdır." }
+        ]
+      },
+      {
+        ad: "Cahit Sıtkı Tarancı",
+        dogum: "1910-1956",
+        ozellik: "Ölüm, yaşama sevinci ve zaman temalarını hece vezni ve sade bir dille işleyen 'Otuz Beş Yaş' şairi",
+        eserler: [
+          { ad: "Otuz Beş Yaş", tur: "Şiir", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Yaş alma, geçip giden zaman, ölüm ve hayatın muhasebesini öne çıkaran şairin en ünlü şiir kitabıdır." },
+          { ad: "Ömrümde Sükut", tur: "Şiir", yil: "1933", osymYil: "ÖSYM Orta", aciklama: "İçe dönük, melankolik ve yalnızlık duygusuyla örülü şiirlerden oluşan ilk kitabıdır." },
+          { ad: "Düşten Güzel", tur: "Şiir", yil: "1952", osymYil: "ÖSYM Orta", aciklama: "Sanatçının olgunluk dönemi şiirlerini, hayata ve ölüme bakışını toplayan kitaptır." },
+          { ad: "Ziya'ya Mektuplar", tur: "Mektup", yil: "1957", osymYil: "ÖSYM Sık", aciklama: "Yakın dostu Ziya Osman Saba'ya yazdığı, dostluk ve edebî sohbet havası taşıyan samimi mektuplardır." }
+        ]
+      },
+      {
+        ad: "Ahmet Muhip Dıranas",
+        dogum: "1909-1980",
+        ozellik: "Hece ölçüsünü batı şiiri estetiğiyle (Baudelaire) birleştiren, lirik ve müzikal yönü güçlü şair",
+        eserler: [
+          { ad: "Fahriye Abla", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Bir mahalle güzeli üzerinden çocukluk hafızasını, özlem ve gençlik duygusunu anlatan son derece popüler ve ünlü şiirdir." },
+          { ad: "Olvido", tur: "Şiir", yil: "1959", osymYil: "ÖSYM Sık", aciklama: "Unutuş, zamanın akışı, geçmiş ve derin bir hüzün temasını felsefi ve mistik bir tonda işleyen başyapıt şiirlerindendir." },
+          { ad: "Serenat", tur: "Şiir", yil: "1930'lar", osymYil: "ÖSYM Sık", aciklama: "Lirik, duygusal gücü yüksek, doğa ve aşk imajlarıyla örülü, müzikal tonu güçlü bir şiirdir." }
+        ]
+      },
+      {
+        ad: "Necip Fazıl Kısakürek",
+        dogum: "1904-1983",
+        ozellik: "Bohem hayattan mistisizme uzanan çizgide, metafizik gerilim ve çileyi güçlü bir hitabetle birleştiren üstat şair",
+        eserler: [
+          { ad: "Çile", tur: "Şiir", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Şairin tüm şiirlerini topladığı, düşünce dünyasını, tasavvufi ve metafizik gerilimini yansıtan temel şiir kitabıdır." },
+          { ad: "Kaldırımlar", tur: "Şiir", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Yalnızlık, gece, sokaklar ve şehir melankolisini eşsiz bir dille anlatan, kendisine 'Kaldırımlar Şairi' unvanını getiren şiirdir." },
+          { ad: "Reis Bey", tur: "Tiyatro", yil: "1964", osymYil: "ÖSYM Sık", aciklama: "Merhametsiz bir kanun adamının iç dünyasındaki dönüşüm üzerinden adalet, vicdan ve tövbe temasını işleyen tiyatro eseridir." },
+          { ad: "Bir Adam Yaratmak", tur: "Tiyatro", yil: "1938", osymYil: "ÖSYM Sık", aciklama: "Yaratma fikri, kader, cinnet ve insanın kendi varlığıyla girdiği derin iç çatışmasını konu alan psikolojik tiyatro eseridir." }
+        ]
+      },
+      {
+        ad: "Asaf Halet Çelebi",
+        dogum: "1907-1958",
+        ozellik: "Türk şiirinde saf sezgiyi ve soyutlamayı Doğu-Batı mistisizmiyle, harflerle ve masallarla harmanlayan özgün şair",
+        eserler: [
+          { ad: "He", tur: "Şiir", yil: "1942", osymYil: "ÖSYM Orta", aciklama: "Doğu mistisizmi, masallar ve sembolik söyleyişe yaslanan, harflerin gizemini barındıran ilk şiir kitabıdır." },
+          { ad: "Lam Elif", tur: "Şiir", yil: "1945", osymYil: "ÖSYM Orta", aciklama: "Arap harfleri, tasavvuf hiyerarşisi ve çağrışım dünyasını soyut bir estetikle öne çıkaran şiir kitabıdır." },
+          { ad: "Om Mani Padme Hum", tur: "Şiir", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Hint-Budist mistisizmi ve tasavvufî göndermeler taşıyan, ses ritmiyle öne çıkan egzotik şiiridir." },
+          { ad: "İbrahim", tur: "Şiir", yil: "1940'lar", osymYil: "ÖSYM Sık", aciklama: "Hz. İbrahim'in putları kırma kıssasına gönderme yaparak dinî-mistik temaları ve içsel arayışı işleyen şiirdir." }
+        ]
+      }
+    ]
+  },
   "Cumhuriyet — Milli Edebiyat Anlayışını Sürdürenler": {
     color: "#4a3728",
     accent: "#d4a574",
