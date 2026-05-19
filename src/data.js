@@ -1915,7 +1915,7 @@ const data = {
       }
     ]
   },
-  "Cumhuriyet — Birey. İç Düny. Esas Alanlar": {
+  "Cumhuriyet — Birey. İç Düny. Esas Al.": {
     color: "#3d1f1f",
     accent: "#e67e22",
     yazarlar: [
