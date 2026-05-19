@@ -1634,7 +1634,7 @@ const data = {
       }
     ]
   },
-  "Cumhuriyet — Milli Edebiyat Anlayışını Sürdürenler": {
+  "Cumhuriyet — Milli Ed. Anl. Sürdürenler": {
     color: "#4a3728",
     accent: "#d4a574",
     yazarlar: [
@@ -1812,7 +1812,7 @@ const data = {
       }
     ]
   },
-  "Cumhuriyet — 60 Sonrası İslami Mistik Şiir": {
+  "Cumhuriyet — 60 S. İslami Mistik Şiir": {
     color: "#2d1b4e",
     accent: "#9b59b6",
     yazarlar: [
@@ -1915,7 +1915,7 @@ const data = {
       }
     ]
   },
-  "Cumhuriyet — Bireyin İç Dünyasını Esas Alanlar": {
+  "Cumhuriyet — Birey. İç Düny. Esas Alanlar": {
     color: "#3d1f1f",
     accent: "#e67e22",
     yazarlar: [
@@ -2000,7 +2000,7 @@ const data = {
       }
     ],
   },
-  "Cumhuriyet — Modernizm ve Postmodernizmi Esas Alanlar": {
+  "Cumhuriyet — Mod. ve Postmod. Esas Al.": {
     color: "#1f2d3d",
     accent: "#3498db",
     yazarlar: [
