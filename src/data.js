@@ -593,6 +593,8 @@ const data = {
   eserler: [
     { ad: "Gönül Hanım", tur: "Roman", yil: "1920", osymYil: "ÖSYM Sık", aciklama: "Orhun Abideleri'ne yapılan bir seyahati ve Turancılık idealini konu alan tezli roman." },
     { ad: "Çağlayanlar", tur: "Hikâye Kitabı", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Milli ruhu ve Türk tarihini ön plana çıkaran epik öyküler içerir." },
+    { "ad": "Alparslan Masalı", "tur": "Şiir / Manzume", "yil": "1905", "osymYil": "ÖSYM Orta", "aciklama": "Türk tarihinin kahramanlık figürlerini ve destansı geçmişini sade bir dille işleyen manzum nitelikteki eseridir." },
+    { "ad": "Altın Ordu", "tur": "Hikâye", "yil": "1922", "osymYil": "ÖSYM Sık", "aciklama": "Çağlayanlar adlı ünlü hikâye kitabı içerisinde yer alan, Türk tarihini ve millî şuuru canlandırmayı amaçlayan tarihi öyküdür." },
   ],
 },
       {
@@ -1027,6 +1029,7 @@ const data = {
           { ad: "Ayaşlı ile Kiracıları", tur: "Roman", yil: "1934", osymYil: "2019" },
           { ad: "Mendil Altında", tur: "Hikâye Kitabı", yil: "1946", osymYil: "2019" },
           { ad: "Otlakçı", tur: "Hikâye Kitabı", yil: "1946", osymYil: "2019" },
+          { "ad": "İhtiyar Çilingir", "tur": "Hikâye", "yil": "1984", "osymYil": "ÖSYM Sık", "aciklama": "Yazarın vefatından sonra derlenen, toplumun alt ve orta tabakasından insanların günlük yaşamlarını, sıcak ve iyimser bir dille ele alan durum öyküleridir." },
         ],
       },
       {
@@ -1455,6 +1458,7 @@ const data = {
         ozellik: "Mavicilerden; kültür ve edebiyat eleştirmeni, şair",
         eserler: [
           { ad: "Yol Üstündeki Kasaba", tur: "Şiir Kitabı", yil: "1956", osymYil: "ÖSYM Sık" },
+          { "ad": "Yol Üstündeki Semender", "tur": "Şiir", "yil": "1987", "osymYil": "ÖSYM Orta", "aciklama": "İntihar eden şairlerin trajik yaşamlarını ve modern bireyin çıkmazlarını konu edinen, Behçet Necatigil Şiir Ödülü'nü almış önemli eseridir." },
         ],
       },
       {
@@ -1774,6 +1778,9 @@ const data = {
         eserler: [
           { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
           { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." }
+          { "ad": "Balina ve Mandalina", "tur": "Çocuk Şiirleri / Epik-Lirik", "yil": "1977", "osymYil": "ÖSYM Orta", "aciklama": "Şairin çocuk dünyasına felsefi ve lirik bir yaklaşımla eğildiği, doğa ve hayvan sevgisini işleyen çocuk şiiri kitabıdır." },
+      { "ad": "Açıl Susam Açıl", "tur": "Çocuk Şiirleri", "yil": "1967", "osymYil": "ÖSYM Orta", "aciklama": "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
+      { "ad": "Kuş Ayak", "tur": "Çocuk Şiirleri", "yil": "1971", "osymYil": "ÖSYM Orta", "aciklama": "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
         ]
       },
       {
