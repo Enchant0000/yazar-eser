@@ -1777,7 +1777,7 @@ const data = {
         ozellik: "Kendine has bir dil evreni kuran, epik, felsefi ve toplumsal konularda binlerce şiir yazmış 'Türkçem benim ses bayrağım' diyen usta şair",
         eserler: [
           { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
-          { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." }
+          { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." },
           { "ad": "Balina ve Mandalina", "tur": "Çocuk Şiirleri / Epik-Lirik", "yil": "1977", "osymYil": "ÖSYM Orta", "aciklama": "Şairin çocuk dünyasına felsefi ve lirik bir yaklaşımla eğildiği, doğa ve hayvan sevgisini işleyen çocuk şiiri kitabıdır." },
       { "ad": "Açıl Susam Açıl", "tur": "Çocuk Şiirleri", "yil": "1967", "osymYil": "ÖSYM Orta", "aciklama": "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
       { "ad": "Kuş Ayak", "tur": "Çocuk Şiirleri", "yil": "1971", "osymYil": "ÖSYM Orta", "aciklama": "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
