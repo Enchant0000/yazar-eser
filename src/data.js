@@ -2154,6 +2154,15 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Sultanü'ş Şuara", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+      
+        ],
+      },
+      {
+        ad: "Nabi",
+        dogum: "",
+        ozellik: "",
+        eserler: [
+        
           { ad: "Hikemi Şair", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
       },
@@ -2205,7 +2214,7 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Gurbet Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
-          { ad: "Yalnızlık Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          
         ],
       },
       {
@@ -2258,6 +2267,7 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Özdeyiş Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          { ad: "Yalnızlık Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
       },
       {
@@ -2324,7 +2334,7 @@ const data = {
         dogum: "",
         ozellik: "",
         eserler: [
-          { ad: "Öğretmen Şair", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+        
           { ad: "Asri Baba", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
       },
@@ -2342,6 +2352,9 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Kaside Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          
+          { ad: "Hiciv Ustası (divan)", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+          
         ],
       },
       {
@@ -2399,7 +2412,7 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "Masalcı Dedemiz", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
-          { ad: "Masalcı Babamız", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+        
         ],
       },
       {
