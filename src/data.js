@@ -169,8 +169,6 @@ const data = {
         eserler: [
           { ad: "Muhakemetü'l-Lugateyn", tur: "Deneme", yil: "1499", osymYil: "ÖSYM Sık", aciklama: "İki dilin karşılaştırılması anlamına gelir. Türkçenin Farsça kadar zengin ve güçlü bir dil olduğunu kanıtlamaya çalışır." },
           { ad: "Mecalisü'n-Nefais", tur: "Tezkire", yil: "1491", osymYil: "ÖSYM Sık", aciklama: "Türk edebiyatının ilk şairler tezkiresidir. 459 şairin biyografisini içerir." },
-        
-          { ad: "Feleknâme", tur: "Mesnevi", yil: "15. YY", osymYil: "ÖSYM Sık" },
           { ad: "Mîzânü'l-Evzân", tur: "Aruz", yil: "15. YY", osymYil: "ÖSYM Sık" },
         ],
       },
@@ -2283,7 +2281,7 @@ const data = {
         ],
       },
       {
-        ad: "Hilmi Yavuz",
+        ad: "Abdulhak Hamit Tarhan",
         dogum: "",
         ozellik: "",
         eserler: [
