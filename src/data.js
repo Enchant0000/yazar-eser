@@ -653,6 +653,7 @@ const data = {
           { ad: "Sinekli Bakkal", tur: "Roman", yil: "1936", osymYil: "2020, 2023", aciklama: "İstanbul'da eski bir mahallede birbirinden farklı insanların bir arada yaşamasını anlatan roman. Batı-Doğu sentezini simgeler." },
           { ad: "Dağa Çıkan Kurt", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde bir askerin Anadolu'daki deneyimlerini anlatan roman." },
           { ad: "Türk'ün Ateşle İmtihanı", tur: "Anı", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı yıllarına dair kişisel gözlemlerini ve anılarını içeren eser." },
+          { ad: "Mor Salkımlı Ev", tur: "Anı", yil: "1955", osymYil: "ÖSYM Sık" },
           
         ],
       },
@@ -700,14 +701,7 @@ const data = {
           { ad: "Günebakan", tur: "Deneme", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Güneşe dönük anlamında, deneme ve düşünce yazıları." },
         ],
       },
-      {
-        ad: "Halide Edip Adıvar",
-        dogum: "1884-1964",
-        ozellik: "Milli Mücadele'nin kadın kahramanı; Türk romanının öncü isimlerinden",
-        eserler: [
-          { ad: "Mor Salkımlı Ev", tur: "Anı", yil: "1955", osymYil: "ÖSYM Sık" },
-        ],
-      },
+      
     ],
   },
   "Cumhuriyet — Beş Hececiler": {
