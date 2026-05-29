@@ -1900,7 +1900,7 @@ const data = {
         ozellik: "Az kelimeyle çok yoğun anlamlar kuran, ironik, mesafeli üslubuyla minimalist öykücülüğün ve postmodernizmin gizli ustalarından olan yazar",
         eserler: [
           { ad: "Dost", tur: "Hikâye", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Minimalist öykücülüğün şah eseri; taşra bürokrasisini, memurları ve sıradan insanların dramını çok az kelimeyle, yoğun ve eksiltili anlatır." },
-          { ad: "Mızıkalı Yürüyüş", tur: "Hikâye / Anlatı", yil: "1997", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi anılarından, ölümlerinden (kardeşi Özdemir Asaf esintileri) ve içsel hesaplaşmalarından beslenen otobiyografik anlatısıdır." },
+          { ad: "Mızıkalı Yürüyüş", tur: "Hikâye", yil: "1997", osymYil: "ÖSYM Orta", aciklama: "Yazarın kendi anılarından, ölümlerinden (kardeşi Özdemir Asaf esintileri) ve içsel hesaplaşmalarından beslenen otobiyografik anlatısıdır." },
           { ad: "Buzul Çağın Virüsü", tur: "Roman", yil: "1984", osymYil: "ÖSYM Sık", aciklama: "Aydın yabancılaşmasını, entelektüel çevrelerin evlilik çatışmalarını ve bireyin nihilizmini (hiçlik) işleyen soyut ve parçalı postmodern romanıdır." },
           { ad: "Bay Muannit Sahtegi'nin Notları", tur: "Roman", yil: "1991", osymYil: "ÖSYM Sık", aciklama: "Postmodern ironinin ve bilinç akışının doruğu; huysuz, inatçı, yaşlı bir adamın fragmanlar ve kopuk tarihler halindeki günlük notlarıdır." }
         ]
@@ -1944,7 +1944,7 @@ const data = {
           { ad: "Gülün İçinde Bülbül Sesi Var", tur: "Hikâye", yil: "2008", osymYil: "ÖSYM Orta", aciklama: "Geleneksel motiflerle ve masalsı dille modern kadının yalnızlığını, hüznünü harmanlayan geç dönem öyküleridir." },
           { ad: "Boşlukta Mavi", tur: "Hikâye", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Hayatın anlamını sorgulayan, kentli aydınların varoluşsal boşluklarını ve tıkanmalarını işleyen öyküleridir." },
           { ad: "Sular Aydınlanıyordu", tur: "Tiyatro", yil: "1992", osymYil: "ÖSYM Orta", aciklama: "Kadının toplumda var olma mücadelesini, içsel aydınlanmasını ve erkek egemen dünyaya direnişini anlatan oyun tarzı eseridir." },
-          { ad: "Alagün Çocukları", tur: "Hikâye / Çocuk", yil: "1976", osymYil: "ÖSYM Orta", aciklama: "Çocuk dünyasını, saflığı, oyunları ve çocukların gözünden büyüklerin dünyasındaki yapaylıkları anlatan ödüllü öyküleridir." }
+          { ad: "Alagün Çocukları", tur: "Hikâye", yil: "1976", osymYil: "ÖSYM Orta", aciklama: "Çocuk dünyasını, saflığı, oyunları ve çocukların gözünden büyüklerin dünyasındaki yapaylıkları anlatan ödüllü öyküleridir." }
         ]
       },
       {
