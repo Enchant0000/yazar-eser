@@ -1451,7 +1451,7 @@ const data = {
         ]
       },
       {
-        ad: "Cahit Zarifoglu",
+        ad: "Cahit Zarifoğlu",
         dogum: "1940-1987",
         ozellik: "İslami mistisizmi, modern insanın yalnızlığını ve içsel bunalımlarını kapalı, yoğun ve sıra dışı bir imge dünyasıyla işleyen Yedi Güzel Adam'dan biri",
         eserler: [
@@ -1469,15 +1469,6 @@ const data = {
         eserler: [
           { ad: "Sebep Ey", tur: "Şiir", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Varoluş gayesi, yaratılış sırrı, batı uygarlığının yıkıcılığı karşısında Doğu'nun inanç arayışını işleyen ilk ve en etkili şiir kitabıdır." }
         ]
-      },
-      {
-        ad: "Cahit Zarifoğlu",
-        dogum: "1940-1987",
-        ozellik: "Yedi Güzel Adam'ın en kapalı ve imgeci şairi; çocuk ruhlu mistik yazar",
-        eserler: [
-          { ad: "İşaret Çocukları", tur: "Şiir Kitabı", yil: "1967", osymYil: "ÖSYM Sık", aciklama: "Yazarın zor anlaşılan ama derinlikli imge dünyasını yansıtan ilk kitabı." },
-          { ad: "Yedi Güzel Adam", tur: "Şiir Kitabı", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "İnançlı ve mücadeleci bir neslin sembolleştiği şiirler bütünü." },
-        ],
       }
     ]
   },
