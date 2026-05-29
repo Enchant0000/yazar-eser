@@ -91,8 +91,7 @@ const data = {
   dogum: "1226-1312",
   ozellik: "Mevlana'nın oğlu; Mevlevilik tarikatının asıl kurucusu ve teşkilatçısı kabul edilir.",
   eserler: [
-    { ad: "İbtidanâme", tur: "Mesnevi", yil: "13. YY", osymYil: "ÖSYM Sık", aciklama: "Mevlevilik hakkında bilgi veren, tarikatın esaslarını anlatan önemli bir mesnevidir." },
-  
+          { ad: "İbtidanâme", tur: "Mesnevi", yil: "13. YY", osymYil: "ÖSYM Sık", aciklama: "Mevlevilik hakkında bilgi veren, tarikatın esaslarını anlatan önemli bir mesnevidir." },
           { ad: "Dîvân", tur: "Şiir", yil: "13. YY", osymYil: "ÖSYM Sık" },
           { ad: "Rebâbnâme", tur: "Mesnevi", yil: "13. YY", osymYil: "ÖSYM Sık" },
           { ad: "İntihânâme", tur: "Mesnevi", yil: "13. YY", osymYil: "ÖSYM Sık" },
@@ -1384,21 +1383,21 @@ const data = {
           { ad: "Atatürk Kurtuluş Savaşı'nda", tur: "Şiir / Epik", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Atatürk'ü, Millî Mücadele yıllarını ve halkın direnişini destansı ama son derece samimi bir dille anlatan yapıtıdır." }
         ]
       },
-      {
-        ad: "Fazıl Hüsnü Dağlarca",
-        dogum: "1914-2008",
-        ozellik: "Kendine has bir dil evreni kuran, epik, felsefi ve toplumsal konularda binlerce şiir yazmış 'Türkçem benim ses bayrağım' diyen usta şair",
-        eserler: [
-          { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
-          { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." },
-          { "ad": "Balina ve Mandalina", "tur": "Çocuk Şiirleri / Epik-Lirik", "yil": "1977", "osymYil": "ÖSYM Orta", "aciklama": "Şairin çocuk dünyasına felsefi ve lirik bir yaklaşımla eğildiği, doğa ve hayvan sevgisini işleyen çocuk şiiri kitabıdır." },
-          { "ad": "Açıl Susam Açıl", "tur": "Çocuk Şiirleri", "yil": "1967", "osymYil": "ÖSYM Orta", "aciklama": "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
-          { "ad": "Çakırın Destanı", "tur": "Destan / Şiir", "yil": "1945", "osymYil": "ÖSYM Orta", "aciklama": "Anadolu insanının çilesini ve kahramanlığını işlediği etkileyici destanlarından biridir." },
-          { "ad": "Üç Şehitler Destanı", "tur": "Yapay Destan / Şiir", "yil": "1949", "osymYil": "ÖSYM Çok Sık", "aciklama": "Millî Mücadele yıllarını epik ve destansı bir dille anlatan, Türk edebiyatındaki en önemli destani şiir örneklerinden biri." },
-          { "ad": "Toprak Ana", "tur": "Şiir", "yil": "1950", "osymYil": "ÖSYM Sık", "aciklama": "Köy yaşamını, toprağa bağlılığı ve toprağın bereketini destansı bir üslupla kaleme aldığı eseridir." },
-          { "ad": "Kuş Ayak", "tur": "Çocuk Şiirleri", "yil": "1971", "osymYil": "ÖSYM Orta", "aciklama": "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
-        ]
-      },
+     {
+  ad: "Fazıl Hüsnü Dağlarca",
+  dogum: "1914-2008",
+  ozellik: "Kendine has bir dil evreni kuran, epik, felsefi ve toplumsal konularda binlerce şiir yazmış 'Türkçem benim ses bayrağım' diyen usta şair",
+  eserler: [
+    { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
+    { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca'nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." },
+    { ad: "Balina ve Mandalina", tur: "Çocuk Şiirleri / Epik-Lirik", yil: "1977", osymYil: "ÖSYM Orta", aciklama: "Şairin çocuk dünyasına felsefi ve lirik bir yaklaşımla eğildiği, doğa ve hayvan sevgisini işleyen çocuk şiiri kitabıdır." },
+    { ad: "Açıl Susam Açıl", tur: "Çocuk Şiirleri", yil: "1967", osymYil: "ÖSYM Orta", aciklama: "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
+    { ad: "Çakırın Destanı", tur: "Destan / Şiir", yil: "1945", osymYil: "ÖSYM Orta", aciklama: "Anadolu insanının çilesini ve kahramanlığını işlediği etkileyici destanlarından biridir." },
+    { ad: "Üç Şehitler Destanı", tur: "Yapay Destan / Şiir", yil: "1949", osymYil: "ÖSYM Çok Sık", aciklama: "Millî Mücadele yıllarını epik ve destansı bir dille anlatan, Türk edebiyatındaki en önemli destani şiir örneklerinden biri." },
+    { ad: "Toprak Ana", tur: "Şiir", yil: "1950", osymYil: "ÖSYM Sık", aciklama: "Köy yaşamını, toprağa bağlılığı ve toprağın bereketini destansı bir üslupla kaleme aldığı eseridir." },
+    { ad: "Kuş Ayak", tur: "Çocuk Şiirleri", yil: "1971", osymYil: "ÖSYM Orta", aciklama: "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
+  ],
+},
       {
         ad: "Sabahattin Kudret Aksal",
         dogum: "1920-1993",
