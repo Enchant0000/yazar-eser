@@ -70,6 +70,15 @@ const data = {
     { ad: "Tazarrunâme", tur: "Nesir / Münacat", yil: "15. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Sanatlı, seci dolu diliyle Tanrı'ya yakarışı anlatan süslü nesrin şaheseridir." },
   ],
 },
+      {
+        ad: "Gülşehri",
+        dogum: "13. yy - 14. yy",
+        ozellik: "14. yüzyıl Divan edebiyatının kurucularından, Türkçenin edebi bir dil olması için mücadele etmiş mutasavvıf şair",
+        eserler: [
+          { ad: "Mantıku't-Tayr", tur: "Mesnevi", yil: "1317", osymYil: "ÖSYM Çok Sık", aciklama: "Kuş dili anlamına gelir. Feridüddin Attar'ın aynı adlı eserinin Türkçeye yapılmış serbest, genişletilmiş tercümesidir. Vahdet-i vücut felsefesini simgesel kuşlar üzerinden anlatan allegorik bir şaheserdir." },
+          { ad: "Feleknâme", tur: "Mesnevi", yil: "1301", osymYil: "ÖSYM Sık", aciklama: "Farsça kaleme alınmış tasavvufi ve felsefi bir eserdir. İnsanın yaratılış gayesini, ruhun dünyadaki yolculuğunu ve feleklerin sırlarını anlatır." },
+           ],
+      },
 {
   ad: "Veysi",
   dogum: "1561-1628",
