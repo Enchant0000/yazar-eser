@@ -161,7 +161,7 @@ const data = {
           { ad: "Muhakemetü'l-Lugateyn", tur: "Deneme", yil: "1499", osymYil: "ÖSYM Sık", aciklama: "İki dilin karşılaştırılması anlamına gelir. Türkçenin Farsça kadar zengin ve güçlü bir dil olduğunu kanıtlamaya çalışır." },
           { ad: "Mecalisü'n-Nefais", tur: "Tezkire", yil: "1491", osymYil: "ÖSYM Sık", aciklama: "Türk edebiyatının ilk şairler tezkiresidir. 459 şairin biyografisini içerir." },
         
-          { ad: "Feleknâme", tur: "Mesnevi", yil: "15. YY", osymYil: "ÖSYM Sık" },
+         
           { ad: "Mîzânü'l-Evzân", tur: "Aruz", yil: "15. YY", osymYil: "ÖSYM Sık" },
         ],
       },
@@ -175,6 +175,15 @@ const data = {
           { ad: "Şikâyetname", tur: "Mektup", yil: "16. yy", osymYil: "2020, 2023", aciklama: "Kanuni Bağdat'ı alınca Fuzuli'ye 9 akçe maaş bağlanır ancak maaşını alamaz. Bunun üzerine dönemin nişancısına yazdığı bürokrasiyi ve rüşveti hicveden ünlü mektuptur." },
           { ad: "Beng ü Bade", tur: "Mesnevi", yil: "16. yy", osymYil: "2018, 2024", aciklama: "444 beyitlik küçük mesnevi. Esrar (beng) ile şarap (bade) arasındaki savaşı konu alır. Alegorik olup Bayezid ile Şah İsmail arasındaki mücadeleyi simgeliyor olduğu düşünülür." },
           { ad: "Hadikatü's-Süeda", tur: "Düzyazı", yil: "16. yy", osymYil: "ÖSYM Sık", aciklama: "Hz. Hüseyin'in Kerbela'da şehit edilişini anlatan mensur eserdir. Maktel türünün en güzel örneği kabul edilir." },
+        ],
+      },
+      {
+        ad: "Gülşehri",
+        dogum: "13. yy - 14. yy",
+        ozellik: "14. yüzyıl Divan edebiyatının kurucularından, Türkçenin edebi bir dil olması için mücadele etmiş mutasavvıf şair",
+        eserler: [
+          { ad: "Mantıku't-Tayr", tur: "Mesnevi", yil: "1317", osymYil: "ÖSYM Çok Sık", aciklama: "Kuş dili anlamına gelir. Feridüddin Attar'ın aynı adlı eserinin Türkçeye yapılmış serbest, genişletilmiş tercümesidir. Vahdet-i vücut felsefesini simgesel kuşlar üzerinden anlatan allegorik bir şaheserdir." },
+          { ad: "Feleknâme", tur: "Mesnevi", yil: "1301", osymYil: "ÖSYM Sık", aciklama: "Farsça kaleme alınmış tasavvufi ve felsefi bir eserdir. İnsanın yaratılış gayesini, ruhun dünyadaki yolculuğunu ve feleklerin sırlarını anlatır." },
         ],
       },
       {
@@ -637,7 +646,7 @@ const data = {
         ],
       },
       {
-        ad: "Halide Edib Adıvar",
+        ad: "Halide Edip Adıvar",
         dogum: "1884-1964",
         ozellik: "Millî mücadele ruhunu romana taşıyan kahraman yazar",
         eserler: [
@@ -646,6 +655,7 @@ const data = {
           { ad: "Sinekli Bakkal", tur: "Roman", yil: "1936", osymYil: "2020, 2023", aciklama: "İstanbul'da eski bir mahallede birbirinden farklı insanların bir arada yaşamasını anlatan roman. Batı-Doğu sentezini simgeler." },
           { ad: "Dağa Çıkan Kurt", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde bir askerin Anadolu'daki deneyimlerini anlatan roman." },
           { ad: "Türk'ün Ateşle İmtihanı", tur: "Anı", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı yıllarına dair kişisel gözlemlerini ve anılarını içeren eser." },
+            { ad: "Mor Salkımlı Ev", tur: "Anı", yil: "1955", osymYil: "ÖSYM Sık" },
           
         ],
       },
@@ -693,16 +703,7 @@ const data = {
           { ad: "Günebakan", tur: "Deneme", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Güneşe dönük anlamında, deneme ve düşünce yazıları." },
         ],
       },
-      {
-        ad: "Halide Edip Adıvar",
-        dogum: "1884-1964",
-        ozellik: "Milli Mücadele'nin kadın kahramanı; Türk romanının öncü isimlerinden",
-        eserler: [
-          { ad: "Mor Salkımlı Ev", tur: "Anı", yil: "1955", osymYil: "ÖSYM Sık" },
-        ],
-      },
-    ],
-  },
+     
   "Cumhuriyet — Beş Hececiler": {
     color: "#3d2060",
     accent: "#a67cd4",
@@ -1391,8 +1392,11 @@ const data = {
           { ad: "Çocuk ve Allah", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Sık", aciklama: "Çocukluk algısı, evren, varlık, metafizik ve inanç duygusunu harmanlayan, Türk edebiyatının başyapıtlarından kabul edilen şiir kitabıdır." },
           { ad: "Havaya Çizilen Dünya", tur: "Şiir", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Dağlarca’nın hece ölçüsüyle yazdığı, biçim arayışlarını ve erken dönem şiir algısını barındıran ilk şiir kitabıdır." },
           { "ad": "Balina ve Mandalina", "tur": "Çocuk Şiirleri / Epik-Lirik", "yil": "1977", "osymYil": "ÖSYM Orta", "aciklama": "Şairin çocuk dünyasına felsefi ve lirik bir yaklaşımla eğildiği, doğa ve hayvan sevgisini işleyen çocuk şiiri kitabıdır." },
-      { "ad": "Açıl Susam Açıl", "tur": "Çocuk Şiirleri", "yil": "1967", "osymYil": "ÖSYM Orta", "aciklama": "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
-      { "ad": "Kuş Ayak", "tur": "Çocuk Şiirleri", "yil": "1971", "osymYil": "ÖSYM Orta", "aciklama": "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
+          { "ad": "Açıl Susam Açıl", "tur": "Çocuk Şiirleri", "yil": "1967", "osymYil": "ÖSYM Orta", "aciklama": "Çocuk edebiyatı alanında yazdığı, hayal gücünü ve evrensel insani değerleri sade bir Türkçe ile işleyen eseridir." },
+          { "ad": "Çakırın Destanı", "tur": "Destan / Şiir", "yil": "1945", "osymYil": "ÖSYM Orta", "aciklama": "Anadolu insanının çilesini ve kahramanlığını işlediği etkileyici destanlarından biridir." },
+          { "ad": "Üç Şehitler Destanı", "tur": "Yapay Destan / Şiir", "yil": "1949", "osymYil": "ÖSYM Çok Sık", "aciklama": "Millî Mücadele yıllarını epik ve destansı bir dille anlatan, Türk edebiyatındaki en önemli destani şiir örneklerinden biri." },
+          { "ad": "Toprak Ana", "tur": "Şiir", "yil": "1950", "osymYil": "ÖSYM Sık", "aciklama": "Köy yaşamını, toprağa bağlılığı ve toprağın bereketini destansı bir üslupla kaleme aldığı eseridir." },
+          { "ad": "Kuş Ayak", "tur": "Çocuk Şiirleri", "yil": "1971", "osymYil": "ÖSYM Orta", "aciklama": "Dağlarca'nın çocuk duyarlılığını yalın dil yapısı ve özgün imgelerle harmanladığı şiir derlemelerindendir." },
         ]
       },
       {
@@ -1447,7 +1451,7 @@ const data = {
         ]
       },
       {
-        ad: "Cahit Zarifoglu",
+        ad: "Cahit Zarifoğlu",
         dogum: "1940-1987",
         ozellik: "İslami mistisizmi, modern insanın yalnızlığını ve içsel bunalımlarını kapalı, yoğun ve sıra dışı bir imge dünyasıyla işleyen Yedi Güzel Adam'dan biri",
         eserler: [
@@ -1466,17 +1470,7 @@ const data = {
           { ad: "Sebep Ey", tur: "Şiir", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Varoluş gayesi, yaratılış sırrı, batı uygarlığının yıkıcılığı karşısında Doğu'nun inanç arayışını işleyen ilk ve en etkili şiir kitabıdır." }
         ]
       },
-      {
-        ad: "Cahit Zarifoğlu",
-        dogum: "1940-1987",
-        ozellik: "Yedi Güzel Adam'ın en kapalı ve imgeci şairi; çocuk ruhlu mistik yazar",
-        eserler: [
-          { ad: "İşaret Çocukları", tur: "Şiir Kitabı", yil: "1967", osymYil: "ÖSYM Sık", aciklama: "Yazarın zor anlaşılan ama derinlikli imge dünyasını yansıtan ilk kitabı." },
-          { ad: "Yedi Güzel Adam", tur: "Şiir Kitabı", yil: "1973", osymYil: "ÖSYM Sık", aciklama: "İnançlı ve mücadeleci bir neslin sembolleştiği şiirler bütünü." },
-        ],
-      }
-    ]
-  },
+     
   "Cumhuriyet — 80 Sonrası Şiir": {
     color: "#1b3a2f",
     accent: "#2ecc71",
@@ -2271,7 +2265,7 @@ const data = {
         ],
       },
       {
-        ad: "Hilmi Yavuz",
+        ad: "Abdulhak Hamit Tarhan",
         dogum: "",
         ozellik: "",
         eserler: [
