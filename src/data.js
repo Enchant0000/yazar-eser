@@ -1645,7 +1645,7 @@ const data = {
       }
     ],
   },
-  "Cumhuriyet — Mod. ve Postmod. Esas Al.": {
+  "Cumhuriyet — Mod. Postmod. Esas Al. 1": {
     color: "#1f2d3d",
     accent: "#3498db",
     yazarlar: [
@@ -2025,7 +2025,8 @@ const data = {
       }
     ]
   },
-  "Cumhuriyet — Mod. ve Postmod. Esas Al.": {
+  
+  "Cumhuriyet — Mod. Postmod. Esas Al. 2": {
     color: "#1f2d3d",
     accent: "#3498db",
     yazarlar: [
