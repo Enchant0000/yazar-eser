@@ -435,6 +435,19 @@ const data = {
         ],
       },
       {
+        ad: "Muallim Naci",
+        dogum: "1850-1893",
+        ozellik: "Tanzimat Dönemi'nde eski edebiyatın (klasik şiirin) savunucusu ve muhafazakar kanadın lideri; Türkçenin sadeleşmesini savunan usta sözlükçü ve yazar",
+        eserler: [
+          { ad: "Ateşpâre", tur: "Şiir", yil: "1883", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk şiir kitabıdır. Geleneksel divan şiiri yapısıyla Batılı temaları harmanladığı, aruz ölçüsüyle yazılmış başarılı şiirlerini içerir." },
+          { ad: "Şerâre", tur: "Şiir", yil: "1884", osymYil: "ÖSYM Orta", aciklama: "Muallim Naci'nin edebi gücünü ortaya koyan, divan şiiri tarzındaki gazel, kaside ve kıtalarını topladığı ikinci şiir kitabıdır." },
+          { ad: "Füruzân", tur: "Şiir", yil: "1886", osymYil: "ÖSYM Orta", aciklama: "Eski şiir estetiğine sadık kalarak kaleme aldığı, teknik açıdan oldukça kusursuz olan şiirlerini bir araya getirdiği eseridir." },
+          { ad: "Demdeme", tur: "Eleştiri", yil: "1886", osymYil: "ÖSYM Çok Sık", aciklama: "Recaizade Mahmut Ekrem'in Zemzeme (yeni edebiyat savunusu) adlı eserine karşı kaleme alınmış, eski edebiyatı ve kafiyede göz için ses anlayışını savunan ünlü eleştiri yazısıdır." },
+          { ad: "Ömer'in Çocukluğu", tur: "Anı", yil: "1890", osymYil: "ÖSYM Çok Sık", aciklama: "Yazarın kendi çocukluk anılarını, sekiz yaşına kadar olan İstanbul ve Varna yıllarını son derece sade, samimi ve duru bir Türkçe ile anlattığı anı kitabıdır." },
+          { ad: "Lügat-i Naci", tur: "Sözlük", yil: "1894", osymYil: "ÖSYM Sık", aciklama: "Osmanlı Türkçesinde kullanılan Arapça ve Farsça kelimelerin halk dilindeki karşılıklarını ve edebi kullanımlarını titizlikle açıklayan dönemin en önemli sözlük çalışmasıdır." },
+        ],
+      },
+      {
         ad: "Abdülhak Hamit Tarhan",
         dogum: "1852-1937",
         ozellik: "Şair-i Azam; dramatik şiir ve tiyatronun büyük ustası",
@@ -1076,6 +1089,14 @@ const data = {
     { ad: "Ortakçılar", tur: "Roman", yil: "1964", osymYil: "ÖSYM Sık", aciklama: "Köylü ile toprak sahibi arasındaki çatışmayı ve ortakçılık sistemini eleştirel bir dille anlatır." },
   ],
 },
+      {
+        ad: "Fakir Baykurt",
+        dogum: "1929-1999",
+        ozellik: "Toplumcu gerçekçi edebiyatın öncülerinden; köy enstitüsü çıkışlı, Anadolu köy yaşamını ve köylünün sorunlarını tüm çıplaklığıyla anlatan usta yazar",
+        eserler: [
+          { ad: "Yılanların Öcü", tur: "Roman", yil: "1954", osymYil: "ÖSYM Çok Sık", aciklama: "Burdur'un Karataş köyündeki mülkiyet ve hiyerarşi çatışmasını, Kara Bayram ve ailesinin köy muhtarı ile Irazca Ana'nın direnişi ekseninde yaşadığı güç mücadelesini anlatan toplumcu gerçekçi başyapıtıdır." },
+        ],
+      },
       {
   ad: "Sabahattin Ali",
   dogum: "1907-1948",
