@@ -365,8 +365,8 @@ export const basarimlar = [
   {
     id: "yazar_eser_kitabi",
     ad: "Yazar Eser Kitabı",
-    zorluk: 7,
-    aciklama: "Test merkezinden tüm dönemleri (Lakaplar ve Dergiler hariç) 5sn modunda Maks soruda %100 doğrulukla tamamla",
+    zorluk: 8,
+    aciklama: "Test merkezinden tüm dönemleri (Lakaplar ve Dergiler hariç) 10sn modunda Maks soruda %100 doğrulukla tamamla",
     kontrol: (sonuc) => {
       return (
         sonuc.tumDonemlerSecili &&
