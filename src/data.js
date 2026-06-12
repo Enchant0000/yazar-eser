@@ -580,6 +580,36 @@ const data = {
         ],
       },
       {
+    ad: "Emin Bülent Serdaroğlu",
+    dogum: "1886-1942",
+    ozellik: "Fecr-i Âti'nin kurucularından; bireysel çizgiden başlayıp Balkan Savaşları sonrası destansı ve milli bir uyanış tonuna evrilen güçlü bir sese sahip şairdir.",
+    eserler: [
+      { ad: "Kin", tur: "Şiir", yil: "1910", osymYil: "ÖSYM Çok Sık", aciklama: "Victor Hugo'nun Mavi Gözlü Yunan Çocuğu şiirine tepki olarak yazılan, Türk milletinin uğradığı haksızlıklara karşı milli öfkeyi ve direnişi haykıran, Atatürk'ün de büyük takdirini kazanmış epik şiirdir." },
+      { ad: "Hisarlara Karşı", tur: "Şiir", yil: "1904", osymYil: "ÖSYM Orta", aciklama: "Gençlik yıllarında kaleme aldığı, İstanbul'un tarihi dokusunu ve geçmişin görkemini hisli bir dille tasvir eden erken dönem manzumelerindendir." },
+    ],
+  },
+  // Dönem: Fecr-i Âti Edebiyatı
+  {
+    ad: "İzzet Melih Devrim",
+    dogum: "1887-1966",
+    ozellik: "Fecr-i Âti beyannamesine imza atan, Batılı hikaye ve roman tekniğini benimseyerek Fransız edebiyatı etkisinde eserler üreten yazar ve mütercim.",
+    eserler: [
+      { ad: "Sermed", tur: "Roman", yil: "1910", osymYil: "ÖSYM Orta", aciklama: "Dönemin modası olan melankolik, marazi aşk ilişkilerini ve bireysel ruhsal çalkantıları işleyen, Fransız edebiyatı kurgu tekniğine yakın romanıdır." },
+      { ad: "Hüzün ve Tebessüm", tur: "Hikâye / Mensur Şiir", yil: "1922", osymYil: "ÖSYM Orta", aciklama: "Küçük hikayelerini ve duygusal tonu yüksek mensur şiirlerini bir araya getirdiği, Fecr-i Âti estetiğini yansıtan nesir kitabıdır." },
+    ],
+  },
+  // Dönem: Fecr-i Âti Edebiyatı
+  {
+    ad: "Cemil Süleyman",
+    dogum: "1882-1940",
+    ozellik: "Fecr-i Âti döneminin en üretken hikaye ve roman yazarlarındandır; diğer dönemdaşlarına göre daha sade bir dille kadın psikolojisini ve marazi ilişkileri işlemiştir.",
+    eserler: [
+      { ad: "Timsal-i Aşk", tur: "Hikâye", yil: "1909", osymYil: "ÖSYM Sık", aciklama: "Fecr-i Âti Kütüphanesi yayınlarının basılan ilk kitabıdır. İçerisinde mutsuz aşkları, hayal kırıklıklarını ve hastalıklı duyguları işleyen 14 öykü barındırır." },
+      { ad: "Siyah Gözler", tur: "Roman", yil: "1911", osymYil: "ÖSYM Sık", aciklama: "Edebiyatımızda kadın psikolojisini derinlemesine inceleyen ilk başarılı örneklerden biridir; dul bir kadının iç dünyasını ve yasak aşk çelişkilerini anlatır." },
+      { ad: "Kadın Ruhu", tur: "Hikâye", yil: "1914", osymYil: "ÖSYM Orta", aciklama: "Toplum içindeki farklı sınıflardan kadınların ruhsal durumlarını, hayal kırıklıklarını ve evlilik hayatındaki açmazlarını gözlemci bir dille anlatan öykü kitabıdır." },
+    ],
+  },
+      {
         ad: "Ahmet Rasim",
         dogum: "1864-1932",
         ozellik: "İstanbul'u anlatan fıkra ve anı ustası",
@@ -625,6 +655,45 @@ const data = {
     { ad: "Üç İstanbul", tur: "Roman", yil: "1938", osymYil: "ÖSYM Çok Sık", aciklama: "İstibdat, Meşrutiyet ve Mütareke dönemlerini yansıtan, toplumun ahlaki çöküşünü inceleyen dev eser." },
   ],
 },
+      {
+    ad: "Yusuf Akçura",
+    dogum: "1876-1935",
+    ozellik: "Millî Edebiyat ve Türkçülük akımının en önemli ideologlarından; Türk Tarih Kurumu kurucularından olan fikir adamı ve tarihçi.",
+    eserler: [
+      { ad: "Üç Tarz-ı Siyaset", tur: "Makale / Siyasi Akım", yil: "1904", osymYil: "ÖSYM Çok Sık", aciklama: "Osmanlı Devleti'nin kurtuluşu için Osmanlıcılık, İslamcılık ve Türkçülük akımlarını karşılaştırarak analiz eden ve Türkçülük politikasının tek çare olduğunu savunan Türk milliyetçiliğinin manifestosudur." },
+      { ad: "Mevkufiyet Hatıraları", tur: "Anı", yil: "1904", osymYil: "ÖSYM Orta", aciklama: "Yazarın siyasi fikirleri ve eylemleri nedeniyle tutukluluk ve sürgün dönemlerinde tuttuğu notlardan, dönemin baskıcı rejimini anlatan anı türündeki eseridir." },
+    ],
+  },
+  // Dönem: Millî Edebiyat Dönemi
+  {
+    ad: "Aka Gündüz",
+    dogum: "1886-1951",
+    ozellik: "Millî Edebiyat akımının popüler, idealist ve üretken romancısı; popüler bir dille Anadolu'yu ve Kurtuluş Savaşı'nı kitlelere anlatmıştır.",
+    eserler: [
+      { ad: "Dikmen Yıldızı", tur: "Roman", yil: "1928", osymYil: "ÖSYM Çok Sık", aciklama: "Kurtuluş Savaşı yıllarını fon alan, cephe gerisindeki idealist ve fedakar Türk kadını Yıldız'ın şahsında Türk milletinin bağımsızlık mücadelesini ve uyanışını coşkulu bir dille işleyen en ünlü romanıdır." },
+      { ad: "Türk Kalbi", tur: "Hikâye", yil: "1911", osymYil: "ÖSYM Sık", aciklama: "Millî şuuru uyandırmak amacıyla sade bir dille yazılmış, Türk askerinin kahramanlıklarını ve vatan sevgisini ön plana çıkaran öykü derlemesidir." },
+      { ad: "Tanko", tur: "Roman", yil: "1927", osymYil: "ÖSYM Orta", aciklama: "Batılılaşmayı yanlış anlayarak yozlaşan, milli ve ahlaki değerlerinden uzaklaşan züppe ve alafranga tipleri eleştirel bir dille ele alan toplumsal romanıdır." },
+    ],
+  },
+  // Dönem: Millî Edebiyat Dönemi (Bağımsız Çizgi)
+  {
+    ad: "Ebubekir Hazım Tepeyran",
+    dogum: "1863-1947",
+    ozellik: "Millî Edebiyat döneminde yaşamış, Türk edebiyatında Nabizade Nazım'dan (Karabibik) sonra köy gerçeğini nesnel bir gözlemle ele alan ikinci önemli yazardır.",
+    eserler: [
+      { ad: "Küçük Paşa", tur: "Roman", yil: "1910", osymYil: "ÖSYM Çok Sık", aciklama: "Türk edebiyatında köyü, köylünün yoksulluğunu, bürokrasi karşısındaki çaresizliğini ve köy yaşamını romantize etmeden, tüm çıplaklığıyla ve realizmle işleyen ikinci büyük köy romanıdır." },
+    ],
+  },
+  // Dönem: Millî Edebiyat Dönemi (Bağımsız Çizgi)
+  // Unvan: Filozof Rıza
+  {
+    ad: "Rıza Tevfik Bölükbaşı",
+    dogum: "1869-1949",
+    ozellik: "Çok yönlü entelektüel yapısı nedeniyle 'Filozof Rıza' olarak anılan; divan şiiri geleneğine karşı halk şiiri formunu ve hece veznini savunarak Tekke-Bektaşi şiir kültürünü yeniden canlandıran şairdir.",
+    eserler: [
+      { ad: "Serâb-ı Ömrüm", tur: "Şiir", yil: "1934", osymYil: "ÖSYM Çok Sık", aciklama: "Şairin tüm şiirlerini topladığı tek kitabıdır. İçerisinde felsefi sorgulamalar, halk edebiyatı geleneğine uygun koşmalar, nefesler ve çocukluk günlerine duyulan yoğun özlem yer alır." },
+    ],
+  },
       {
   ad: "Mehmet Emin Yurdakul",
   dogum: "1869-1944",
@@ -999,6 +1068,18 @@ const data = {
         ],
       },
       {
+    ad: "Sevinç Çokum",
+    dogum: "1943-...",
+    ozellik: "Geleneksel değerleri, milli ve dini motifleri, özellikle dış Türklerin (Kırım Türkleri vb.) uğradığı zulümleri ve büyük şehirlerdeki sosyal değişimleri duygusal, yoğun bir dille işleyen kadın yazar.",
+    eserler: [
+      { ad: "Eğik Ağaçlar", tur: "Hikâye", yil: "1972", osymYil: "ÖSYM Sık", aciklama: "Yazarın ilk öykü kitabıdır. Küçük insanların iç dünyasını, yalnızlıklarını, geleneksel bağlarını ve İstanbul'un kenar mahallelerindeki hüzünlü yaşamları ele alır." },
+      { ad: "Hilal Görününce", tur: "Roman", yil: "1984", osymYil: "ÖSYM Çok Sık", aciklama: "Kırım Türklerinin Rus zulmü altındaki dramını, vatanlarından sürülüşlerini ve milli kimliklerini koruma mücadelelerini epik-lirik bir dille anlatan tarihi roman başyapıtıdır. (Listede istenen Deli Zamanlar, Tren Buradan Geçiyor, Gece Kuşu Uzun Öter ile birlikte yazarın en çok sorulan eseridir.)" },
+      { ad: "Deli Zamanlar", tur: "Roman", yil: "2000", osymYil: "ÖSYM Orta", aciklama: "Türkiye'nin yakın tarihini, siyasi ve sosyal çalkantıların bireylerin hayatlarında ve aile yapılarında yarattığı kırılmaları psikolojik derinlikle işleyen romanıdır." },
+      { ad: "Tren Buradan Geçiyor", tur: "Roman", yil: "2007", osymYil: "ÖSYM Orta", aciklama: "Sosyal değişim sürecinde kasaba ve şehir hayatı arasındaki sıkışmışlığı, göç dalgasının insan ilişkilerine getirdiği yabancılaşmayı ele alan eseridir." },
+      { ad: "Gece Kuşu Uzun Öter", tur: "Roman", yil: "2001", osymYil: "ÖSYM Orta", aciklama: "Kadın duyarlılığı ekseninde yalnızlık, içsel sorgulamalar ve modern yaşamın getirdiği hüzünlü yüzleşmeleri lirik bir üslupla aktardığı romanıdır." },
+    ],
+  },
+      {
         ad: "Mustafa Necati Karaer",
         dogum: "1926-1995",
         ozellik: "Hisarcılardan; hece ölçüsünü koruyan şair",
@@ -1008,6 +1089,7 @@ const data = {
       },
     ],
   },
+  
   "Cumhuriyet — Maviciler": {
     color: "#1a2a3a",
     accent: "#4a8ad4",
@@ -1392,6 +1474,8 @@ const data = {
         eserler: [
           { ad: "Kapalı Çarşı", tur: "Şiir", yil: "1945", osymYil: "ÖSYM Sık", aciklama: "Şairin ilk dönem şiirlerini barındıran, şehir hayatı ve küçük insanın dünyasına kapı aralayan ilk şiir kitabıdır." },
           { ad: "Çevre", tur: "Şiir", yil: "1951", osymYil: "ÖSYM Sık", aciklama: "Kent, insan, sokak ve gündelik hayatın yarattığı dar çevreyi ve bu çevre içindeki sıkışmışlığı işleyen şiir kitabıdır." },
+          { ad: "Gece Aşevi", tur: "Radyo Oyunu", yil: "1952", osymYil: "ÖSYM Orta", aciklama: "Edebiyatımızda radyo tiyatrosu türünün en başarılı örneklerinden biridir; modern insanın yalnızlığını ve içsel diyaloglarını dramatik bir dille sunar." },
+          { ad: "Yıldızlara Bakmak", tur: "Radyo Oyunu", yil: "1965", osymYil: "ÖSYM Orta", aciklama: "Bireyin iç dünyasındaki hayalleri ile dış dünyadaki gerçeklerin çatışmasını radyo estetiğine uygun şekilde şiirsel bir dille işleyen oyunudur." },
           { ad: "Evler", tur: "Şiir", yil: "1953", osymYil: "ÖSYM Sık", aciklama: "Ev, sığınak, aile ve iç dünya metaforlarıyla kurulan, şaire ününü kazandıran en karakteristik şiir kitabıdır." }
         ]
       },
@@ -1402,6 +1486,8 @@ const data = {
         eserler: [
           { ad: "Türk Mavisi", tur: "Şiir", yil: "1965", osymYil: "ÖSYM Sık", aciklama: "Külebi’nin olgunluk dönemi şiirlerinden oluşan, memleket sevgisini ve doğayı lirik bir dille birleştiren kitabıdır." },
           { ad: "Adamın Biri", tur: "Şiir", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Şairin çocukluk ve gençlik izlenimlerini, Anadolu insanına bakışını yalın bir dille yansıtan ilk şiir kitabıdır." },
+          { ad: "Rüzgâr", tur: "Şiir", yil: "1949", osymYil: "ÖSYM Sık", aciklama: "Doğa unsurlarını, rüzgarı, yalnızlığı ve memleket manzaralarını özgün imgeler ve konuşma dilinin doğallığıyla harmanladığı şiir derlemesidir." },
+          { ad: "Yeşeren Otlar", tur: "Şiir", yil: "1954", osymYil: "ÖSYM Çok Sık", aciklama: "Türk Dil Kurumu Şiir Ödülü'nü alan; şairin Anadolu'nun uyanışını, umudunu ve toplumsal duyarlılığını zirveye taşıdığı olgunluk dönemi şiir kitabıdır." },
           { ad: "Atatürk Kurtuluş Savaşı'nda", tur: "Şiir / Epik", yil: "1952", osymYil: "ÖSYM Sık", aciklama: "Atatürk'ü, Millî Mücadele yıllarını ve halkın direnişini destansı ama son derece samimi bir dille anlatan yapıtıdır." }
         ]
       },
@@ -2159,6 +2245,22 @@ const data = {
         ozellik: "",
         eserler: [
           { ad: "İstanbul Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+        ],
+      },
+       {
+        ad: "Ahmet Haşim",
+        dogum: "",
+        ozellik: "",
+        eserler: [
+          { ad: "Akşam Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
+        ],
+      },
+       {
+        ad: "Tahsin Nahit",
+        dogum: "",
+        ozellik: "",
+        eserler: [
+          { ad: "Adalar Şairi", tur: "Lakap", yil: "", osymYil: "ÖSYM Sık" },
         ],
       },
       {
