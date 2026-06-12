@@ -325,20 +325,7 @@ export const basarimlar = [
   },
 
   // ========== SEVİYE 7: Efsane Başarımlar ==========
-  {
-    id: "yazar_eser_kitabi",
-    ad: "Yazar Eser Kitabı",
-    zorluk: 7,
-    aciklama: "Test merkezinden tüm dönemleri (Lakaplar ve Dergiler hariç) 5sn modunda Maks soruda %100 doğrulukla tamamla",
-    kontrol: (sonuc) => {
-      return (
-        sonuc.tumDonemlerSecili &&
-        sonuc.zamanLimit === 5 &&
-        sonuc.oran === 100 &&
-        sonuc.soruSayisi === "Maks"
-      );
-    },
-  },
+ 
   {
     id: "destansi_bilgin",
     ad: "Destansı Bilgin",
@@ -375,6 +362,22 @@ export const basarimlar = [
       );
     },
   },
+  {
+    id: "yazar_eser_kitabi",
+    ad: "Yazar Eser Kitabı",
+    zorluk: 7,
+    aciklama: "Test merkezinden tüm dönemleri (Lakaplar ve Dergiler hariç) 5sn modunda Maks soruda %100 doğrulukla tamamla",
+    kontrol: (sonuc) => {
+      return (
+        sonuc.tumDonemlerSecili &&
+        sonuc.zamanLimit === 10 &&
+        sonuc.oran === 100 &&
+        sonuc.soruSayisi === "Maks"
+      );
+    },
+  },
+
+  
 ];
 
 /* ─── localStorage Yardımcıları ──────────────────────────────────── */
