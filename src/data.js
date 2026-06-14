@@ -733,9 +733,11 @@ const data = {
           { ad: "Ateşten Gömlek", tur: "Roman", yil: "1922", osymYil: "2019, 2022", aciklama: "Kurtuluş Savaşı'nı anlatan roman. Peyami, Ayşe ve İhsan üçgeni üzerinden Anadolu'nun işgali ve kurtuluşu anlatılır." },
           { ad: "Vurun Kahpeye", tur: "Roman", yil: "1926", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı sırasında Anadolu'da görev yapan öğretmen Aliye'nin yurtsever mücadelesini ve şehit oluşunu anlatan roman." },
           { ad: "Sinekli Bakkal", tur: "Roman", yil: "1936", osymYil: "2020, 2023", aciklama: "İstanbul'da eski bir mahallede birbirinden farklı insanların bir arada yaşamasını anlatan roman. Batı-Doğu sentezini simgeler." },
+          { ad: "Yeni Turan", tur: "Roman", yil: "1912", osymYil: "ÖSYM Sık", aciklama: "Edebiyatımızda Türkçülük ve Turancılık ideolojisini ütopik bir program halinde ele alan ilk siyasi/tezli romandır. İdealist bir Türk kadını olan Kaya'nın, kadının sosyal hayattaki yerini yükseltme ve millî bir toplum inşa etme mücadelesini anlatır." },
           { ad: "Dağa Çıkan Kurt", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde bir askerin Anadolu'daki deneyimlerini anlatan roman." },
           { ad: "Türk'ün Ateşle İmtihanı", tur: "Anı", yil: "1962", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı yıllarına dair kişisel gözlemlerini ve anılarını içeren eser." },
           { ad: "Mor Salkımlı Ev", tur: "Anı", yil: "1955", osymYil: "ÖSYM Sık" },
+          
           
         ],
       },
@@ -1430,6 +1432,8 @@ const data = {
           { ad: "Yaban", tur: "Roman", yil: "1932", osymYil: "2018, 2021, 2024", aciklama: "Milli Mücadele döneminde kolunu kaybeden subay Ahmet Celal'in bir Anadolu köyünde yaşadıklarını anlatır. Aydın-halk çatışmasını ve köylünün cehaletle mücadelesini irdeler." },
           { ad: "Kiralık Konak", tur: "Roman", yil: "1922", osymYil: "2020, 2023", aciklama: "Tanzimat'tan Birinci Dünya Savaşı'na üç kuşağın çöküşünü anlatan roman. Naim Efendi, kızı Seniha ve torunu üzerinden yanlış Batılılaşmanın bir ailenin ve medeniyetin çöküşüne yol açması anlatılır." },
           { ad: "Ankara", tur: "Roman", yil: "1934", osymYil: "ÖSYM Sık", aciklama: "Kurtuluş Savaşı döneminde Ankara'nın başkent oluşunu ve yeni Cumhuriyet'in kuruluşunu anlatan roman." },
+          { ad: "Gençlik ve Edebiyat Hatıraları", tur: "Hatıra", yil: "1969", osymYil: "ÖSYM Orta", aciklama: "Yazarın edebiyat dünyasına adım atışını ve Fecr-i Âti topluluğunun kuruluş sürecini anlattığı anı kitabıdır. Ahmet Haşim, Yahya Kemal gibi dönemin dev isimlerinin karakter analizlerine ve edebi çatışmalarına içeriden bir gözle yer verir." },
+          { ad: "Anamın Kitabı", tur: "Hatıra", yil: "1957", osymYil: "ÖSYM Sık", aciklama: "Yazarın çocukluk ve ilk gençlik yıllarını annesi İkbal Hanım'ın ekseninde anlattığı otobiyografik eseridir. Kahire, Manisa ve İzmir üçgeninde gelişen anılar üzerinden Osmanlı'nın son dönemindeki konak hayatını ve çöken imparatorluğun sosyal yapısını yansıtır." },
           { ad: "Sodom ve Gomore", tur: "Roman", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Mütareke dönemi İstanbul'undaki ahlaki ve toplumsal çöküşü anlatan roman. Yabancı işgali altındaki İstanbul'un kaotik ortamı aktarılır." },
           { ad: "Nur Baba", tur: "Roman", yil: "1922", osymYil: "ÖSYM Sık", aciklama: "Bektaşi tekke çevresindeki aşk ve yozlaşmayı anlatan roman. Yayımlandığında büyük tepkiler toplamıştır." },
           { ad: "Hep O Şarkı", tur: "Roman", yil: "1956", osymYil: "ÖSYM Orta", aciklama: "Yazarın son romanıdır; Abdülaziz dönemi İstanbul hayatını ve aşklarını konu alır." },
