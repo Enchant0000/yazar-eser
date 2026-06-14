@@ -351,14 +351,14 @@ export const basarimlar = [
     id: "zirveye_yolculuk",
     ad: "Zirveye Yolculuk",
     zorluk: 7,
-    aciklama: "Tüm dönemler (Lakaplar ve Dergiler hariç), Karışık, 5sn, Maks soru, %95+",
+    aciklama: "Tüm dönemler (Lakaplar ve Dergiler hariç), Karışık, 10sn, Maks soru, %90+",
     kontrol: (sonuc) => {
       return (
         sonuc.tumDonemlerSecili &&
         sonuc.soruTipi === "KARISIK" &&
-        sonuc.zamanLimit === 5 &&
+        sonuc.zamanLimit === 10 &&
         sonuc.soruSayisi === "Maks" &&
-        sonuc.oran >= 95
+        sonuc.oran >= 90
       );
     },
   },
