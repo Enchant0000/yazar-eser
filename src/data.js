@@ -558,10 +558,19 @@ const data = {
         ozellik: "Servet-i Fünun'un sert kalemli eleştirmen ve gazetecisi",
         eserler: [
           { ad: "Kavgalarım", tur: "Anı", yil: "1910", osymYil: "2023", aciklama: "Hüseyin Cahit'in edebiyat ve siyaset dünyasındaki tartışmalarını anlattığı anı kitabı." },
+          { ad: "Edebiyat Anıları", tur: "Anı", yil: "1935", osymYil: "ÖSYM Sık", aciklama: "Servet-i Fünun topluluğunun iç çekişmelerini, sansürle mücadelelerini ve o dönem sanatçılarının edebi kavgalarını nesnel, yalın ve samimi bir tanıklıkla sunan anı kitabıdır." },
           { ad: "Hayat-ı Muhayyel", tur: "Hikâye", yil: "1898", osymYil: "ÖSYM Sık", aciklama: "Hayal hayatı anlamında. Servet-i Fünun'un hayalperest ruhunu yansıtan hikayeler." },
           { ad: "Edebiyat ve Hukuk", tur: "Makale", yil: "1901", osymYil: "ÖSYM Sık", aciklama: "Edebiyatta her konunun işlenebileceğini savunan makale. Hüseyin Rahmi'nin eserinden alınan bir bölüm üzerine çıkan tartışma üzerine yazılmıştır." },
         ],
       },
+       {
+    ad: "Ahmet Şuayb",
+    dogum: "1876-1910",
+    ozellik: "Servet-i Fünun topluluğunda şiir veya romanla ilgilenmeyip sadece edebi eleştiri (tenkit) ve tarih üzerine yoğunlaşan, nesnel ve bilimsel eleştirinin öncüsü.",
+    eserler: [
+      { ad: "Hayat ve Kitaplar", tur: "Deneme / İnceleme", yil: "1901", osymYil: "ÖSYM Orta", aciklama: "Hippolyte Taine gibi Batılı düşünürlerin edebiyat kuramlarını inceleyen, sanata bilimsel ve nesnel yaklaşımlar getiren döneminin en önemli eleştiri yapıtıdır." },
+    ],
+  },
       {
         ad: "Hüseyin Rahmi Gürpınar",
         dogum: "1864-1944",
@@ -582,6 +591,8 @@ const data = {
         eserler: [
           { ad: "Piyale", tur: "Şiir", yil: "1926", osymYil: "2021, 2023", aciklama: "Ahmet Haşim'in en olgun şiir kitabı. Akşam, alacakaranlık ve ay ışığı gibi empresyonist imgeler kullanılır. Dünyanın gerçeğinden kaçış ve estetik sığınak teması işlenir." },
           { ad: "Göl Saatleri", tur: "Şiir", yil: "1921", osymYil: "ÖSYM Sık", aciklama: "İlk şiir kitabı. Empresyonist duyarlılıkla yazılmış şiirler içerir." },
+          { ad: "Frankfurt Seyahatnamesi", tur: "Gezi Yazısı", yil: "1933", osymYil: "ÖSYM Sık", aciklama: "Tedavi amacıyla gittiği Almanya'daki izlenimlerini; Batı modernleşmesini, hastane ortamını ve Avrupa şehir hayatını estetik, hüzünlü ve çarpıcı bir dille aktardığı gezi kitabıdır." },
+   
           { ad: "Merdiven", tur: "Şiir", yil: "1921", osymYil: "ÖSYM Çok Sık", aciklama: "Hayatı ve ölümü basamaklar metaforuyla anlatan, sembolizmin en güçlü örneklerinden olan şiir." },
           { ad: "O Belde", tur: "Şiir", yil: "1909", osymYil: "ÖSYM Çok Sık", aciklama: "Hayali ve ideal bir mekanı, hüzün ve özlemle anlattığı sembolist eseridir." },
           { ad: "Bize Göre", tur: "Deneme", yil: "1928", osymYil: "ÖSYM Sık", aciklama: "Gündelik hayat gözlemlerini ironi ve mizahla ele alan deneme kitabı." },
@@ -624,6 +635,7 @@ const data = {
         ozellik: "İstanbul'u anlatan fıkra ve anı ustası",
         eserler: [
           { ad: "Falaka", tur: "Anı", yil: "1927", osymYil: "ÖSYM Sık", aciklama: "Öğrencilik yıllarında eski okul hayatını ve falaka gibi uygulamaları anlattığı anı kitabı." },
+           { ad: "Ramazan Sohbetleri", tur: "Deneme / İnceleme", yil: "1913", osymYil: "ÖSYM Sık", aciklama: "Eski İstanbul'un Ramazan hayatını, geleneklerini, direklerarası eğlencelerini ve sosyal atmosferini son derece sıcak, neşeli ve gözlemci bir üslupla sunan fıkra/sohbet kitabıdır." },
           { ad: "Şehir Mektupları", tur: "Fıkra", yil: "1913", osymYil: "ÖSYM Sık", aciklama: "İstanbul'un mahallelerini, insanlarını ve gündelik hayatını anlattığı köşe yazıları." },
         ],
       },
@@ -711,7 +723,14 @@ const data = {
     { ad: "Türk Sazı", tur: "Şiir Kitabı", yil: "1914", osymYil: "ÖSYM Sık", aciklama: "Halkın dilinde ve hece vezniyle yazılmış, milli duyguları uyandıran şiirler." },
   ],
 },
-      
+      {
+    ad: "Ruşen Eşref Ünaydın",
+    dogum: "1892-1959",
+    ozellik: "Millî Edebiyat ve Cumhuriyet döneminin usta gazetecisi; Mustafa Kemal Atatürk'ü 'Anafartalar Kahramanı' olarak mülakat yoluyla Türk ve dünya kamuoyuna tanıtan ilk isim.",
+    eserler: [
+      { ad: "Diyorlar ki", tur: "Deneme / İnceleme", yil: "1918", osymYil: "ÖSYM Çok Sık", aciklama: "Dönemin 18 büyük yazarının (Nigâr Hanım, Abdülhak Hamit vb.) evlerine giderek edebiyat ve dil üzerine sorduğu soruları içeren, edebiyatımızda modern röportaj türünün kurucu başyapıtıdır." },
+    ],
+  },
       {
         ad: "Ömer Seyfettin",
         dogum: "1884-1920",
@@ -720,6 +739,8 @@ const data = {
           { ad: "Yüksek Ökçeler", tur: "Hikâye", yil: "1914", osymYil: "2019, 2022", aciklama: "Batılılaşmanın olumsuz etkilerini hicveden hikaye. Topuk yüksekliği üzerinden kadının değişen kimliği anlatılır." },
           { ad: "Bomba", tur: "Hikâye", yil: "1916", osymYil: "ÖSYM Sık", aciklama: "Birinci Dünya Savaşı döneminde geçen vatan sevgisi temalı hikaye." },
           { ad: "Efruz Bey", tur: "Roman", yil: "1919", osymYil: "2023", aciklama: "Yanlış Batılılaşmayı ve yarım aydın tipini hicveden hikaye kitabı. Efruz Bey tipi Türk edebiyatına mal olmuştur." },
+          { ad: "Forsa", tur: "Hikâye", yil: "1915", osymYil: "ÖSYM Çok Sık", aciklama: "Yıllarca esir kalan ihtiyar denizci Kara Memiş'in, Türk donanmasını gördüğü an yaşadığı millî coşkuyu ve şehadetini işleyen, tarih bilinci aşılayan klasikleşmiş hikayedir." },
+   
           { ad: "Primo Türk Çocuğu", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "İtalya'da doğup büyüyen Türk çocuğunun kimlik arayışını anlatan hikaye." },
           { ad: "Gizli Mabet", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Sık", aciklama: "Dini ve aşk temalarını bir arada işleyen hikaye." },
           { ad: "Yalnız Efe", tur: "Hikâye", yil: "1919", osymYil: "ÖSYM Çok Sık", aciklama: "Anadolu halkının ruhunu ve kahramanlık temalarını işleyen epik hikâye." },
@@ -731,6 +752,9 @@ const data = {
         ozellik: "İstiklal Marşı şairi; İslam, vatan ve millet sevgisi",
         eserler: [
           { ad: "Safahat", tur: "Şiir", yil: "1911-1933", osymYil: "2018, 2021, 2024", aciklama: "Yedi kitaptan oluşan şiir külliyatı. İslam medeniyeti, vatan sevgisi, toplumsal sorunlar ve ahlaki çöküş işlenir. Balkan Harbi acısından Kerbela'ya kadar geniş bir yelpaze." },
+            { ad: "Çanakkale Şehitlerine", tur: "Şiir", yil: "1915", osymYil: "ÖSYM Çok Sık", aciklama: "Asım'ın Nesli'nin Çanakkale'deki devasa direnişini ve şehadetini İslam tarihi referansları ve sarsıcı, epik bir hitabet tonuyla ölümsüzleştiren destansı şaheser şiirdir." },
+      { ad: "Küfe", tur: "Şiir", yil: "1912", osymYil: "ÖSYM Sık", aciklama: "Sokak gerçekliğini, babası ölen ve sırtına geçim derdi (küfe) yüklenen küçük bir çocuğun trajedisini Realizmin sarsıcı teknikleriyle aktaran ünlü manzum hikayesidir." },
+   
           { ad: "İstiklal Marşı", tur: "Şiir", yil: "1921", osymYil: "ÖSYM Sık", aciklama: "Türkiye'nin ulusal marşı. Kurtuluş Savaşı sırasında vatan sevgisi ve bağımsızlık ruhunu dile getirir. 10 kıtalık şiirin bestesi Zeki Üngör'e aittir." },
         ],
       },
@@ -808,6 +832,8 @@ const data = {
         eserler: [
           { ad: "Han Duvarları", tur: "Şiir", yil: "1926", osymYil: "ÖSYM Sık" },
           { ad: "Çoban Çeşmesi", tur: "Şiir Kitabı", yil: "1926", osymYil: "ÖSYM Sık" },
+          { ad: "Sanat", tur: "Şiir", yil: "1926", osymYil: "ÖSYM Çok Sık", aciklama: "Batı hayranlığına ve taklitçiliğe karşı Anadolu'nun yerli estetik değerlerini, insanını ve saklı coğrafyasını savunan; Memleketçi şiir hareketinin manifestosu (beyannamesi) kabul edilen şiirdir." },
+          
         ],
       },
       {
@@ -842,6 +868,7 @@ const data = {
         ozellik: "Beş Hececilerden; milli ve lirik şiirleriyle tanınan şair",
         eserler: [
           { ad: "Binnaz", tur: "Tiyatro", yil: "1919", osymYil: "ÖSYM Sık" },
+           { ad: "Beni Ben Anlatayım", tur: "Deneme / İnceleme", yil: "1943", osymYil: "ÖSYM Sık", aciklama: "Yazarın kendi çocukluğunu, Beş Hececiler ve Akbaba dergisi etrafında şekillenen edebi dostluklarını akıcı, nüktedan ve samimi bir üslupla sunduğu otobiyografik anı/portre kitabıdır." },
           { ad: "Akından Akına", tur: "Şiir Kitabı", yil: "1916", osymYil: "ÖSYM Sık" },
         ],
       },
@@ -1183,6 +1210,22 @@ const data = {
   ],
 },
       {
+    ad: "Refik Durbaş",
+    dogum: "1944-2018",
+    ozellik: "1960 sonrası toplumcu gerçekçi şiirin usta seslerinden; çarşıların, pazarların, çırakların, gurbetçilerin ve işçi sınıfının dünyasını lirik-ideolojik bir hassasiyetle işleyen şair.",
+    eserler: [
+      { ad: "Çırak Aranıyor", tur: "Şiir", yil: "1978", osymYil: "ÖSYM Sık", aciklama: "Küçük zanaatkarların, kahvehanelerin ve emekçi çırakların yoksul, ezilmiş ama umutlu dünyasını toplumsal duyarlılık ve ince bir akşam hüznüyle aktaran şiir kitabıdır." },
+    ],
+  },
+      {
+    ad: "Cahit Irgat",
+    dogum: "1915-1971",
+    ozellik: "Toplumcu gerçekçi 'Fedai Kuşağı' şairlerinden; II. Dünya Savaşı'nın yarattığı yıkımı, yoksulluğu, açlığı ve savaş karşıtlığını bohem ve isyankâr bir dille haykıran sanatçı.",
+    eserler: [
+      { ad: "Rüzgârlarım Konuşuyor", tur: "Şiir", yil: "1947", osymYil: "ÖSYM Orta", aciklama: "Savaşın gölgesinde ezilen çaresiz insanların, kimsesiz çocukların ve toplumsal adaletsizliklerin yarattığı buhranı sert, karanlık ama insancıl bir dille ele alan şiir kitabıdır." },
+    ],
+  },
+      {
         ad: "Fakir Baykurt",
         dogum: "1929-1999",
         ozellik: "Toplumcu gerçekçi edebiyatın öncülerinden; köy enstitüsü çıkışlı, Anadolu köy yaşamını ve köylünün sorunlarını tüm çıplaklığıyla anlatan usta yazar",
@@ -1347,6 +1390,9 @@ const data = {
         ozellik: "Milli ve dini değerleri, kahramanlık ve bayrak sevgisini hem hece hem aruzla birleştiren 'Bayrak Şairi'",
         eserler: [
           { ad: "Bir Bayrak Rüzgâr Bekliyor", tur: "Şiir", yil: "1946", osymYil: "ÖSYM Sık", aciklama: "Bayrak, vatan sevgisi ve millî duygu temasını epik ve lirik bir tonla harmanlayan en önemli şiir kitabıdır." },
+           { ad: "Bayrak", tur: "Şiir", yil: "1940", osymYil: "ÖSYM Çok Sık", aciklama: "Adana'nın kurtuluş günü için yazdığı; Türk bayrağının bağımsızlık sembolü oluşunu göklerin süsü, şehidin son örtüsü imgeleriyle yücelten kült şiirdir." },
+      { ad: "Kökler ve Dallar", tur: "Şiir", yil: "1964", osymYil: "ÖSYM Orta", aciklama: "Geçmiş medeniyet bağlarını, tarihsel kökleri, tasavvufi ve manevi uyanışı hece ve aruz vezinlerini birlikte kullanarak işlediği olgunluk dönemi şiirleridir." },
+   
           { ad: "Rubaiyyat-ı Ârif", tur: "Şiir", yil: "1954", osymYil: "ÖSYM Orta", aciklama: "Klasik edebiyat geleneğini sürdürerek yazdığı rubailerden oluşan şiir kitabıdır." }
         ]
       },
