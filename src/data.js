@@ -313,6 +313,15 @@ const data = {
     { ad: "Sergüzeştnâme", tur: "Mesnevi / Anı", yil: "19. YY", osymYil: "ÖSYM Çok Sık", aciklama: "Yazarın başından geçen olayları ve Rus işgali dönemindeki acıları anlatan otobiyografik eseridir." },
   ],
 },
+{
+    ad: "Karacaoğlan",
+    dogum: "17.yy",
+    ozellik: "Aşık edebiyatının en büyük güzelleme ustası; tasavvufa hiç yer vermeyen, tamamen somut aşk, kadın ve doğa tasvirlerini duru bir Çukurova Türkçesi ve heceyle söyleyen şair.",
+    eserler: [
+      { ad: "Elif Elif", tur: "Şiir", yil: "17.yy", osymYil: "ÖSYM Çok Sık", aciklama: "Türk halk şiirinin en lirik aşk örneklerinden biridir; sevgilinin (Elif) saflığını, boyunu posunu ve ona duyulan engellenemez sevdayı doğanın samimiyetiyle öven kült şiirdir." },
+    ],
+  },
+      
       {
         ad: "Hacı Bektaş-ı Veli",
         dogum: "1209-1271",
